@@ -1,0 +1,12 @@
+.wcfm_membership_subscribe_button_wrapper input.wcfm_submit_button, #wcfm_membership_container input.wcfm_submit_button, #wcfm_membership_container a.wcfm_submit_button{ 
+	background-color: #2a3344;
+}
+
+.wcfm_membership_subscribe_button_wrapper input.wcfm_submit_button:hover, #wcfm_membership_container input.wcfm_submit_button:hover, #wcfm_membership_container a.wcfm_submit_button:hover{ 
+	background-color: #17a2b8;
+}
+
+.wcfm_membership_subscribe_button_wrapper input.wcfm_submit_button, #wcfm_membership_container input.wcfm_submit_button, #wcfm_membership_container a.wcfm_submit_button{ 
+	color: #ffffff;
+}
+

@@ -1,0 +1,140 @@
+#sales-booster-popup {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1rem;
+    background: #fff;
+    z-index: 7;
+    max-width: 400px;
+    width: calc(100vw - 40px);
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,.1);
+    transition: all .3s ease-in-out;
+}
+
+.rtl #sales-booster-popup {
+    left: auto;
+    right: 20px;
+}
+
+#sales-booster-popup .close {
+    margin: 10px;
+    color: #888;
+    cursor: pointer;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sales-booster-popup .sales-booster-popup-inner {
+    display: flex;
+    align-items: center;
+    padding: 20px 25px 20px 20px;
+}
+
+[data-mode="dark"] #sales-booster-popup .sales-booster-popup-inner {
+    color: #555;
+}
+
+html.et-mini-content-opened #sales-booster-popup,
+#sales-booster-popup:not(.loaded) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+html.et-mini-content-opened #sales-booster-popup.animation-slide_right,
+#sales-booster-popup.animation-slide_right:not(.loaded) {
+    transform: translateX(-30px);
+}
+
+html.et-mini-content-opened #sales-booster-popup.animation-slide_left,
+#sales-booster-popup.animation-slide_left:not(.loaded) {
+    transform: translateX(30px);
+}
+
+html.et-mini-content-opened #sales-booster-popup.animation-slide_up,
+#sales-booster-popup.animation-slide_up:not(.loaded) {
+    transform: translateY(30px);
+}
+
+#sales-booster-popup img {
+    max-width: 70px;
+    margin-right: 10px;
+}
+.rtl #sales-booster-popup img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+#sales-booster-popup .sales-booster-popup-inner > div {
+    overflow: hidden;
+}
+#sales-booster-popup .sales-booster-popup-inner > div:only-child {
+    flex: 1;
+}
+#sales-booster-popup .sales-booster-popup-inner > div > span {
+    display: block;
+    width: 100%;
+}
+
+#sales-booster-popup .sales-booster-popup-inner > div .info {
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+
+#sales-booster-popup .heading {
+    font-size: 1.14rem;
+    color: #555;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#sales-booster-popup .heading a {
+    text-decoration: underline;
+}
+#sales-booster-popup .info,
+#sales-booster-popup .price-wrapper {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+#sales-booster-popup .read-more {
+    font-size: inherit;
+}
+
+@media only screen and (max-width: 992px) {
+    #sales-booster-popup {
+        left: 15px;
+        bottom: 15px;
+    }
+    #sales-booster-popup img {
+        max-width: 50px;
+    }
+
+    #sales-booster-popup .read-more-wrapper {
+        display: none;
+    }
+
+    .rtl #sales-booster-popup {
+        left: auto;
+        right: 15px;
+    }
+    #sales-booster-popup .sales-booster-popup-inner {
+        padding: 10px 15px 10px 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #sales-booster-popup.loaded ~ .back-top,
+    #sales-booster-popup.loaded ~ .et-request-quote{
+        transform: translateX(20px);
+        opacity: 0;
+        visibility: hidden;
+    }
+    .rtl #sales-booster-popup.loaded ~ .back-top,
+    .rtl #sales-booster-popup.loaded ~ .et-request-quote{
+        transform: translateX(-20px);
+    }
+}

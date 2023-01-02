@@ -1,0 +1,20 @@
+.post-template-framed .post-header .post-heading {
+  text-align: center;
+  background-color: #fff;
+  margin: -100px 100px 0;
+  position: relative;
+  z-index: 3;
+  padding: 40px 0;
+}
+.post-template-framed .entry-content {
+  padding: 0 100px;
+}
+@media only screen and (max-width: 992px) {
+  .post-template-framed .post-header .post-heading {
+    margin: 0;
+    padding: 0 0 20px;
+  }
+  .post-template-framed .entry-content {
+    padding: 0;
+  }
+}

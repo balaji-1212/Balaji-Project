@@ -1,0 +1,215 @@
+/*===============================
+=            Banners            =
+===============================*/
+.banner {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.elementor-element .banner {
+  margin-bottom: 0;
+}
+.banner a:hover {
+  opacity: 0.9;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
+.banner .banner-title {
+  display: block;
+}
+.banner .banner-subtitle {
+  font-size: 1rem;
+  display: block;
+}
+.banner .banner-title span,
+.banner .banner-subtitle span {
+  display: inline-block;
+}
+.banner .banner-title:not(.no-uppercase),
+.banner .banner-subtitle:not(.no-uppercase) {
+  text-transform: uppercase;
+}
+.banner .banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 15px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.banner .banner-content p {
+  line-height: 1.5;
+}
+.banner .banner-content .banner-subtitle,
+.banner .banner-content .banner-title,
+.banner .banner-content .content-inner {
+  position: relative;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: transform 0.35s, opacity 0.35s;
+  transition: transform 0.35s, opacity 0.35s, -webkit-transform 0.35s;
+}
+.banner .banner-button {
+  margin-top: 10px;
+  height: auto;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.banner.no-titles .banner-content .content-inner {
+  padding: 0 !important;
+}
+.banner.button-on-hover .button-wrap {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.banner.button-on-hover:not(:hover) .button-wrap {
+  opacity: 0;
+  visibility: hidden;
+}
+.banner.valign-bottom .banner-content {
+  top: auto;
+  bottom: 0;
+}
+.banner.valign-middle .banner-content {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.banner.font-style-light,
+.banner.font-style-light h1,
+.banner.font-style-light h2,
+.banner.font-style-light h3,
+.banner.font-style-light h4,
+.banner.font-style-light h5,
+.banner.font-style-light h6,
+.banner.font-style-light p {
+  color: #fff;
+}
+.banner.with-diagonal:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 120%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-transition: all 0.6s linear;
+  transition: all 0.6s linear;
+  z-index: 1;
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translateY(-150%);
+          transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translateY(-150%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  pointer-events: none;
+}
+.banner.with-diagonal:hover:before,
+.banner.with-diagonal.active:before {
+  -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translateY(200%);
+          transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translateY(200%);
+  left: -100%;
+  top: 100%;
+}
+.banner.with-border:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid var(--et_border-color);
+  margin: -2px;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  pointer-events: none;
+}
+.banner.with-border:hover:after,
+.banner.with-border.active:after {
+  margin: 10px;
+}
+.banner.text-effect-1:not(:hover):not(.active) .banner-content .content-inner {
+  opacity: 0;
+  -webkit-transform: translateY(7px);
+          transform: translateY(7px);
+}
+.banner.text-effect-1:hover .banner-title,
+.banner.text-effect-1.active .banner-title,
+.banner.text-effect-1:hover .banner-subtitle,
+.banner.text-effect-1.active .banner-subtitle {
+  -webkit-transform: translateY(-12px);
+          transform: translateY(-12px);
+}
+.banner.text-effect-1 .banner-content .content-inner {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+}
+.banner.content-effect-on-hover .banner-content > * {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.banner.content-effect-on-hover:not(:hover) .banner-content > * {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+.banner.content-effect-on-hover:not(:hover) .banner-content .button-wrap {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  opacity: 0;
+  visibility: hidden;
+}
+.content-product .banner-type-1 img {
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+.content-product .banner-type-1:before {
+  display: none;
+}
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .sidebar .banner .banner-content {
+    zoom: 0.8;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .banner .banner-content,
+  .banner .banner-content .banner-subtitle {
+    text-align: center !important;
+  }
+  .banner .banner-content .banner-title {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .banner .banner-content,
+  .banner.banner-type-2 .banner-content .banner-subtitle {
+    text-align: center !important;
+  }
+  .banner.banner-type-1 .banner-subtitle {
+    font-size: 3vw;
+  }
+  .banner.banner-type-1 .content-inner p {
+    margin-bottom: 10px !important;
+  }
+  .banner-type-2:hover .banner-content h3 {
+    margin-bottom: 0;
+  }
+  .banner-type-2:hover .banner-content p,
+  .banner-type-2:hover .banner-content a.btn {
+    padding-top: 0;
+  }
+  .banner.banner-type-2.align-right .btn {
+    right: auto;
+  }
+}
+/*-----  End of Banners  ------*/

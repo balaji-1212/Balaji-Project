@@ -1,0 +1,94 @@
+.ibox-block .ibox-symbol i {
+  min-width: 1.8em;
+  min-height: 1.8em;
+  display: inline-block;
+  border-radius: 100%;
+  font-size: 1.71rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--et_white-2-dark);
+}
+.ibox-block .ibox-symbol i.icon-image {
+  height: auto;
+  width: auto;
+}
+.ibox-block .ibox-symbol i.icon-svg {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.ibox-block.icon-top .ibox-symbol {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.ibox-block.icon-left .ibox-symbol {
+  margin-right: 10px;
+}
+.ibox-block.icon-right .ibox-symbol {
+  margin-left: 10px;
+}
+.ibox-block .ibox-content {
+  font-size: 1.07rem;
+}
+.ibox-block .ibox-content h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.ibox-block.table .ibox-content,
+.ibox-block.table .ibox-symbol {
+  display: table-cell;
+}
+.ibox-block.table.icon-top .ibox-symbol {
+  padding-bottom: 10px;
+}
+.ibox-block.table.icon-left .ibox-symbol {
+  padding-right: 10px;
+}
+.ibox-block.table.icon-right .ibox-symbol {
+  padding-left: 10px;
+}
+.ibox-block ul,
+.ibox-block ul li:last-of-type {
+  margin-bottom: 0;
+}
+.ibox-block .ibox-text li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ibox-block .ibox-text li:first-child a {
+  padding-top: 0;
+}
+.ibox-block .ibox-text li:last-child a {
+  padding-bottom: 0;
+}
+.ibox-block .btn.style-black {
+  color: #fff;
+  border-color: var(--et_dark-color);
+  background-color: var(--et_dark-color);
+}
+.ibox-block .btn.style-black:hover {
+  background-color: #4c4c4c;
+  border-color: #4c4c4c;
+}
+.ibox-block .btn.size-small {
+  font-size: 11px;
+  padding: 8px 12px;
+  height: auto;
+  line-height: 1;
+}
+.ibox-block .btn.size-large {
+  height: auto;
+  line-height: 1;
+  font-size: 15px;
+  padding: 18px 25px;
+}
+.ibox-block:hover .ibox-symbol i {
+  background-color: #f2f2f2;
+  color: var(--et_main-color);
+}
+@media only screen and (max-width: 480px) {
+  .icon-box {
+    margin-bottom: 0;
+  }
+}

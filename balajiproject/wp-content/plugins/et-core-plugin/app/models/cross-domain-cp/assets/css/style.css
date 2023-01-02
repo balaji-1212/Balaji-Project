@@ -1,0 +1,28 @@
+.etheme-cross-domain-cp-ixporting {
+    position: absolute;
+    background: rgba(255,255,255,.7);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.etheme-cross-domain-cp-ixporting:before {
+    content: '';
+    /* position: absolute; */
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #e1e1e1;
+    border-right-color: #888;
+    display: block;
+    border-radius: 50%;
+    animation: rotate .3s linear infinite;
+    z-index: 1;
+}

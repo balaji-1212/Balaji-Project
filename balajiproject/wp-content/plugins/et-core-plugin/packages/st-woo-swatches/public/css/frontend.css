@@ -1,0 +1,273 @@
+.st-swatch-preview {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.st-swatch-preview li, .st-item-meta .st-swatch-preview {
+	display: inline-block;
+	margin: 3px;
+	padding: 0;
+	border: 1px solid #dddddd;
+	padding: 2px;
+	cursor: pointer;	
+	position: relative;
+}
+
+.st-swatch-preview li:first-child {
+	margin-left: 0px;
+}
+.st-swatch-preview.st-color-swatch li {
+	margin-bottom: -3px;
+}
+
+.st-swatch-preview li span, .st-item-meta .st-swatch-preview span {
+	display: block;
+}
+
+.st-swatch-preview li:hover {
+	border-color: #000000;
+}
+
+.st-swatch-preview li.selected {
+	border-color: #ff0000;
+}
+
+.st-swatch-preview.st-swatch-shape-circle li, .st-swatch-preview.st-swatch-shape-circle li span, .st-swatch-preview.st-swatch-shape-circle li span img, .st-item-meta .st-swatch-preview.st-swatch-shape-circle, .st-item-meta .st-swatch-preview.st-swatch-shape-circle span, .st-item-meta .st-swatch-preview.st-swatch-shape-circle span img {
+	border-radius: 50%;
+}
+
+.st-swatch-preview.st-swatch-shape-rounded-square li, .st-swatch-preview.st-swatch-shape-rounded-square li span, .st-swatch-preview.st-swatch-shape-rounded-square li span img, .st-item-meta .st-swatch-preview.st-swatch-shape-rounded-square, .st-item-meta .st-swatch-preview.st-swatch-shape-rounded-square span, .st-item-meta .st-swatch-preview.st-swatch-shape-rounded-square span img {
+	border-radius: 5px;
+}
+
+.st-item-meta .st-swatch-preview span img {
+	max-width: 100%;
+}
+
+.st-swatch-preview.st-swatch-size-tiny li, .st-item-meta .st-swatch-preview.st-swatch-size-tiny  {
+	width: 26px;
+	height: 26px;
+}
+
+.st-color-swatch.st-swatch-size-tiny li span, .st-item-meta .st-color-swatch.st-swatch-size-tiny span {
+	width: 20px;
+	height: 20px;
+}
+
+.st-swatch-preview.st-swatch-size-small li, .st-item-meta .st-swatch-preview.st-swatch-size-small {
+	width: 36px;
+	height: 36px;
+}
+
+.st-color-swatch.st-swatch-size-small li span, .st-item-meta .st-color-swatch.st-swatch-size-small span {
+	width: 30px;
+	height: 30px;
+}
+
+.st-swatch-preview.st-swatch-size-medium li, .st-item-meta .st-swatch-preview.st-swatch-size-medium {
+	width: 46px;
+	height: 46px;
+}
+
+.st-color-swatch.st-swatch-size-medium li span, .st-item-meta .st-color-swatch.st-swatch-size-medium span {
+	width: 40px;
+	height: 40px;
+}
+
+.st-swatch-preview.st-swatch-size-large li, .st-item-meta .st-swatch-preview.st-swatch-size-large {
+	width: 56px;
+	height: 56px;
+}
+
+.st-color-swatch.st-swatch-size-large li span, .st-item-meta .st-color-swatch.st-swatch-size-large span {
+	width: 50px;
+	height: 50px;
+}
+
+.st-label-swatch li, .st-item-meta .st-label-swatch {
+	text-align: center;
+}
+
+.st-label-swatch li span, .st-item-meta .st-swatch-preview.st-label-swatch span {
+	width: 100%;
+	height: 100%;
+}
+
+.st-label-swatch.st-swatch-size-tiny li span, .st-item-meta .st-label-swatch.st-swatch-size-tiny span {
+	font-size: 12px;
+}
+
+.st-label-swatch.st-swatch-size-tiny li, .st-item-meta .st-label-swatch.st-swatch-size-tiny {
+	line-height: 22px;
+}
+
+.st-label-swatch.st-swatch-size-small li, .st-item-meta .st-label-swatch.st-swatch-size-small {
+	line-height: 32px;	
+}
+
+.st-label-swatch.st-swatch-size-medium li, .st-item-meta .st-label-swatch.st-swatch-size-medium {
+	line-height: 42px;	
+}
+
+.st-label-swatch.st-swatch-size-large li, .st-item-meta .st-label-swatch.st-swatch-size-large {
+	line-height: 52px;	
+}
+
+.st-image-swatch.st-swatch-size-medium li, .st-item-meta .st-image-swatch.st-swatch-size-medium {
+	width: 46px;
+	height: 46px;
+}
+
+.st-image-swatch.st-swatch-size-medium li span img, .st-item-meta .st-image-swatch.st-swatch-size-medium span img {
+	max-width: 100%;
+}
+
+.st-swatch-preview li:before {
+	content: "\f147";
+	position: absolute;
+	font-size: 20px;
+	font-family: dashicons;
+	font-weight: 400;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	font-style: normal;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #ffffff;
+	line-height: 42px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: rgba(255,255,255,0.2);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform: scale(0,0);
+	transform: scale(0,0);
+}
+
+.st-swatch-preview li.selected:before, .st-swatch-preview li.sten-li-disabled:before {
+	opacity: 1;
+	-webkit-transform: scale(1,1);
+	transform: scale(1,1);
+	z-index: 1;
+}
+
+.st-swatch-preview.st-image-swatch li:before, .st-swatch-preview.st-label-swatch li:before {
+	background: rgba(0,0,0,0.5);
+	color: #ffffff;
+	/*text-shadow: none;*/
+	height: -webkit-calc(100% - 4px); height:-moz-calc(100% - 4px); height:calc(100% - 4px);
+	width: -webkit-calc(100% - 4px); width:-moz-calc(100% - 4px); width:calc(100% - 4px);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.st-swatch-preview li.sten-li-disabled {
+	cursor: auto;
+}
+
+.st-swatch-preview li.sten-li-disabled:before {
+	content: "\f335";
+}
+
+.st-swatch-preview.st-image-swatch li.sten-li-disabled:before, .st-swatch-preview.st-label-swatch li.sten-li-disabled:before {	
+	background-color: rgba(0,0,0,0.2);
+}
+
+.st-swatch-preview li.sten-li-disabled span {
+	opacity: 0.5;
+}
+
+.st-swatch-preview.st-swatch-shape-circle li:before {
+	border-radius: 50%;
+}
+
+.st-swatch-preview.st-swatch-shape-rounded-square li:before {
+	border-radius: 5px;
+}
+
+.st-swatch-preview.st-swatch-size-tiny li:before {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+.st-swatch-preview.st-swatch-size-tiny.st-color-swatch li:before {
+	line-height: 24px;
+}
+
+.st-swatch-preview.st-swatch-size-small li:before {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.st-swatch-preview.st-swatch-size-small.st-color-swatch li:before {
+	line-height: 36px;
+}
+
+.st-swatch-preview.st-swatch-size-medium.st-color-swatch li:before {
+	line-height: 46px;
+}
+
+.st-swatch-preview.st-swatch-size-large li:before {
+	line-height: 52px;
+}
+
+.st-swatch-preview.st-swatch-size-large.st-color-swatch li:before {
+	line-height: 56px;
+}
+
+.st-swatch-preview li.st-swatch-white:before, .st-swatch-preview li.st-swatch-white.sten-li-disabled:before {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.st-swatch-preview li.st-swatch-white span {
+	border:1px solid rgba(0, 0, 0, 0.1);
+}
+
+ul.products li .st-swatch-in-loop ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul.products li .st-swatch-in-loop .st-color-swatch.st-swatch-size-tiny li span {
+	width: 16px;
+	height: 16px;
+}
+
+ul.products li .st-swatch-in-loop .st-swatch-preview.st-swatch-size-tiny li {
+	width: 20px;
+	height: 20px;
+	padding: 1px;
+}
+
+ul.products li .st-swatch-in-loop .st-swatch-preview.st-swatch-size-tiny li:before {
+	line-height: 18px;
+}
+
+ul.products li .st-swatch-in-loop .st-label-swatch.st-swatch-size-tiny li span {
+	font-size: 11px;
+	line-height: 18px;
+}
+
+ul.products li .st-swatch-in-loop .st-swatch-preview.st-label-swatch.st-swatch-size-tiny li:before, ul.products li .st-swatch-in-loop .st-swatch-preview.st-image-swatch.st-swatch-size-tiny li:before {
+	line-height: 14px;
+}
+
+ul.products li .st-swatch-in-loop .sten-reset-loop-variation {
+	font-size: 11px;
+	color: rgba(0, 0, 0,0.6);
+}
+
+ul.products li .st-swatch-in-loop .sten-reset-loop-variation:hover {
+	color: #000000;
+}

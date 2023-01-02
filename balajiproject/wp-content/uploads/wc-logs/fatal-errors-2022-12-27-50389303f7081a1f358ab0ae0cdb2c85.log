@@ -1,0 +1,19 @@
+2022-12-27T11:14:21+00:00 CRITICAL Uncaught mysqli_sql_exception: MySQL server has gone away in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\wp-db.php:2056
+Stack trace:
+#0 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\wp-db.php(2056): mysqli_query(Object(mysqli), 'SHOW TABLES LIK...')
+#1 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\wp-db.php(1945): wpdb->_do_query('SHOW TABLES LIK...')
+#2 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\wp-db.php(2581): wpdb->query('SHOW TABLES LIK...')
+#3 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\class-db.php(115): wpdb->get_var('SHOW TABLES LIK...')
+#4 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\class-db.php(233): Code_Snippets\DB::table_exists('wpay_snippets')
+#5 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\class-db.php(277): Code_Snippets\DB::fetch_snippets_from_table('wpay_snippets', Array)
+#6 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\snippet-ops.php(513): Code_Snippets\DB->fetch_active_snippets(Array)
+#7 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(303): Code_Snippets\execute_active_snippets('')
+#8 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#9 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-settings.php(441): do_action('plugins_loaded')
+#11 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-config.php(98): require_once('D:\\Backup\\Nithy...')
+#12 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-load.php(50): require_once('D:\\Backup\\Nithy...')
+#13 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-admin\admin-ajax.php(22): require_once('D:\\Backup\\Nithy...')
+#14 {main}
+  thrown in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\wp-db.php on line 2056
+

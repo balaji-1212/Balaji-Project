@@ -1,0 +1,165 @@
+/*=====================================
+=            The look tabs            =
+=====================================*/
+.et-looks {
+  position: relative;
+}
+.et-looks .et-looks-nav {
+  padding: 0;
+  text-align: center;
+}
+.et-looks .et-looks-nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.et-looks .et-looks-nav li a {
+  cursor: pointer;
+  font-size: 0;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #e6e6e6;
+  border-radius: 50%;
+}
+.et-looks .et-looks-nav li.active a,
+.et-looks .et-looks-nav li:hover a {
+  background-color: var(--et_active-color);
+}
+.et-looks-content {
+  position: relative;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.et-looks-content:empty {
+  display: none;
+}
+.et-looks-content .et-look {
+  display: none;
+  width: 100%;
+  -webkit-animation: fadeIn 0.3s ease-in-out;
+          animation: fadeIn 0.3s ease-in-out;
+}
+.et-looks-content .et-look.active-look {
+  display: block;
+}
+.et-looks-content .et-look.active-look .et-isotope-item .content-product {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  opacity: 1;
+  visibility: visible;
+}
+.et-looks-content .et-isotope-item .content-product {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+  opacity: 0;
+  visibility: hidden;
+  display: block;
+}
+.et-looks-content .et-isotope-item .content-product img {
+  width: 100%;
+}
+.et-looks-content .et-isotope-item .content-product .product-excerpt {
+  display: none;
+}
+.et-looks-content .et-isotope-item .content-product .product-image-wrapper {
+  width: 100%;
+  display: block;
+}
+.et-looks-content .et-isotope-item .content-product .product-details {
+  display: block;
+  padding-left: 0;
+}
+@media only screen and (max-width: 767px) {
+  .et-products-images-slider {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .et-products-info-slider {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .et-look .et-isotope-item.product {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    --product-title-size-proportion: 0.9;
+  }
+  .et-look .et-isotope-item.product .content-product {
+    margin-bottom: 0 !important;
+  }
+  .et-look .et-isotope-item.product .content-product .product-title {
+    line-height: 1.1;
+  }
+  .et-look .et-isotope-item.product .content-product .product-title a {
+    margin-bottom: 2px;
+  }
+  .et-look .et-isotope-item.product .product-image-wrapper {
+    margin-bottom: 10px;
+  }
+  .et-look .et-isotope-item.product .footer-product .add_to_cart_button {
+    font-size: 0;
+  }
+  .et-look .et-isotope-item.product .footer-product .add_to_cart_button:before {
+    font-size: 24px;
+    margin-right: 0;
+  }
+  .et-look .et-isotope-item.product .product-mask {
+    padding: 10px !important;
+    -webkit-transform: none !important;
+            transform: none !important;
+  }
+  .et-look .et-isotope-item.product .product-image-wrapper {
+    max-height: 150px;
+    overflow: hidden;
+  }
+  .et-look .et-isotope-item.product:last-child .product-image-wrapper {
+    max-height: 100%;
+  }
+  .et-look .et-isotope-item:not(.product) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .et-look .et-isotope-item:not(.product) .banner-content {
+    left: 1.07rem;
+    right: 1.07rem;
+    width: auto;
+    padding: 1.1em 1.42em;
+    top: auto;
+    bottom: 1.07rem;
+  }
+  .et-look .et-isotope-item:not(.product) .banner-content > p {
+    display: none;
+  }
+  .et-look .et-isotope-item:not(.product) .banner-content > div {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 0.9rem;
+    line-height: 1.1;
+  }
+  .et-look .et-isotope-item:not(.product) .banner-content > div p {
+    margin-bottom: 0;
+  }
+  .et-look .et-isotope-item:not(.product) .banner-content > div > div {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .et-look .et-isotope-item .footer-product .yith-wcwl-add-button a.add_to_wishlist:before,
+  .et-look .et-isotope-item .footer-product .yith-wcwl-wishlistexistsbrowse a:before,
+  .et-look .et-isotope-item .footer-product .yith-wcwl-wishlistaddedbrowse a:before {
+    top: 9px;
+  }
+  .et-looks-content .et-isotope-item .content-product {
+    margin-bottom: 15px !important;
+  }
+}
+/*=====  End of The look tabs  ======*/

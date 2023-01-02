@@ -1,0 +1,100 @@
+.product-content .single-product-request-quote-wrapper {
+  margin-bottom: 20px;
+}
+.product-content .single-product-request-quote-wrapper .et-call-popup {
+  height: auto;
+}
+.et-request-quote.mtips {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 9;
+  font-size: 1.4em;
+  padding: 7px;
+  right: 30px;
+  bottom: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--et_dark-2-white);
+  background-color: var(--et_white-2-dark);
+  -webkit-box-shadow: 0 0 0 0 var(--et_dark-2-white-02);
+          box-shadow: 0 0 0 0 var(--et_dark-2-white-02);
+  -webkit-animation: 3s et-request-svg-shadow 8s infinite;
+          animation: 3s et-request-svg-shadow 8s infinite;
+}
+.rtl .et-request-quote.mtips {
+  right: auto;
+  left: 30px;
+}
+.et-request-quote.mtips:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 12px 0 var(--et_dark-2-white-02);
+          box-shadow: 0 0 12px 0 var(--et_dark-2-white-02);
+}
+.etheme-sticky-cart:not(.outside) ~ .et-request-quote.mtips {
+  bottom: 150px;
+}
+.back-top.backIn ~ .et-request-quote.mtips {
+  bottom: 90px;
+}
+.et-request-quote.mtips.inactive {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+.et-request-quote.mtips img {
+  max-width: 1em;
+}
+.et-request-quote.mtips .mt-mes {
+  font-size: 14px;
+}
+@media only screen and (max-width: 480px) {
+  .et-request-quote.mtips {
+    right: 15px;
+  }
+  .rtl .et-request-quote.mtips {
+    right: auto;
+    left: 15px;
+  }
+}
+.et-request-quote-popup:not(.active),
+.et_b_single-request-quote-popup:not(.active),
+.et-request-quote-popup div.wpcf7 .ajax-loader,
+.et_b_single-request-quote-popup div.wpcf7 .ajax-loader {
+  display: none;
+}
+@-webkit-keyframes et-request-svg-shadow {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--et_dark-2-white-02);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 12px var(--et_dark-2-white-0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 var(--et_dark-2-white-0);
+  }
+}
+@keyframes et-request-svg-shadow {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--et_dark-2-white-02);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 12px var(--et_dark-2-white-0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 var(--et_dark-2-white-0);
+  }
+}

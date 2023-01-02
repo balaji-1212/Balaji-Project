@@ -1,0 +1,180 @@
+.etheme-sales-booster-sticky-panel {
+    --content-zoom: calc(100rem * .01);
+    font-size: var(--content-zoom);
+    position: fixed;
+    right: 10px;
+    bottom: calc(50% - 100px);
+    color: var(--et_sales-booster-sticky-panel-color, #fff);
+    background: var(--et_sales-booster-sticky-panel-bg, #444);
+    animation: etheme-sales-booster-rtl-anim .7s ease;
+    border-radius: 30px;
+    box-shadow: 0px 0 12px 0 var(--et_sales-booster-sticky-panel-box-shadow, rgba(255,255,255, .2));
+    z-index: 9999
+}
+
+body:not(.rtl) .etheme-sales-booster-sticky-panel[data-position=auto] {
+    right: 10px;
+    animation: etheme-sales-booster-rtl-anim .7s ease;
+}
+
+.et-mini-content-opened body:not(.rtl) .etheme-sales-booster-sticky-panel[data-position=auto] {
+    transform: translateX(100%);
+}
+
+.et-mini-content-opened body.rtl .etheme-sales-booster-sticky-panel[data-position=auto],
+.et-mini-content-opened .etheme-sales-booster-sticky-panel[data-position=left] {
+    transform: translateX(-100%);
+}
+.et-mini-content-opened .etheme-sales-booster-sticky-panel {
+    animation: none !important;
+    transition: all .3s ease-out .3s;
+    visibility: hidden;
+}
+body.rtl .etheme-sales-booster-sticky-panel[data-position=auto],
+.etheme-sales-booster-sticky-panel[data-position=left]{
+    right: auto;
+    left: 10px;
+    animation: etheme-sales-booster-ltr-anim .7s ease;
+}
+
+@keyframes etheme-sales-booster-rtl-anim {
+    0% {
+        transform: translateX(200%);
+        visibility: hidden
+    }
+
+    100% {
+        transform: translateX(0);
+        visibility: visible
+    }
+}
+
+
+@keyframes etheme-sales-booster-ltr-anim {
+    0% {
+        transform: translateX(-200%);
+        visibility: hidden
+    }
+
+    100% {
+        transform: translateX(0);
+        visibility: visible
+    }
+}
+
+.etheme-sales-booster-sticky-panel ul {
+    padding: var(--items-gap, 7px) 7px;
+    margin: 0;
+    list-style: none;
+}
+
+.etheme-sales-booster-sticky-panel a {
+    font-size: 1.3em;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%
+}
+
+.etheme-sales-booster-sticky-panel [data-tooltip-color=light] {
+    --et_dark-2-white: #222;
+    --et_white-2-dark: #fff;
+}
+.etheme-sales-booster-sticky-panel [data-tooltip-color=dark] {
+    --et_dark-2-white: #fff;
+    --et_white-2-dark: #222;
+}
+
+.etheme-sales-booster-sticky-panel .mtips span.mt-mes {
+    height: 1em;
+    font-size: var(--content-zoom);
+    line-height: 1em;
+    margin-top: -1em;
+}
+
+/* fix for content-zoom positions of tooltips */
+.etheme-sales-booster-sticky-panel .mtips.mtips-left:after,
+.etheme-sales-booster-sticky-panel .mtips.mtips-right:after {
+    margin-top: -.15em;
+}
+
+.etheme-sales-booster-sticky-panel .mtips.mtips-left span.mt-mes,
+.etheme-sales-booster-sticky-panel .mtips.mtips-right span.mt-mes {
+    margin-top: -.75em;
+}
+
+.etheme-sales-booster-sticky-panel li:not(:last-child) a {
+    margin-bottom: var(--items-gap, 7px);
+}
+
+.etheme-sales-booster-sticky-panel a:hover {
+    color: var(--et_sales-booster-sticky-panel-color-hover, #a4004f);
+}
+
+.etheme-sales-booster-sticky-panel .with-dot a:before {
+    content: '';
+    position: absolute;
+    width: .35em;
+    height: .35em;
+    right: 5px;
+    top: 5px;
+    background: var(--et_sales-booster-sticky-panel-dot-color, #10a45d);
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 0 rgb(16 164 93 / .4);
+    animation: etheme-sales-booster-pulse-anim 1.5s infinite
+}
+
+body.rtl .etheme-sales-booster-sticky-panel .with-dot a:before,
+.etheme-sales-booster-sticky-panel[data-position=left] .with-dot a:before {
+    right: auto;
+    left: 5px;
+}
+
+@keyframes etheme-sales-booster-pulse-anim {
+    0% {
+        box-shadow: 0 0 0 0 rgb(16 164 93 / .4)
+    }
+
+    70% {
+        box-shadow: 0 0 0 5px rgb(16 164 93 / 0)
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(16 164 93 / 0)
+    }
+}
+
+.etheme-sales-booster-sticky-panel .with-bg a {
+    background-color: var(--et_sales-booster-sticky-panel-active-bg-color, #10a45d);
+    color: var(--et_sales-booster-sticky-panel-active-color, #fff);
+    padding: 5px;
+    width: 2em;
+    height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.etheme-sales-booster-sticky-panel .with-bg a svg {
+    transition: all .2s linear;
+    display: block;
+}
+
+.etheme-sales-booster-sticky-panel .with-bg .mt-mes+span {
+    overflow: hidden;
+    line-height: 0
+}
+
+.etheme-sales-booster-sticky-panel a{
+    position: relative;
+    color: var(--et_sales-booster-sticky-panel-color, #fff);
+}
+
+.etheme-sales-booster-sticky-panel a svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}

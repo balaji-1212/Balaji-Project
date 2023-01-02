@@ -1,0 +1,184 @@
+.et-full-screen-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.et-full-screen-products .et-wishlist-holder.position-after {
+  display: inline;
+}
+.et-full-screen-products .et-wishlist-holder.type-icon a {
+  font-size: 0 !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.et-full-screen-products .et-wishlist-holder.type-icon a:hover {
+  font-size: 14px !important;
+}
+.et-full-screen-products .et-wishlist-holder.type-icon-text a {
+  font-size: inherit !important;
+}
+.et-products-info-slider {
+  width: 100%;
+  height: 100vh;
+}
+.et-products-info-slider .product-info-wrapper {
+  position: relative;
+  top: 50%;
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  -webkit-transform: translateY(-50.5%);
+          transform: translateY(-50.5%);
+}
+.et-product-info-slide p.product-title {
+  font-size: 24px;
+  color: var(--et_dark-2-white);
+  margin: 0;
+}
+.et-product-info-slide .star-rating {
+  margin-bottom: 0.5em;
+}
+.et-product-info-slide p.price {
+  margin: 0;
+}
+.et-product-info-slide .button {
+  height: auto;
+  font-size: 0.85rem;
+  padding-top: 0.95rem;
+  padding-bottom: 0.95rem;
+  background-color: var(--et_btn-dark-bg-color);
+  border: 1px solid var(--et_btn-dark-br-color);
+  color: var(--et_btn-dark-color);
+  -webkit-text-fill-color: currentColor;
+  margin-bottom: 25px;
+}
+.et-product-info-slide .button:hover {
+  background-color: var(--et_btn-dark-bg-color-hover);
+  border-color: var(--et_btn-dark-br-color-hover);
+  color: var(--et_btn-dark-color-hover);
+}
+.et-product-info-slide .product-stock {
+  margin: 0;
+}
+.et-product-info-slide .product-sale-counter {
+  text-align: start;
+  margin-left: -25px;
+}
+.et-product-info-slide .product-sale-counter .time-block {
+  text-align: center;
+}
+.et-products-images-slider {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.et-products-images-slider img {
+  width: 100%;
+}
+.et-products-images-slider .swiper-slide {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+.et-products-navigation {
+  position: absolute;
+  bottom: 25px;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.et-products-navigation::-moz-selection {
+  background: transparent;
+}
+.et-products-navigation::selection {
+  background: transparent;
+}
+.et-products-navigation > div {
+  padding: 10px 15px;
+  margin: 0 auto;
+  background: var(--et_white-2-dark);
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.et-products-navigation > div:hover {
+  background: var(--et_active-color);
+}
+.et-products-navigation > div:hover .swiper-nav-price,
+.et-products-navigation > div:hover .swiper-nav-title,
+.et-products-navigation > div:hover .swiper-nav-arrow {
+  color: #fff;
+}
+.et-products-navigation > div:hover .swiper-nav-arrow {
+  -webkit-animation: animArrowReverse 1s infinite;
+          animation: animArrowReverse 1s infinite;
+}
+.et-products-navigation .et-swiper-next {
+  margin-bottom: 10px;
+}
+.et-products-navigation .et-swiper-next:hover .swiper-nav-arrow {
+  -webkit-animation: animArrow 1s infinite;
+          animation: animArrow 1s infinite;
+}
+.et-products-navigation .swiper-nav-arrow {
+  font-size: 1rem;
+  display: inline-block;
+}
+.swiper-nav-price {
+  color: var(--et_main-color);
+}
+.swiper-nav-title {
+  font-size: 1.14rem;
+  margin-right: 5px;
+}
+.et-swiper-next .et-icon {
+  margin-left: 5px;
+}
+.et-swiper-prev .et-icon {
+  margin-right: 5px;
+}
+@media only screen and (max-width: 1200px) {
+  .et-products-navigation > div .swiper-nav-title {
+    max-width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .et-full-screen-products {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .et-products-images-slider,
+  .et-products-info-slider {
+    height: 100%;
+  }
+  .et-products-navigation > div {
+    margin: 0 5px;
+  }
+  .et-products-navigation > div .swiper-nav-title,
+  .et-products-navigation > div .swiper-nav-price {
+    font-size: 10px;
+  }
+}

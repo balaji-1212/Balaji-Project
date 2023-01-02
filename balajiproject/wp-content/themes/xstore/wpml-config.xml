@@ -1,0 +1,510 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">staticblocks</custom-type>
+    <custom-type translate="1">etheme_portfolio</custom-type>
+    <custom-type translate="1">testimonials</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="translate" style="line" label="Custom tab title">_et_custom_tab1_title</custom-field>
+    <custom-field action="translate" style="textarea" label="Custom tab">_et_custom_tab1</custom-field>
+    <custom-field action="copy-once" style="line" label="Sidebar position">_et_sidebar_state</custom-field>
+    <custom-field action="copy-once" style="line" label="Sidebar width">_et_sidebar_width</custom-field>
+    <custom-field action="copy-once" style="line" label="Breadcrumbs Style">_et_breadcrumb_type</custom-field>
+    <custom-field action="copy-once" style="line" label="Breadcrumbs Effect">_et_breadcrumb_effect</custom-field>
+    <custom-field action="copy-once" style="line" label="Fixed footer">_et_footer_fixed</custom-field>
+    <custom-field action="copy-once" style="line" label="Disable copyrights">_et_remove_copyrights</custom-field>
+    <custom-field action="copy-once" style="line" label="Custom background image">_et_bg_image</custom-field>
+    <custom-field action="copy-once" style="line" label="Custom background color">_et_bg_color</custom-field>
+  </custom-fields>
+  <taxonomies>
+    <taxonomy translate="1">portfolio_category</taxonomy>
+    <taxonomy translate="1">testimonial-category</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="theme_mods_xstore">
+      <key name="404_text"/>
+      <key name="product_bage_banner"/>
+      <key name="empty_cart_content"/>
+      <key name="custom_tab_title"/>
+      <key name="custom_tab"/>
+      <key name="promo-link-text"/>
+      <key name="pp_content"/>
+      <key name="header_custom_block"/>
+      <key name="all_departments_text"/>
+      <key name="sale_icon_text"/>
+      <key name="cart_popup_banner"/>
+      <key name="product_socials_label_text_et-desktop"/>
+      <key name="product_tabs_custom_tab_01_title_et-desktop"/>
+      <key name="product_tabs_custom_tab_02_title_et-desktop"/>
+      <key name="mobile_menu_text"/>
+      <key name="mobile_menu_tab_2_text"/>
+      <key name="cart_footer_content_et-desktop"/>
+      <key name="booster_progress_content_et-desktop"/>
+      <key name="booster_progress_content_success_et-desktop"/>
+      <key name="account_text"/>
+      <key name="account_logged_in_text"/>
+      <key name="search_all_categories_text_et-desktop"/>
+      <key name="search_placeholder_et-desktop"/>
+      <key name="contacts_package_et-desktop"/>
+      <key name="newsletter_label_et-desktop"/>
+      <key name="newsletter_title_et-desktop"/>
+      <key name="newsletter_content_et-desktop"/>
+      <key name="button_text_et-desktop"/>
+      <key name="promo_text_package"/>
+      <key name="html_block1"/>
+      <key name="html_block2"/>
+      <key name="html_block3"/>
+
+      <key name="product_size_guide_label_et-desktop"></key>
+      <key name="product_size_guide_title_et-desktop"></key>
+
+      <key name="xstore_wishlist_label_add_to_wishlist"></key>
+      <key name="xstore_wishlist_label_browse_wishlist"></key>
+      <key name="xstore_wishlist_page_content"></key>
+      <key name="xstore_wishlist_empty_page_content"></key>
+      <key name="xstore_wishlist_ask_estimate_button_text"></key>
+      <key name="xstore_wishlist_ask_estimate_popup_content"></key>
+    </key>
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>et_tab</tag>
+      <attributes>
+          <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>banner</tag>
+      <attributes>
+          <attribute>title</attribute>
+          <attribute>subtitle</attribute>
+          <attribute type="link" encoding="vc_link">link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>title</tag>
+      <attributes>
+          <attribute encoding="allow_html_tags">title</attribute>
+          <attribute encoding="allow_html_tags">subtitle</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>icon_box</tag>
+      <attributes>
+          <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>team_member</tag>
+    </shortcode>
+    <shortcode>
+      <tag>twitter</tag>
+      <attributes>
+          <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>instagram</tag>
+      <attributes>
+          <attribute encoding="allow_html_tags">title</attribute>
+          <attribute encoding="allow_html_tags">link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>etheme_categories</tag>
+      <attributes>
+          <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>etheme_products</tag>
+      <attributes>
+          <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>et_the_look</tag>
+    </shortcode>
+    <shortcode>
+      <tag>menu</tag>
+      <attributes>
+        <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>et_menu_list</tag>
+      <attributes>
+        <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>et_menu_list_item</tag>
+      <attributes>
+        <attribute encoding="allow_html_tags">title</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+  <elementor-widgets>
+    <widget name="text_button">
+      <fields>
+        <field type="text_button: text" editor_type="LINE">text</field>
+        <field type="text_button: link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="etheme_advanced_headline">
+      <fields>
+        <field type="etheme_advanced_headline: text_before" editor_type="LINE">text_before</field>
+        <field type="etheme_advanced_headline: text" editor_type="LINE">text</field>
+        <field type="etheme_advanced_headline: text_styled" editor_type="LINE">text_styled</field>
+        <field type="etheme_advanced_headline: text_after" editor_type="LINE">text_after</field>
+      </fields>
+    </widget>
+    <widget name="etheme_animated_headline">
+      <fields>
+        <field type="etheme_animated_headline: highlighted_text_before" editor_type="LINE">highlighted_text_before</field>
+        <field type="etheme_animated_headline: animated_text" editor_type="AREA">animated_text</field>
+        <field type="etheme_animated_headline: highlighted_text" editor_type="LINE">highlighted_text</field>
+        <field type="etheme_animated_headline: highlighted_text_after" editor_type="LINE">highlighted_text_after</field>
+      </fields>
+    </widget>
+    <widget name="etheme_banner_carousel">
+      <fields-in-item items_of="banner_items">
+        <field type="etheme_banner_carousel: Title" editor_type="LINE">title</field>
+        <field type="etheme_banner_carousel: Subtitle" editor_type="LINE">subtitle</field>
+        <field type="etheme_banner_carousel: Content" editor_type="AREA">content</field>
+        <field type="etheme_banner_carousel: link" editor_type="LINK" key_of="link">url</field>
+        <field type="etheme_banner_carousel: button_title" editor_type="LINE">button_title</field>
+        <field type="etheme_banner_carousel: button_link" editor_type="LINK" key_of="button_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="blockquote">
+      <fields-in-item items_of="blockquote_item">
+        <field type="blockquote: author" editor_type="LINE">author</field>
+        <field type="blockquote: Content" editor_type="AREA">content</field>
+        <field type="blockquote: button_text" editor_type="LINE">button_text</field>
+        <field type="blockquote: button_link" editor_type="LINK" key_of="button_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_circle_progress_bar">
+      <fields>
+        <field type="etheme_circle_progress_bar: text_after" editor_type="LINE">text_after</field>
+      </fields>
+    </widget>
+    <widget name="et-contact-form-7">
+      <fields>
+        <field type="et-contact-form-7: form_title_text" editor_type="LINE">form_title_text</field>
+        <field type="et-contact-form-7: form_description_text" editor_type="AREA">form_description_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_content_switcher">
+      <fields>
+        <field type="etheme_content_switcher: label_a" editor_type="LINE">label_a</field>
+        <field type="etheme_content_switcher: label_b" editor_type="LINE">label_b</field>
+      </fields>
+    </widget>
+    <widget name="etheme-countdown">
+      <fields>
+        <field type="etheme-countdown: label_days" editor_type="LINE">label_days</field>
+        <field type="etheme-countdown: label_hours" editor_type="LINE">label_hours</field>
+        <field type="etheme-countdown: label_minutes" editor_type="LINE">label_minutes</field>
+        <field type="etheme-countdown: label_seconds" editor_type="LINE">label_seconds</field>
+        <field type="etheme-countdown: message_after_expire" editor_type="AREA">message_after_expire</field>
+        <field type="etheme-countdown: widget_after_expire" editor_type="LINE">widget_after_expire</field>
+      </fields>
+    </widget>
+    <widget name="etheme_flipbox">
+      <fields>
+        <field type="etheme_flipbox: title_a" editor_type="LINE">title_a</field>
+        <field type="etheme_flipbox: description_a" editor_type="AREA">description_a</field>
+        <field type="etheme_flipbox: button_a_text" editor_type="LINE">button_a_text</field>
+        <field type="etheme_flipbox: link_a" editor_type="LINK" key_of="link_a">url a</field>
+        <field type="etheme_flipbox: title_b" editor_type="LINE">title_b</field>
+        <field type="etheme_flipbox: description_b" editor_type="AREA">description_b</field>
+        <field type="etheme_flipbox: button_b_text" editor_type="LINE">button_b_text</field>
+        <field type="etheme_flipbox: link_b" editor_type="LINK" key_of="link_a">url b</field>
+      </fields>
+    </widget>
+    <widget name="etheme_gallery">
+      <fields-in-item items_of="galleries">
+        <field type="etheme_gallery: gallery_title" editor_type="LINE">gallery_title</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_horizontal_timeline">
+      <fields-in-item items_of="custom_content_tabs">
+        <field type="etheme_horizontal_timeline: date" editor_type="LINE">date</field>
+        <field type="etheme_horizontal_timeline: time" editor_type="LINE">time</field>
+        <field type="etheme_horizontal_timeline: title" editor_type="LINE">title</field>
+        <field type="etheme_horizontal_timeline: description" editor_type="AREA">description</field>
+        <field type="etheme_horizontal_timeline: button_text" editor_type="LINE">button_text</field>
+        <field type="etheme_horizontal_timeline: link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_timeline">
+      <fields-in-item items_of="custom_content_tabs">
+        <field type="etheme_timeline: date" editor_type="LINE">date</field>
+        <field type="etheme_timeline: time" editor_type="LINE">time</field>
+        <field type="etheme_timeline: title" editor_type="LINE">title</field>
+        <field type="etheme_timeline: description" editor_type="AREA">description</field>
+        <field type="etheme_timeline: button_text" editor_type="LINE">button_text</field>
+        <field type="etheme_timeline: link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_hotspot">
+      <fields-in-item items_of="hotspot">
+        <field type="etheme_hotspot: hotspot_label" editor_type="LINE">hotspot_label</field>
+        <field type="etheme_hotspot: hotspot_link" editor_type="LINK" key_of="hotspot_link">url</field>
+        <field type="etheme_hotspot: hotspot_tooltip_title" editor_type="LINE">hotspot_tooltip_title</field>
+        <field type="etheme_hotspot: hotspot_tooltip_content" editor_type="VISUAL">hotspot_tooltip_content</field>
+        <field type="etheme_hotspot: hotspot_tooltip_button" editor_type="LINE">hotspot_tooltip_button</field>
+        <field type="etheme_hotspot: hotspot_tooltip_button_link" editor_type="LINK" key_of="hotspot_tooltip_button_link">hotspot_tooltip_button_link</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_icon_box">
+      <fields>
+        <field type="etheme_icon_box: icon_text" editor_type="LINE">icon_text</field>
+        <field type="etheme_icon_box: title" editor_type="LINE">title</field>
+        <field type="etheme_icon_box: subtitle" editor_type="LINE">subtitle</field>
+        <field type="etheme_icon_box: description" editor_type="AREA">description</field>
+        <field type="etheme_icon_box: button_text" editor_type="LINE">button_text</field>
+        <field type="etheme_icon_box: button_link" editor_type="LINK" key_of="button_link">button_link</field>
+      </fields>
+    </widget>
+    <widget name="etheme_icon_box_carousel">
+      <fields-in-item items_of="icon_box_items">
+        <field type="etheme_icon_box_carousel: icon_text" editor_type="LINE">icon_text</field>
+        <field type="etheme_icon_box_carousel: title" editor_type="LINE">title</field>
+        <field type="etheme_icon_box_carousel: subtitle" editor_type="LINE">subtitle</field>
+        <field type="etheme_icon_box_carousel: description" editor_type="AREA">description</field>
+        <field type="etheme_icon_box_carousel: button_text" editor_type="LINE">button_text</field>
+        <field type="etheme_icon_box_carousel: button_link" editor_type="LINK" key_of="button_link">button_link</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_icon_list">
+      <fields-in-item items_of="items">
+        <field type="etheme_icon_list: text" editor_type="LINE">text</field>
+        <field type="etheme_icon_list: custom_text" editor_type="LINE">custom_text</field>
+        <field type="etheme_icon_list: label_text" editor_type="LINE">label_text</field>
+        <field type="etheme_icon_list: link" editor_type="LINK" key_of="link">link</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_image_comparison">
+      <fields>
+        <field type="etheme_image_comparison: before_label" editor_type="LINE">before_label</field>
+        <field type="etheme_image_comparison: after_label" editor_type="LINE">after_label</field>
+      </fields>
+    </widget>
+    <widget name="etheme-instagram">
+      <fields>
+        <field type="etheme-instagram: title" editor_type="LINE">title</field>
+        <field type="etheme-instagram: link" editor_type="LINK" key_of="link">link</field>
+      </fields>
+    </widget>
+    <widget name="etheme_linear_progress_bar">
+      <fields>
+        <field type="etheme_linear_progress_bar: title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+    <widget name="etheme_modal_popup">
+      <fields>
+        <field type="etheme_modal_popup: button_text" editor_type="LINE">button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_paypal">
+      <fields>
+        <field type="etheme_paypal: product_name" editor_type="LINE">product_name</field>
+        <field type="etheme_paypal: product_sku" editor_type="LINE">product_sku</field>
+        <field type="etheme_paypal: redirect_after_success" editor_type="LINK" key_of="redirect_after_success">redirect_after_success</field>
+        <field type="etheme_paypal: redirect_after_cancel" editor_type="LINK" key_of="redirect_after_cancel">redirect_after_cancel</field>
+        <field type="etheme_paypal: notify_url" editor_type="LINK" key_of="notify_url">notify_url</field>
+        <field type="etheme_paypal: error_message_global" editor_type="LINE">error_message_global</field>
+        <field type="etheme_paypal: error_message_payment" editor_type="LINE">error_message_payment</field>
+      </fields>
+    </widget>
+    <widget name="etheme_posts">
+      <fields>
+        <field type="etheme_posts: navigation_button_text" editor_type="LINE">navigation_button_text</field>
+        <field type="etheme_posts: post_button_text" editor_type="LINE">post_button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_posts_carousel">
+      <fields>
+        <field type="etheme_posts_carousel: post_button_text" editor_type="LINE">post_button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_posts_chess">
+      <fields>
+        <field type="etheme_posts_chess: navigation_button_text" editor_type="LINE">navigation_button_text</field>
+        <field type="etheme_posts_chess: post_button_text" editor_type="LINE">post_button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_posts_tabs">
+      <fields>
+        <field type="etheme_posts_tabs: navigation_button_text" editor_type="LINE">navigation_button_text</field>
+        <field type="etheme_posts_tabs: post_button_text" editor_type="LINE">post_button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_posts_timeline">
+      <fields>
+        <field type="etheme_posts_timeline: post_button_text" editor_type="LINE">post_button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_price_table">
+      <fields>
+        <field type="etheme_price_table: title" editor_type="LINE">title</field>
+        <field type="etheme_price_table: subtitle" editor_type="LINE">subtitle</field>
+        <field type="etheme_price_table: currency_symbol_custom" editor_type="LINE">currency_symbol_custom</field>
+        <field type="etheme_price_table: period" editor_type="LINE">period</field>
+      </fields>
+      <fields-in-item items_of="features_list">
+        <field type="etheme_price_table: item_text" editor_type="LINE">item_text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_product_filters">
+      <fields>
+        <field type="etheme_product_filters: button_text" editor_type="LINE">button_text</field>
+      </fields>
+      <fields-in-item items_of="items">
+        <field type="etheme_product_filters: filter_title" editor_type="LINE">filter_title</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_product_grid">
+      <fields>
+        <field type="etheme_product_grid: navigation_button_text" editor_type="LINE">navigation_button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_product_list">
+      <fields>
+        <field type="etheme_product_list: navigation_button_text" editor_type="LINE">navigation_button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_product_menu_layout">
+      <fields>
+        <field type="etheme_product_menu_layout: title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="custom_content_tab">
+        <field type="etheme_product_menu_layout: name" editor_type="LINE">name</field>
+        <field type="etheme_product_menu_layout: categories" editor_type="LINE">categories</field>
+        <field type="etheme_product_menu_layout: excerpt" editor_type="VISUAL">excerpt</field>
+        <field type="etheme_product_menu_layout: price" editor_type="LINE">price</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_ajax_search">
+      <fields>
+        <field type="etheme_ajax_search: placeholder" editor_type="LINE">placeholder</field>
+        <field type="etheme_ajax_search: button_text" editor_type="LINE">button_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme_slides">
+      <fields-in-item items_of="slides">
+        <field type="etheme_slides: subheading" editor_type="LINE">subheading</field>
+        <field type="etheme_slides: heading" editor_type="LINE">heading</field>
+        <field type="etheme_slides: description" editor_type="AREA">description</field>
+        <field type="etheme_slides: button_text" editor_type="LINE">button_text</field>
+        <field type="etheme_slides: link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_toggle_text">
+      <fields>
+        <field type="etheme_toggle_text: short_content" editor_type="VISUAL">short_content</field>
+        <field type="etheme_toggle_text: button_more_text" editor_type="LINE">button_more_text</field>
+        <field type="etheme_toggle_text: long_content" editor_type="VISUAL">long_content</field>
+        <field type="etheme_toggle_text: button_less_text" editor_type="LINE">button_less_text</field>
+      </fields>
+    </widget>
+    <widget name="etheme-twitter">
+      <fields>
+        <field type="etheme-twitter: title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+
+    <widget name="etheme_categories_lists">
+      <fields>
+        <field type="etheme_categories_lists: title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+    <widget name="testimonials">
+      <fields-in-item items_of="testimonials_tab">
+        <field type="testimonials: Name" editor_type="LINE">name</field>
+        <field type="testimonials: Country" editor_type="LINE">country</field>
+        <field type="testimonials: content" editor_type="VISUAL">content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="et-advanced-tabs">
+      <fields-in-item items_of="et_tabs_tab">
+        <field type="et-advanced-tabs: et_tabs_tab_title" editor_type="LINE">et_tabs_tab_title</field>
+        <field type="et-advanced-tabs: et_tabs_content_title" editor_type="LINE">et_tabs_content_title</field>
+      </fields-in-item>
+    </widget>
+    <widget name="et-general-tabs">
+      <fields-in-item items_of="et_tabs_tab">
+        <field type="et-general-tabs: et_tabs_tab_title" editor_type="LINE">et_tabs_tab_title</field>
+        <field type="et-general-tabs: et_tabs_tab_title" editor_type="LINE">et_tabs_tab_title</field>
+        <field type="et-general-tabs: staticblock" editor_type="LINE">staticblock</field>
+      </fields-in-item>
+    </widget>
+    <widget name="team_member">
+      <fields>
+        <field type="team_member: name" editor_type="LINE">name</field>
+        <field type="team_member: email" editor_type="LINE">email</field>
+        <field type="team_member: position" editor_type="LINE">position</field>
+        <field type="team_member: content" editor_type="VISUAL">content</field>
+      </fields>
+    </widget>
+    <widget name="etheme_slider">
+      <fields-in-item items_of="get_slider_item">
+        <field type="etheme_slider: title" editor_type="LINE">title</field>
+        <field type="etheme_slider: subtitle" editor_type="LINE">subtitle</field>
+        <field type="etheme_slider: content" editor_type="VISUAL">content</field>
+        <field type="etheme_slider: button_title" editor_type="LINE">button_title</field>
+        <field type="etheme_slider: button_link" editor_type="LINK" key_of="button_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_product_menu_layout">
+      <fields>
+        <field type="etheme_product_menu_layout: title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="custom_content_tab">
+        <field type="etheme_product_menu_layout: name" editor_type="LINE">name</field>
+        <field type="etheme_product_menu_layout: categories" editor_type="LINE">categories</field>
+        <field type="etheme_product_menu_layout: excerpt" editor_type="LINE">excerpt</field>
+        <field type="etheme_product_menu_layout: price" editor_type="LINE">price</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme_products">
+      <fields>
+        <field type="etheme_products: title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+    <widget name="et_menu_list">
+      <fields>
+        <field type="et_menu_list: title" editor_type="LINE">title</field>
+        <field type="et_menu_list: link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+      <fields-in-item items_of="menu_list_item">
+        <field type="et_menu_list: title" editor_type="LINE">title</field>
+        <field type="et_menu_list: link" editor_type="LINK" key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="etheme-instagram">
+      <fields>
+        <field type="etheme-instagram: title" editor_type="LINE">title</field>
+        <field type="etheme-instagram: link" editor_type="LINK" key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="etheme_categories">
+      <fields>
+        <field type="etheme_categories: title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+    <widget name="banner">
+      <fields>
+        <field type="banner: Title" editor_type="LINE">title</field>
+        <field type="banner: Subtitle" editor_type="LINE">subtitle</field>
+        <field type="banner: Content" editor_type="AREA">content</field>
+        <field type="banner: link" editor_type="LINK" key_of="link">url</field>
+        <field type="banner: button_title" editor_type="LINE">button_title</field>
+        <field type="banner: button_link" editor_type="LINK" key_of="button_link">url</field>
+      </fields>
+    </widget>
+  </elementor-widgets>
+</wpml-config>

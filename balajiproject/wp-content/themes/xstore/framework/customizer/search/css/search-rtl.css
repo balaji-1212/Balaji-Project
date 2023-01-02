@@ -1,0 +1,5 @@
+#et_customizer-search-results .accordion-section-title:after {
+    right: auto;
+    left: 15px;
+    content: "\f341";
+}

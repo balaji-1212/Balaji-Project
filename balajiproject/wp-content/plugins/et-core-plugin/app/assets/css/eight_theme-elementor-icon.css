@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'eight_theme-elementor-icon';
+  src:  url('../fonts/eight_theme-elementor-icons/eight_theme-elementor-icon.eot?8n0xoi');
+  src:  url('../fonts/eight_theme-elementor-icons/eight_theme-elementor-icon.eot?8n0xoi#iefix') format('embedded-opentype'),
+    url('../fonts/eight_theme-elementor-icons/eight_theme-elementor-icon.ttf?8n0xoi') format('truetype'),
+    url('../fonts/eight_theme-elementor-icons/eight_theme-elementor-icon.woff?8n0xoi') format('woff'),
+    url('../fonts/eight_theme-elementor-icons/eight_theme-elementor-icon.svg?8n0xoi#eight_theme-elementor-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.eight_theme-elementor-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'eight_theme-elementor-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.et-elementor-content-switcher:before {
+  content: "\e943";
+}
+.et-elementor-toggle-button:before {
+  content: "\e944";
+}
+.et-elementor-posts-timeline:before {
+  content: "\e93e";
+}
+.et-elementor-products-carousel:before {
+  content: "\e942";
+}
+.et-elementor-posts-chess:before {
+  content: "\e93c";
+}
+.et-elementor-posts-tab:before {
+  content: "\e93d";
+}
+.et-elementor-posts:before {
+  content: "\e93f";
+}
+.et-elementor-products-grid:before {
+  content: "\e940";
+}
+.et-elementor-products-list:before {
+  content: "\e941";
+}
+.et-elementor-modal-popup:before {
+  content: "\e93b";
+}
+.et-elementor-product-viewer:before {
+  content: "\e938";
+}
+.et-elementor-linear-progress-bar:before {
+  content: "\e939";
+}
+.et-elementor-scroll-progress:before {
+  content: "\e93a";
+}
+.et-elementor-add-to-cart-button:before {
+  content: "\e904";
+}
+.et-elementor-advanced-headline:before {
+  content: "\e916";
+}
+.et-elementor-fancy-button:before {
+  content: "\e926";
+}
+.et-elementor-paypal-button:before {
+  content: "\e928";
+}
+.et-elementor-text-button:before {
+  content: "\e930";
+}
+.et-elementor-icon-and-info-list:before {
+  content: "\e934";
+}
+.et-elementor-icon-box:before {
+  content: "\e935";
+}
+.et-elementor-lottie:before {
+  content: "\e936";
+}
+.et-elementor-image-comparison:before {
+  content: "\e937";
+}
+.et-elementor-banner-carousel:before {
+  content: "\e933";
+}
+.et-elementor-product-list:before {
+  content: "\e92f";
+}
+.et-elementor-twitter-feed-slider:before {
+  content: "\e931";
+}
+.et-elementor-twitter-feed:before {
+  content: "\e932";
+}
+.et-elementor-facebook-comments:before {
+  content: "\e92d";
+}
+.et-elementor-facebook-embed:before {
+  content: "\e92e";
+}
+.et-elementor-gallery:before {
+  content: "\e92b";
+}
+.et-elementor-media-carousel:before {
+  content: "\e92c";
+}
+.et-elementor-horizontal-timeline:before {
+  content: "\e927";
+}
+.et-elementor-product-filter:before {
+  content: "\e929";
+}
+.et-elementor-search:before {
+  content: "\e92a";
+}
+.et-elementor-animated-headline:before {
+  content: "\e924";
+}
+.et-elementor-timeline:before {
+  content: "\e925";
+}
+.et-elementor-circle-progress-bar:before {
+  content: "\e923";
+}
+.et-elementor-blockquote:before {
+  content: "\e900";
+}
+.et-elementor-flipbox:before {
+  content: "\e901";
+}
+.et-elementor-hotspot:before {
+  content: "\e902";
+}
+.et-elementor-price-table:before {
+  content: "\e903";
+}
+.et-elementor-banner:before {
+  content: "\e905";
+}
+.et-elementor-blog-carousel:before {
+  content: "\e906";
+}
+.et-elementor-brands-carousel:before {
+  content: "\e907";
+}
+.et-elementor-contact-form:before {
+  content: "\e908";
+}
+.et-elementor-google-map:before {
+  content: "\e909";
+}
+.et-elementor-instagram:before {
+  content: "\e90a";
+}
+.et-elementor-menu-list:before {
+  content: "\e90b";
+}
+.et-elementor-products:before {
+  content: "\e90c";
+}
+.et-elementor-slider:before {
+  content: "\e90d";
+}
+.et-elementor-social-links:before {
+  content: "\e90e";
+}
+.et-elementor-masonry-post:before {
+  content: "\e90f";
+}
+.et-elementor-team-member:before {
+  content: "\e910";
+}
+.et-elementor-price-list:before {
+  content: "\e911";
+}
+.et-elementor-testimonials:before {
+  content: "\e912";
+}
+.et-elementor-categories-list:before {
+  content: "\e913";
+}
+.et-elementor-masonry-product-categories:before {
+  content: "\e914";
+}
+.et-elementor-product-tabs:before {
+  content: "\e915";
+}
+.et-elementor-tabs:before {
+  content: "\e917";
+}
+.et-elementor-product-categories:before {
+  content: "\e918";
+}
+.et-elementor-masonry-product:before {
+  content: "\e919";
+}
+.et-elementor-best-offer:before {
+  content: "\e91a";
+}
+.et-elementor-blog-list:before {
+  content: "\e91b";
+}
+.et-elementor-blog-timeline:before {
+  content: "\e91c";
+}
+.et-elementor-blog:before {
+  content: "\e91d";
+}
+.et-elementor-brands-list:before {
+  content: "\e91e";
+}
+.et-elementor-countdown:before {
+  content: "\e91f";
+}
+.et-elementor-etheme-portfolio:before {
+  content: "\e920";
+}
+.et-elementor-portfolio:before {
+  content: "\e921";
+}
+.et-elementor-twitter:before {
+  content: "\e922";
+}
+.et-elementor-static_block:before {
+  content: "\e945";
+}

@@ -1,0 +1,26 @@
+.manage-column.column-type,
+.manage-column.column-recipient,
+.manage-column.column-note {
+    width: 15%
+}
+
+#viwec-settings-page {
+    padding-right: 20px
+}
+
+.vi-ui.segments {
+    margin-right: 20px
+}
+
+input[type=date] {
+    border: 1px solid #ccc
+}
+
+.viwec-chart-title {
+    text-align: center
+}
+
+.viwec-canvas-chart {
+    width: 90%;
+    margin: auto
+}

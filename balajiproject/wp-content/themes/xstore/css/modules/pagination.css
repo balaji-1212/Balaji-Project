@@ -1,0 +1,161 @@
+.woocommerce-pagination.sb-hide {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  visibility: hidden;
+}
+.dokan-pagination-container .dokan-pagination,
+.woocommerce-pagination ul.page-numbers,
+#comments ul.page-numbers,
+.etheme-pagination ul.page-numbers {
+  margin-bottom: 0;
+  padding: 0;
+}
+.woocommerce-pagination li,
+#comments ul.page-numbers li,
+.etheme-pagination li,
+.dokan-pagination-container .dokan-pagination li {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+.woocommerce-pagination,
+#comments .woocommerce-pagination,
+.etheme-pagination,
+.dokan-pagination-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  position: relative;
+  padding: 24px 0;
+  margin-bottom: 20px;
+  border-top: 1px solid var(--et_border-color);
+  width: 100%;
+}
+.woocommerce-pagination:empty,
+#comments .woocommerce-pagination:empty,
+.etheme-pagination:empty,
+.dokan-pagination-container:empty {
+  display: none !important;
+  margin-bottom: 0;
+}
+.dokan-pagination-container .dokan-pagination li.active a {
+  background: transparent;
+}
+.woocommerce-pagination .current,
+#comments ul.page-numbers .current,
+.etheme-pagination .current,
+.dokan-pagination-container .dokan-pagination li .current,
+.woocommerce-pagination a,
+#comments ul.page-numbers a,
+.etheme-pagination a,
+.dokan-pagination-container .dokan-pagination li a {
+  font-size: 0.85rem;
+  min-width: 36px;
+  height: 36px;
+  border: 1px solid var(--et_border-color);
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3px 10px;
+}
+.woocommerce-pagination a:hover,
+.woocommerce-pagination .current,
+#comments ul.page-numbers a:hover,
+#comments ul.page-numbers .current,
+.etheme-pagination a:hover,
+.etheme-pagination .current,
+.dokan-pagination-container li a:hover,
+.dokan-pagination-container .dokan-pagination li.active a {
+  color: #fff;
+  background-color: var(--et_active-color);
+  border-color: var(--et_active-color);
+}
+.dokan-pagination-container .dokan-pagination li,
+.woocommerce-pagination li,
+#comments ul.page-numbers li,
+.etheme-pagination li {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.dokan-pagination-container .dokan-pagination li:last-child,
+.woocommerce-pagination li:last-child,
+#comments ul.page-numbers li:last-child,
+.etheme-pagination li:last-child {
+  margin-right: 0;
+}
+.dokan-pagination-container .dokan-pagination li:first-child,
+.woocommerce-pagination li:first-child,
+#comments ul.page-numbers li:first-child,
+.etheme-pagination li:first-child {
+  margin-left: 0;
+}
+.etheme-pagination.align-center {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+.etheme-pagination.align-center .et_count-posts {
+  margin-top: 10px;
+}
+.etheme-pagination.align-left {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.etheme-pagination.align-right {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.etheme-pagination .next,
+.etheme-pagination .prev {
+  font-size: 0;
+}
+.etheme-pagination .next:before,
+.etheme-pagination .prev:before {
+  font-family: 'xstore-icons';
+  font-size: 0.85rem;
+}
+.etheme-pagination .next:before {
+  content: "\e904";
+}
+.etheme-pagination .prev:before {
+  content: "\e902";
+}
+.et_count-posts {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 480px) {
+  .etheme-pagination {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .etheme-pagination .et_count-posts {
+    margin-bottom: 10px;
+  }
+}

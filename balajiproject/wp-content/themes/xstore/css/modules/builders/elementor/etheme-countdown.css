@@ -1,0 +1,52 @@
+.etheme-countdown {
+  --gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: calc(-1 * var(--gap));
+}
+.etheme-countdown-item {
+  --inner-gap: 3px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  background: var(--et_dark-2-white);
+  padding: 10px;
+  color: var(--et_white-2-dark);
+  margin: var(--gap);
+  min-width: var(--item-min-width);
+  min-height: var(--item-min-height);
+}
+.etheme-countdown-digits {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1;
+}
+.etheme-countdown-item-inner span {
+  text-align: center;
+  vertical-align: middle;
+}
+.etheme-countdown-item.label-bottom span {
+  display: block;
+}
+.etheme-countdown-item.label-bottom span + span {
+  margin-top: var(--inner-gap);
+}
+.etheme-countdown-item.label-left span + span,
+.etheme-countdown-item.label-right span + span {
+  margin-left: var(--inner-gap);
+}

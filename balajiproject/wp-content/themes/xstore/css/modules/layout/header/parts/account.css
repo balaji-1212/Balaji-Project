@@ -1,0 +1,153 @@
+.login-link .et-facebook-login-button,
+.login-link .button {
+  font-size: 0.85rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  line-height: 1.5 !important;
+  border: none;
+  color: #fff;
+}
+.login-link input {
+  min-width: 270px;
+}
+.login-link input[type=checkbox],
+.login-link input[type=radio] {
+  min-width: auto;
+}
+.login-link .login-password label,
+.login-link .login-username label {
+  display: block;
+}
+.login-link .et-facebook-login-button i {
+  font-size: inherit;
+  color: inherit;
+}
+.login-link form p {
+  margin-bottom: 1em;
+  line-height: 1;
+}
+.login-link form p:last-child {
+  margin-bottom: 1.95em;
+}
+.login-link label {
+  color: var(--et_font-color);
+}
+.login-link label,
+.login-link .lost-password,
+.login-link .register-link {
+  font-size: 1.14rem;
+}
+.login-link .login-submit {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 320px) {
+  .mobile-header-wrapper .login-link form.login {
+    position: relative;
+  }
+  .mobile-header-wrapper .login-link label {
+    white-space: normal;
+  }
+  .mobile-header-wrapper .login-link.et-off-canvas input#rememberme + span {
+    max-width: unset;
+  }
+  .mobile-header-wrapper .login-link .lost-password {
+    float: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    width: 100%;
+    text-align: center;
+  }
+}
+.login-link .button {
+  color: var(--et_btn-dark-color);
+  background-color: var(--et_btn-dark-bg-color);
+}
+.login-link .button:hover {
+  color: var(--et_btn-dark-color-hover);
+  background-color: var(--et_btn-dark-bg-color-hover);
+}
+.login-link .et-facebook-login-wrapper {
+  margin-bottom: 1.1em;
+  line-height: 1.5;
+}
+.login-link .lost-password,
+.login-link .register-link {
+  text-decoration: underline;
+}
+.et_b_header-account.login-link form p {
+  font-size: 100%;
+  line-height: 1.3;
+}
+.et_b_header-account.login-link form .user-role {
+  margin-bottom: -10px;
+}
+.et_b_header-account.login-link form.register .show_if_seller .form-row:not(.form-row-wide) {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  float: none;
+  margin-bottom: 1em;
+}
+.et_b_header-account.login-link label,
+.et_b_header-account.login-link .lost-password,
+.et_b_header-account.login-link .register-link {
+  font-size: 114%;
+}
+.et_b_header-account.login-link label {
+  color: currentColor;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.et_b_header-account.login-link .lost-password:hover {
+  opacity: 0.7;
+}
+.et_b_header-account.login-link .et-facebook-login-button,
+.et_b_header-account.login-link .button,
+.et_b_header-account.login-link form .button {
+  font-size: 85%;
+}
+.et_b_header-account .et_b-tab-content {
+  margin: 0;
+}
+.et_b-header-account .et_b-tabs .et-tab {
+  opacity: 1;
+  color: #888;
+  border-color: #e1e1e1;
+}
+.et_b-header-account .et_b-tabs .et-tab.active {
+  color: #222;
+}
+form.login.et_b-tab-content.active,
+.et_b_header-account form:only-of-type {
+  display: block !important;
+}
+form#loginform input[type="submit"],
+form#loginform input[type="submit"]:hover {
+  background-color: #222;
+  color: #fff;
+  border-color: #222;
+}
+.et_b_header-account.login-link form p:last-child {
+  margin-bottom: 0;
+}
+.et_b_header-account.login-link form .woocommerce-privacy-policy-text {
+  margin-bottom: 20px;
+}
+.et_b_header-account.et-content-toTop .et-mini-content {
+  min-width: 180px;
+}
+.header-account-content .woocommerce-form-register .woocommerce-password-strength {
+  margin-top: 10px;
+}
+.login-link .lost-password {
+  width: 50%;
+  float: right;
+  text-align: end;
+  line-height: 1.1 !important;
+}
+.login-link .lost-remember {
+  width: 50%;
+  float: right;
+}

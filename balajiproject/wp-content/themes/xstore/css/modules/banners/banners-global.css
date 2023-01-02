@@ -1,0 +1,33 @@
+/* global style image hover */
+.et_image-with-hover img {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.et_image-hover-2:hover img,
+.et_image-hover-2.active img,
+.et_image-hover-4:not(:hover):not(.active) img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+.et_image-hover-6 img {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  width: calc(100% + 30px);
+  max-width: calc(100% + 30px);
+}
+.et_image-hover-6:not(:hover):not(.active) img {
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+.et_image-hover-5 img {
+  -webkit-transition-duration: 0.35s;
+          transition-duration: 0.35s;
+  width: calc(100% + 60px);
+  max-width: calc(100% + 60px);
+}
+.et_image-hover-5:not(:hover):not(.active) img {
+  -webkit-transform: translateX(-30px) scale(1.15);
+          transform: translateX(-30px) scale(1.15);
+}

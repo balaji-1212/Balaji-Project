@@ -1,0 +1,38 @@
+/*====================================
+=           Facebook login           =
+====================================*/
+.et-google-login-wrapper ~ .et-facebook-login-wrapper {
+  margin-top: 15px;
+}
+.et-facebook-login-button,
+.et-google-login-button {
+  font-size: 0.85rem;
+  color: #fff;
+  width: 100%;
+  line-height: 1.5;
+}
+.et-facebook-login-button {
+  background: #4f699e;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.et-facebook-login-button:hover,
+.et-facebook-login-button:hover:focus {
+  background-color: #3a5795;
+  color: #fff;
+  opacity: 1;
+}
+.et-google-login-button {
+  background: #4285F4;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.et-google-login-button svg {
+  vertical-align: middle;
+}
+.et-google-login-button:hover,
+.et-google-login-button:hover:focus {
+  background-color: #206ff2;
+  color: #fff;
+}
+/*-----  End Facebook login  ------*/

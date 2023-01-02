@@ -1,0 +1,91 @@
+.brands-list .col-md-3:nth-child(4n+1),
+.brands-list .col-md-6:nth-child(2n+1),
+.brands-list .col-md-4:nth-child(3n+1) {
+  clear: both;
+}
+.brands-list .et-isotope-item .title {
+  font-size: 1.286rem;
+  line-height: 2.857rem;
+  margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+  color: inherit;
+}
+.brands-list .et-isotope-item .firstLetter {
+  color: var(--et_active-color);
+  font-weight: 700;
+  font-size: 2.857rem;
+  line-height: 1.55;
+}
+.brands-list .et-isotope-item .sub-title {
+  font-size: 1.143rem;
+}
+.brands-list .et-isotope-item .work-item {
+  padding-bottom: 2.143rem;
+}
+.brands-list .et-isotope-item .work-item img {
+  max-width: 50%;
+  margin-bottom: 1.429rem;
+}
+.brands-list .et-masonry-filters-list {
+  border-bottom: 1px solid var(--et_border-color);
+  padding-bottom: 2.429rem;
+  margin-bottom: 5.143rem;
+}
+.brands-list h4.title:hover .brand-tooltip {
+  -webkit-transition: opacity 150ms linear, visibilty 150ms linear;
+  transition: opacity 150ms linear, visibilty 150ms linear;
+}
+.brands-list .brand-tooltip {
+  width: 21.43rem;
+  padding: 2.143rem;
+  border: 1px solid var(--et_border-color);
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  right: -330px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 150ms linear, visibilty 150ms linear;
+  transition: opacity 150ms linear, visibilty 150ms linear;
+}
+.brands-list .brand-tooltip:after,
+.brands-list .brand-tooltip:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.brands-list .brand-tooltip:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 20px;
+  margin-top: -20px;
+}
+.brands-list .brand-tooltip:before {
+  border-color: rgba(230, 230, 230, 0);
+  border-right-color: var(--et_border-color);
+  border-width: 22px;
+  margin-top: -22px;
+}
+.brands-list .brand-tooltip .sub-title {
+  text-align: center;
+  line-height: 1.5;
+}
+.brands-list .brand-img-tooltip {
+  margin: 0 auto;
+  display: block;
+}
+@media only screen and (min-width: 768px) {
+  .brands-list h4.title:hover .brand-tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+}

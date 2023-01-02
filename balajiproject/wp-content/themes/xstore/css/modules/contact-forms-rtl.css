@@ -1,0 +1,219 @@
+/*====================================
+=            Contact Form            =
+====================================*/
+.contact-form.design-2 input[type="text"] {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .contact-form.design-2 input[type="text"] {
+    width: 100%;
+  }
+  .wpb_wrapper .wpcf7-form .form-group p:first-child {
+    margin-bottom: 1.43em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact-form .pull-right {
+    width: 100%;
+    text-align: center;
+  }
+}
+.mc4wp-form input[type=email] {
+  color: var(--et_main-color);
+}
+.mc4wp-form input[type=email]:focus,
+.mc4wp-form input[type="submit"]:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.wpcf7-form {
+  text-align: start;
+}
+.wpcf7-form .form-group {
+  display: inline-block;
+  width: 100%;
+}
+.wpcf7-form .form-group p {
+  width: 50%;
+  float: left;
+  margin-bottom: 0;
+}
+.wpcf7-form .form-group p input {
+  width: 100%;
+}
+.wpcf7-form .form-group p:first-child {
+  padding-right: 15px;
+}
+.wpcf7-form .form-group p:last-child {
+  padding-left: 15px;
+}
+.wpcf7-form br {
+  display: none;
+}
+.wpcf7 .ajax-loader:before,
+.wpcf7 .wpcf7-spinner:before {
+  content: "\e917";
+  font-family: 'xstore-icons';
+  -webkit-animation: rotate 0.8s infinite linear;
+          animation: rotate 0.8s infinite linear;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  position: static;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  background-color: transparent;
+}
+form.wpcf7-form label {
+  display: block;
+}
+form.wpcf7-form > p:last-of-type {
+  margin-bottom: 0;
+}
+form.wpcf7-form .wpcf7-submit:not(.active) {
+  background-color: var(--et_btn-dark-bg-color);
+  border: 1px solid var(--et_btn-dark-br-color);
+  color: var(--et_btn-dark-color);
+  -webkit-text-fill-color: currentColor;
+}
+form.wpcf7-form .wpcf7-submit:not(.active):hover {
+  background-color: var(--et_btn-dark-bg-color-hover);
+  border-color: var(--et_btn-dark-br-color-hover);
+  color: var(--et_btn-dark-color-hover);
+}
+div.wpcf7 .ajax-loader,
+div.wpcf7 .wpcf7-spinner {
+  width: auto;
+  height: auto;
+  background: none;
+  line-height: 1;
+  margin: 8px 15px;
+  position: absolute;
+}
+.wpcf7 .text-center-form,
+.wpb_column.text-center .wpcf7-form {
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  .wpcf7-form .form-group p {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+div.wpcf7-response-output {
+  padding: 15px 20px !important;
+  background: #fff;
+}
+/*-----  End of Contact Form  ------*/
+.wpcf7-form .form-group p {
+  float: right;
+}
+.wpcf7-form .form-group p:first-child {
+  padding-right: 0;
+  padding-left: 15px;
+}
+.wpcf7-form .form-group p:last-child {
+  padding-left: 0;
+  padding-right: 15px;
+}
+.mc4wp-form .et-mailchimp label {
+  font-weight: 400;
+}
+.mpc-mailchimp.mpc-submit--small .et-mailchimp:not(.classic-button) input[type="submit"] {
+  width: 40px;
+}
+.mc4wp-form-basic .et-mailchimp input[type=date],
+.mc4wp-form-basic .et-mailchimp input[type=email],
+.mc4wp-form-basic .et-mailchimp input[type=tel],
+.mc4wp-form-basic .et-mailchimp input[type=text],
+.mc4wp-form-basic .et-mailchimp input[type=url],
+.mc4wp-form-basic .et-mailchimp select,
+.mc4wp-form-basic .et-mailchimp textarea {
+  max-width: unset;
+}
+.et-mailchimp {
+  position: relative;
+}
+.et-mailchimp p {
+  position: relative;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.et-mailchimp p:last-child {
+  margin-bottom: 0;
+}
+.et-mailchimp input[type="email"] {
+  background-color: #fff;
+  border-color: #e1e1e1;
+  color: var(--et_dark-color);
+  max-width: 100%;
+  height: 40px;
+}
+.et-mailchimp label,
+.et-mailchimp input[type="email"]::-webkit-input-placeholder,
+.et-mailchimp input[type="email"]::-moz-placeholder {
+  color: var(--et_main-color);
+}
+.et-mailchimp:not(.classic-button) input[type="submit"] {
+  width: 40px;
+  height: 100%;
+  padding: 0;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+  font-size: 0;
+  background: url(../../images/mailchimp-plus.png) no-repeat center;
+  background-size: 16px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.et-mailchimp:not(.classic-button) input[type="submit"]:hover {
+  border-color: #e1e1e1;
+  opacity: 0.8;
+}
+.et-mailchimp:not(.dark) input[type="submit"] {
+  color: #fff;
+  background-color: var(--et_active-color);
+}
+.et-mailchimp:not(.dark):not(.classic-button) input[type="submit"] {
+  background-image: url(../../images/mailchimp-plus-white.png);
+}
+.et-mailchimp.classic-button p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.et-mailchimp.classic-button input[type="submit"] {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-style: solid;
+}
+.et-mailchimp.classic-button:not(.dark) input[type="submit"]:hover {
+  border-color: #e1e1e1;
+  opacity: 0.8;
+}
+.et-mailchimp.dark input[type="submit"] {
+  background-color: #fff;
+  color: var(--et_dark-color);
+  border-color: #e1e1e1;
+}
+.et-mailchimp.dark input[type="submit"]:hover {
+  color: var(--et_main-color);
+  border-color: #e1e1e1;
+}
+.footer .mc4wp-form .et-mailchimp,
+.prefooter .mc4wp-form .et-mailchimp {
+  margin-bottom: 0;
+}
+.et-mailchimp:not(.classic-button) input[type="submit"] {
+  border-right: none;
+  left: 0;
+}
+.et-mailchimp.classic-button input[type="email"] {
+  border-left: none;
+}
+.et-mailchimp.dark input[type="submit"] {
+  border-right: none;
+}

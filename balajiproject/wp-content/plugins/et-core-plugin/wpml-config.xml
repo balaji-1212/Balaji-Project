@@ -1,0 +1,82 @@
+<wpml-config>
+  <admin-texts>
+    <key name="theme_mods_xstore">
+      <key name="404_text"/>
+      <key name="product_bage_banner"/>
+      <key name="empty_cart_content"/>
+      <key name="custom_tab_title"/>
+      <key name="custom_tab"/>
+      <key name="promo-link-text"/>
+      <key name="pp_content"/>
+      <key name="header_custom_block"/>
+      <key name="all_departments_text"/>
+      <key name="sale_icon_text"/>
+      <key name="cart_popup_banner"/>
+
+      <key name="all_departments_text"/>
+      <key name="mobile_menu_text"/>
+      <key name="mobile_menu_tab_2_text"/>
+      <key name="cart_label_custom"/>
+      <key name="cart_footer_content_et-desktop"/>
+      <key name="product_wishlist_label_add_to_wishlist"/>
+      <key name="product_wishlist_label_browse_wishlist"/>
+      <key name="product_socials_label_text_et-desktop"/>
+      <key name="account_text"/>
+      <key name="account_logged_in_text"/>
+      <key name="wishlist_label_custom_et-desktop"/>
+      <key name="search_label_custom_et-desktop"/>
+      <key name="search_all_categories_text_et-desktop"/>
+      <key name="search_placeholder_et-desktop"/>
+      <key name="contacts_package_et-desktop"/>
+      <key name="newsletter_label_et-desktop"/>
+      <key name="newsletter_title_et-desktop"/>
+      <key name="newsletter_content_et-desktop"/>
+      <key name="button_text_et-desktop"/>
+      <key name="promo_text_package"/>
+      <key name="html_block1"/>
+      <key name="html_block2"/>
+      <key name="html_block3"/>
+      <key name="html_block4"/>
+      <key name="html_block5"/>
+      <key name="mobile_panel_package_et-mobile"/>
+      <key name="header_socials_package_et-desktop"/>
+      <key name="promo_text_package"/>
+      <key name="contacts_package_et-desktop"/>
+      <key name="product_size_guide_label_et-desktop"></key>
+      <key name="product_size_guide_title_et-desktop"></key>
+      <key name="single_product_bought_together_products_title"></key>
+      <key name="request_quote_button_text_et-desktop"></key>
+      <key name="single_product_button_text_et-desktop"></key>
+
+      <key name="xstore_wishlist_label_add_to_wishlist"></key>
+      <key name="xstore_wishlist_label_browse_wishlist"></key>
+      <key name="xstore_wishlist_page_content"></key>
+      <key name="xstore_wishlist_empty_page_content"></key>
+      <key name="xstore_wishlist_ask_estimate_button_text"></key>
+      <key name="xstore_wishlist_ask_estimate_popup_content"></key>
+    </key>
+  </admin-texts>
+
+    <custom-fields>
+      <custom-field action="translate" translate="1">viwec_email_structure</custom-field>
+    </custom-fields>
+    <custom-fields-texts>
+      <key name="viwec_email_structure">
+        <key name="rows">
+          <key name="*">
+            <key name="cols">
+              <key name="*">
+                <key name="elements">
+                  <key name="*">
+                    <key name="content">
+                      <key name="text"></key>
+                    </key>
+                  </key>
+                </key>
+              </key>
+            </key>
+          </key>
+        </key>
+      </key>
+    </custom-fields-texts>
+</wpml-config>

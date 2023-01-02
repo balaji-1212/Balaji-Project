@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="120" height="120" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C1C1C1;}
+	.st1{fill:#E1E1E1;}
+	.st2{opacity:0.4;fill:#888888;}
+	.st3{fill:#888888;}
+</style>
+<g>
+	<g>
+		<rect id="Background_10_" x="60" y="28.8" class="st0" width="34.1" height="3.4"/>
+		<rect id="Background_11_" x="60" y="34.6" class="st0" width="42" height="3.4"/>
+		<rect id="Background_7_" x="60" y="45.1" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_12_" x="60" y="50.9" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_2_" x="60" y="56.6" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_1_" x="60" y="62.4" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_4_" x="60" y="68.2" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_3_" x="60" y="73.9" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_15_" x="60" y="79.7" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_14_" x="60" y="85.4" class="st1" width="52.8" height="3.4"/>
+		<rect id="Background_13_" x="60" y="91.2" class="st1" width="52.8" height="3.4"/>
+	</g>
+	<rect id="Background" x="7.2" y="24" class="st1" width="48" height="72"/>
+	<rect id="Background_5_" x="12" y="78" class="st2" width="10.3" height="13.2"/>
+	<rect id="Background_6_" x="26.2" y="78" class="st2" width="10.3" height="13.2"/>
+	<rect id="Background_8_" x="40.1" y="78" class="st2" width="10.3" height="13.2"/>
+</g>
+<path class="st3" d="M36.5,51.4v10.3H26.2V51.4H36.5 M36.5,49.9H26.2c-0.7,0-1.4,0.7-1.4,1.4v10.3c0,0.7,0.7,1.4,1.4,1.4h10.3
+	c0.7,0,1.4-0.7,1.4-1.4V51.4C37.9,50.6,37.4,49.9,36.5,49.9z M33.1,56.4L31,59.3l-1.7-1.7l-2.2,2.9H36
+	C35.8,60.2,33.1,56.4,33.1,56.4z"/>
+</svg>

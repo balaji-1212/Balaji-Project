@@ -1,0 +1,55 @@
+button.collapse-sidebar.button .collapse-sidebar-arrow:before {
+    left: auto;
+    right: -4px;
+    transform: none;
+}
+
+button.collapse-sidebar.button .collapse-sidebar-arrow:hover:before {
+    transform: rotate(-45deg);
+}
+
+#customize-save-button-wrapper {
+    right: auto;
+    left: 17px;
+}
+
+#customize-footer-actions .collapse-sidebar.button {
+    left: auto;
+    right: 2px;
+}
+
+.customize-controls-close {
+    float: left;
+    margin-right: 0;
+    margin-left: -13px;
+}
+
+#customize-outer-theme-controls .accordion-section-title:after, #customize-theme-controls .accordion-section-title:after {
+    right: auto;
+    left: 18px;
+}
+
+.collapsed #customize-footer-actions .collapse-sidebar.button {
+    left: auto;
+    right: 100%;
+}
+
+/* select2 */
+.wp-customizer .select2-container .select2-selection--single, .wp-customizer select {
+    background-position: 12px 50%;
+}
+
+/* kirki fields */
+.customize-control-kirki-toggle label .description {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.wp-picker-container .wp-color-result.button {
+    padding: 0 0 0 30px;
+}
+
+.customize-control-kirki-slider .wrapper input[type=text] {
+    margin-left: 0;
+    margin-right: 10px;
+}

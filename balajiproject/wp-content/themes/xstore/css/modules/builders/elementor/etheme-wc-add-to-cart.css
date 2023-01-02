@@ -1,0 +1,36 @@
+.etheme-wc-add-to-cart-wrapper .added_to_cart {
+  display: none;
+}
+.etheme-wc-add-to-cart-wrapper .single_add_to_cart_button:before {
+  display: none;
+}
+.etheme-wc-add-to-cart-wrapper .single_add_to_cart_button.button,
+.etheme-wc-add-to-cart-wrapper .quantity {
+  margin: 0;
+  vertical-align: middle;
+}
+.etheme-wc-add-to-cart-wrapper .quantity {
+  float: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.etheme-wc-add-to-cart-wrapper .single_add_to_cart_button,
+.etheme-wc-add-to-cart-wrapper .btn {
+  height: auto;
+}
+.etheme-wc-add-to-cart-wrapper .add_to_cart_button .et-loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 0;
+}
+.etheme-wc-add-to-cart-wrapper .add_to_cart_button .loader-circular {
+  left: calc(50% - 15px);
+  top: calc(50% - 15px);
+  bottom: auto;
+  margin: 0;
+}
+.etheme-wc-add-to-cart-wrapper .add_to_cart_button.loading {
+  color: transparent !important;
+}

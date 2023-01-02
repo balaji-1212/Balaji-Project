@@ -1,0 +1,117 @@
+/*===================================
+=            Single Post            =
+===================================*/
+.single-post .wp-picture img {
+  width: 100%;
+}
+.single-post .entry-content > blockquote:last-child {
+  margin-bottom: 25px;
+}
+.share-post {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 0;
+  border-top: 1px solid var(--et_border-color);
+  border-bottom: 1px solid var(--et_border-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 3.5em;
+}
+.share-post span {
+  margin-bottom: 0;
+}
+.share-post .share-title,
+.portfolio-single-item .share-title {
+  display: none;
+  color: var(--et_dark-2-white);
+}
+.author-info {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 2.7vw;
+  font-size: 1.14rem;
+  overflow: hidden;
+}
+.author-info img {
+  margin-right: 2.5em;
+  max-width: 100px;
+}
+.author-info .title-alt {
+  display: none;
+}
+.author-info .author-link {
+  color: var(--et_active-color);
+  margin-top: 1.05em;
+  display: block;
+}
+.post-password-form label {
+  margin-bottom: 0;
+}
+.post-password-form input {
+  vertical-align: middle;
+  margin-top: 6px;
+}
+.post-password-form input[type=submit] {
+  background-color: var(--et_btn-dark-bg-color);
+  border: 1px solid var(--et_btn-dark-br-color);
+  color: var(--et_btn-dark-color);
+  -webkit-text-fill-color: currentColor;
+}
+.post-password-form input[type=submit]:hover {
+  background-color: var(--et_btn-dark-bg-color-hover);
+  border-color: var(--et_btn-dark-br-color-hover);
+  color: var(--et_btn-dark-color-hover);
+}
+.related-posts .post-categories,
+.related-posts .more-link,
+.related-posts .featured-quote {
+  display: none;
+}
+.et_post-slider {
+  margin-bottom: 25px;
+}
+.et_post-slider .swiper-slide {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  opacity: 1;
+}
+.et_post-slider .swiper-slide img {
+  width: 100%;
+}
+.et_post-slider .swiper-slide:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+@media only screen and (max-width: 992px) {
+  .single-post .wp-picture + .post-heading {
+    margin-top: 22px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .share-post {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+  }
+  .comments .title-alt,
+  .about-author-title,
+  .related-posts .title,
+  .comment-reply-title {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .single-essential_grid .share-post {
+    width: 100%;
+  }
+}
+/*-----  End of Single Post  ------*/
+.author-info img {
+  margin-right: 0;
+  margin-left: 2.5em;
+}

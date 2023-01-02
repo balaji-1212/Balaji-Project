@@ -1,0 +1,52 @@
+.cmb-type-tabs .ui-widget-header {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.cmb-type-tabs .ui-tabs .ui-tabs-panel {
+    padding: 1.8em 0 0;
+}
+
+.cmb-type-tabs .ui-widget-content {
+    border-radius: 0;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.cmb-type-tabs .ui-tabs .ui-tabs-nav li {
+    float: none;
+    border: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: no-repeat;
+    display: inline-block;
+}
+
+.cmb-type-tabs .ui-tabs .ui-tabs-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    border: 1px solid #e1e1e1;
+}
+
+.cmb-type-tabs .ui-tabs .ui-tabs-nav .ui-state-active .ui-tabs-anchor,
+.cmb-type-tabs .ui-tabs .ui-tabs-nav li:hover .ui-tabs-anchor {
+    background: var(--et_admin_main-color, #A4004F);
+    color: #fff;
+}
+
+.cmb-type-tabs .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: none;
+    display: inline-block;
+    padding: 10px 22px;
+    text-decoration: none;
+    color: var(--et_admin_grey-color, #888);
+    transition: all .3s linear;
+    box-shadow: none;
+}

@@ -1,0 +1,48 @@
+.toggles-by-arrow .open-child {
+  width: 1em;
+  height: 1em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.toggles-by-arrow .open-child::before {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.toggles-by-arrow .open-child::after {
+  left: calc(50% - .18em);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.toggles-by-arrow .open-child:before,
+.toggles-by-arrow .open-child:after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: currentColor;
+}
+.toggles-by-arrow .over > a .open-child:before,
+.toggles-by-arrow .active:not(li) > a .open-child:before,
+.toggles-by-arrow li.et-active > a .open-child:before {
+  left: 5%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  width: 40%;
+}
+.toggles-by-arrow .over > a .open-child:after,
+.toggles-by-arrow .active:not(li) > a .open-child:after,
+.toggles-by-arrow li.et-active > a .open-child:after {
+  left: 45%;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  width: 40%;
+}

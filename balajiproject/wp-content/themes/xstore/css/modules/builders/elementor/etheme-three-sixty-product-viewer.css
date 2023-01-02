@@ -1,0 +1,268 @@
+.etheme-360-product-viewer-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.etheme-360-product-viewer-wrapper.loading .etheme-360-product-viewer-images {
+  opacity: 0;
+  visibility: hidden;
+}
+.etheme-360-product-viewer-images {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.etheme-360-product-viewer-images img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: auto;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.etheme-360-product-viewer-images img.previous-image {
+  visibility: hidden;
+}
+.etheme-360-product-viewer-images:after {
+  content: '';
+  background: var(--overlay-color);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.etheme-360-product-viewer-progress-label {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 60px;
+}
+.etheme-360-product-viewer-progress-bar {
+  display: none;
+}
+.etheme-360-product-viewer-progress-label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #e1e1e1;
+  border-radius: 50%;
+  border-right-color: #888;
+  -webkit-animation: etheme-360-product-viewer-rotation 0.7s infinite linear;
+          animation: etheme-360-product-viewer-rotation 0.7s infinite linear;
+}
+.etheme-360-product-viewer-nav span,
+.etheme-360-product-viewer-full-screen-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.14rem;
+  padding: 0.55em;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+.etheme-360-product-viewer-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: calc(var(--nav-space, 10px) / -2);
+  right: calc(var(--nav-space, 10px) / -2);
+  bottom: 10px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-animation: etheme-360-product-viewer-navigation 0.3s linear;
+          animation: etheme-360-product-viewer-navigation 0.3s linear;
+}
+.etheme-360-product-viewer-nav span {
+  margin: 0 calc(var(--nav-space, 10px) / 2);
+}
+.etheme-360-product-viewer-nav span svg {
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.etheme-360-product-viewer-nav span:not(.disabled):hover svg {
+  opacity: 0.7;
+}
+.etheme-360-product-viewer-nav-play:hover svg,
+.etheme-360-product-viewer-nav-stop:hover svg {
+  -webkit-animation: etheme-360-product-viewer-btt 0.4s forwards;
+          animation: etheme-360-product-viewer-btt 0.4s forwards;
+}
+.etheme-360-product-viewer-nav-previous:hover svg {
+  -webkit-animation: etheme-360-product-viewer-rtl 0.4s forwards;
+          animation: etheme-360-product-viewer-rtl 0.4s forwards;
+}
+.etheme-360-product-viewer-nav-next:hover svg {
+  animation: etheme-360-product-viewer-rtl 0.4s reverse;
+}
+.etheme-360-product-viewer-nav .disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.etheme-360-product-viewer-full-screen-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-animation: etheme-360-product-viewer-scaleIn 0.3s linear;
+          animation: etheme-360-product-viewer-scaleIn 0.3s linear;
+}
+@-webkit-keyframes etheme-360-product-viewer-rotation {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes etheme-360-product-viewer-rotation {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes etheme-360-product-viewer-navigation {
+  0% {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes etheme-360-product-viewer-navigation {
+  0% {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@-webkit-keyframes etheme-360-product-viewer-scaleIn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes etheme-360-product-viewer-scaleIn {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@-webkit-keyframes etheme-360-product-viewer-btt {
+  49% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@keyframes etheme-360-product-viewer-btt {
+  49% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes etheme-360-product-viewer-rtl {
+  49% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}
+@keyframes etheme-360-product-viewer-rtl {
+  49% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  51% {
+    opacity: 1;
+  }
+}

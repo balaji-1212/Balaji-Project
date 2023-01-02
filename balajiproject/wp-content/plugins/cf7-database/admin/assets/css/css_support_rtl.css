@@ -1,0 +1,30 @@
+.cf7d-table-setting .cf7d-switch-wrap {
+	overflow: unset;
+}
+
+[dir=rtl] .ant-select-dropdown {
+	right: unset;
+}
+
+[dir=rtl] .ant-popover {
+	right: unset;
+}
+
+[dir=rtl] .cf7d-pagination-header-wrap .anticon-right,
+[dir=rtl] .cf7d-pagination-header-wrap .anticon-left,
+[dir=rtl] .cf7d-pagination-footer-wrap .anticon-right,
+[dir=rtl] .cf7d-pagination-footer-wrap .anticon-left
+{
+	transform: rotate(184deg);
+}
+
+[dir=rtl] .cf7d-table-content-row i.anticon-right {
+	transform: rotate(184deg) !important;
+	margin-top: -7px;
+}
+[dir=rtl] .cf7d-pagination-footer-wrap .anticon-double-right,
+[dir=rtl] .cf7d-pagination-header-wrap .anticon-double-right,
+[dir=rtl] .cf7d-pagination-header-wrap .anticon-double-left,
+[dir=rtl] .cf7d-pagination-footer-wrap .anticon-double-left {
+	transform: rotate(184deg) !important;
+}

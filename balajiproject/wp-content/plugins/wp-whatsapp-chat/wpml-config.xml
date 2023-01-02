@@ -1,0 +1,25 @@
+<wpml-config>
+    <admin-texts>
+        <key name="qlwapp">
+            <key name="box">
+                <key name="header"></key>
+                <key name="footer"></key>
+                <key name="response"></key>
+            </key> 
+            <key name="button">
+                <key name="text"></key>
+                <key name="phone"></key>
+            </key>
+            <key name="user">
+                <key name="message"></key>
+            </key>
+            <key name="contacts">
+                <key name="*">
+                    <key name="label"></key>
+                    <key name="phone"></key>
+                    <key name="message"></key>
+                </key>
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>

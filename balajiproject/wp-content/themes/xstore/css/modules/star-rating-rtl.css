@@ -1,0 +1,36 @@
+#review_form .stars a {
+  display: inline-block;
+  font-size: 0;
+  margin-right: 15px;
+}
+#review_form .stars a:before {
+  content: '\e930d';
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+#review_form .stars a.star-2:before {
+  content: '\e930d \e930d';
+}
+#review_form .stars a.star-3:before {
+  content: '\e930d \e930d \e930d';
+}
+#review_form .stars a.star-4:before {
+  content: '\e930d \e930d \e930d \e930d ';
+}
+#review_form .stars a.star-5:before {
+  content: '\e930d \e930d \e930d \e930d \e930d';
+}
+#review_form .stars a:before {
+  font-size: 1rem;
+  font-family: 'xstore-icons';
+  color: var(--et_border-color);
+  -webkit-text-fill-color: currentColor;
+}
+#review_form .stars a.active:before,
+#review_form .stars a:hover:before {
+  color: var(--et_yellow-color);
+  -webkit-text-fill-color: currentColor;
+}
+.star-rating {
+  width: 85px;
+}

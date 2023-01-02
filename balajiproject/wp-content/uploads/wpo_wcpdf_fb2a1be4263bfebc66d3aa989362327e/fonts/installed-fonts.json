@@ -1,0 +1,26 @@
+{
+    "open sans": {
+        "normal": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/OpenSans-Normal",
+        "bold": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/OpenSans-Bold",
+        "italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/OpenSans-Italic",
+        "bold_italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/OpenSans-BoldItalic"
+    },
+    "segoe": {
+        "normal": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/Segoe-Normal",
+        "bold": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/Segoe-Bold",
+        "italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/Segoe-Italic",
+        "bold_italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/Segoe-BoldItalic"
+    },
+    "roboto slab": {
+        "normal": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/RobotoSlab-Normal",
+        "bold": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/RobotoSlab-Bold",
+        "italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/RobotoSlab-Italic",
+        "bold_italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/RobotoSlab-BoldItalic"
+    },
+    "currencies": {
+        "normal": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/currencies",
+        "bold": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/currencies",
+        "italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/currencies",
+        "bold_italic": "\/home1\/zaroilyf\/vinumano.com\/wp-content\/uploads\/wpo_wcpdf_fb2a1be4263bfebc66d3aa989362327e\/fonts\/currencies"
+    }
+}

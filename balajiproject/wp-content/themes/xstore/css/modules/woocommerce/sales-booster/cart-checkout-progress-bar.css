@@ -1,0 +1,82 @@
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  cursor: default;
+  background: 0 0;
+  color: var(--et_dark-2-white);
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress:not([data-percent-sold="100"]) .et-cart-progress-success,
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress[data-percent-sold="100"] .et-cart-in-progress {
+  display: none;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress .et_cart-progress-bar {
+  position: relative;
+  width: 100%;
+  height: 12px;
+  text-align: start;
+  background-color: var(--et_border-color);
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.7) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.7) 75%, transparent 75%, transparent);
+  background-size: 30px 30px;
+  animation: progress-bar-move 2s linear infinite reverse;
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress .et_cart-progress-bar::-webkit-progress-bar {
+  background: 0 0;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress .et_cart-progress-bar::-webkit-progress-value {
+  display: block;
+  height: 100%;
+  background-color: var(--et_green-color);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress > span {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress .et_b-icon {
+  width: auto;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress svg {
+  vertical-align: middle;
+  font-size: 1.2em;
+}
+.etheme_sales_booster_progress_bar_shortcode .et-cart-progress .et-cart-progress-amount {
+  font-size: 114%;
+  font-weight: 600;
+}
+@-webkit-keyframes progress-bar-move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
+}
+@keyframes progress-bar-move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 30px 30px;
+  }
+}

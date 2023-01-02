@@ -1,0 +1,184 @@
+.etheme-image-comparison {
+  position: relative;
+  overflow: hidden;
+  cursor: col-resize;
+}
+.etheme-image-comparison-img {
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  max-width: none;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  top: 0;
+  display: block;
+}
+.etheme-image-comparison-img-a {
+  height: auto;
+  position: static;
+  z-index: 1;
+  left: 0;
+}
+.etheme-image-comparison-img-b {
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  left: auto;
+  right: 0;
+  width: auto;
+}
+.etheme-image-comparison img {
+  height: 100%;
+  max-width: inherit;
+}
+.etheme-image-comparison-overlay {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--overlay-color, rgba(0, 0, 0, 0.15));
+}
+.etheme-image-comparison-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100% !important;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 3;
+}
+.etheme-image-comparison-control {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  top: 0;
+  z-index: 3;
+}
+.etheme-image-comparison-control-line {
+  height: 50%;
+  width: 2px;
+}
+.etheme-image-comparison-theme-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -webkit-transition: all 0.1s ease-out 0s;
+  transition: all 0.1s ease-out 0s;
+}
+.etheme-image-comparison-arrows-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: inherit;
+  -webkit-box-direction: inherit;
+      -ms-flex-direction: inherit;
+          flex-direction: inherit;
+  background-color: var(--divider-bg-color, #2962FF);
+  font-size: var(--divider-arrows-size, 1rem);
+  color: var(--divider-arrows-color, #fff);
+  width: var(--divider-width, 45px);
+  height: var(--divider-height, 45px);
+  border-radius: var(--divider-radius, 0);
+}
+.etheme-image-comparison-arrows-wrapper span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.etheme-image-comparison-arrow-a {
+  -webkit-transform: scale(1.5) rotateZ(180deg);
+          transform: scale(1.5) rotateZ(180deg);
+  height: 20px;
+  width: 20px;
+  -webkit-filter: drop-shadow(0 -3px 5px rgba(0, 0, 0, 0.33));
+          filter: drop-shadow(0 -3px 5px rgba(0, 0, 0, 0.33));
+}
+.etheme-image-comparison-arrow-b {
+  -webkit-transform: scale(1.5) rotateZ(0deg);
+          transform: scale(1.5) rotateZ(0deg);
+  height: 20px;
+  width: 20px;
+  -webkit-filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.33));
+          filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.33));
+}
+.etheme-image-comparison-label {
+  position: absolute;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #000;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  padding: 7px 15px;
+  border-radius: 3px;
+  z-index: 3;
+}
+.etheme-image-comparison-label-before {
+  margin-top: var(--labels-v-offset, 0);
+  margin-bottom: var(--labels-v-offset, 0);
+  left: var(--labels-h-offset, 0);
+}
+.etheme-image-comparison-label-after {
+  margin-top: var(--labels-v-offset, 0);
+  margin-bottom: var(--labels-v-offset, 0);
+  right: var(--labels-h-offset, 0);
+}
+.etheme-image-comparison-label.on-hover {
+  opacity: 0;
+  -webkit-transition: 0.25s cubic-bezier(0.68, 0.26, 0.58, 1.22);
+  transition: 0.25s cubic-bezier(0.68, 0.26, 0.58, 1.22);
+}
+.etheme-image-comparison:hover .etheme-image-comparison-label.on-hover {
+  opacity: 1;
+}
+.etheme-image-comparison-labels-top .etheme-image-comparison-label {
+  top: 0;
+}
+.etheme-image-comparison-labels-bottom .etheme-image-comparison-label {
+  bottom: 0;
+}
+.etheme-image-comparison-body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}

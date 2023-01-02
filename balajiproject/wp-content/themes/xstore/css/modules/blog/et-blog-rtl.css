@@ -1,0 +1,185 @@
+.et-blog {
+  -webkit-animation: fadeIn 0.7s linear;
+          animation: fadeIn 0.7s linear;
+}
+.et-blog .post-grid {
+  clear: none !important;
+}
+.et-blog .post-grid.content-timeline,
+.et-blog .post-grid.content-small,
+.et-blog .post-grid.content-chess {
+  padding-left: 0;
+  padding-right: 0;
+}
+.et-blog .post-grid:not(.content-timeline) {
+  width: 50%;
+}
+.et-blog .post-grid .content-article,
+.et-blog .post-grid.content-small,
+.et-blog .post-grid.content-chess {
+  width: 100%;
+  float: none;
+}
+.et-blog .post-grid.content-mosaic > div {
+  border: none;
+}
+.et-blog .post-grid.content-mosaic > div h6.active,
+.et-blog .post-grid.content-mosaic > div h2,
+.et-blog .post-grid.content-mosaic > div .meta-post,
+.et-blog .post-grid.content-mosaic > div .content-article {
+  padding-left: 0;
+  padding-right: 0;
+}
+.et-blog .post-grid:nth-child(even):not(:first-of-type) {
+  clear: both !important;
+}
+.et-blog .post-grid:first-child {
+  width: 100%;
+}
+.et-blog .post-grid:first-child .more-link {
+  display: inline-block;
+}
+.et-blog .post-grid:first-child .author-info {
+  display: none;
+}
+.et-blog .post-grid .wp-picture,
+.et-blog .post-grid .post-gallery-slider,
+.et-blog .post-grid .featured-audio {
+  width: 100%;
+}
+.et-blog .post-grid.format-quote blockquote {
+  margin-bottom: 0;
+}
+.et-blog .post-grid.format-quote blockquote p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.et-blog .post-grid.format-quote blockquote cite {
+  font-style: italic;
+  color: var(--et_main-color);
+  font-size: 18px;
+}
+.et-blog .post-grid > div {
+  border: none;
+}
+.et-blog .post-grid > div:after {
+  display: none;
+}
+.et-blog .post-grid > div .content-article,
+.et-blog .post-grid > div .meta-post,
+.et-blog .post-grid > div h2,
+.et-blog .post-grid > div h6 {
+  padding: 0;
+}
+.et-blog .post-grid.byline-on {
+  padding-top: 0;
+}
+.et-blog .posts-small {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+.et-blog .posts-small .post-grid {
+  margin-bottom: 0;
+  border-top: 1px solid var(--et_border-color);
+  width: 48%;
+}
+.et-blog .posts-small .post-grid > div {
+  padding: 40px 0;
+  width: 100%;
+  display: inline-block;
+}
+.et-blog .posts-small .post-grid h2 {
+  line-height: 10px;
+}
+.et-blog .posts-small .post-grid h2 a {
+  font-size: 18px;
+  line-height: 28px;
+}
+.et-blog .posts-small .post-grid .meta-post {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.et-blog .posts-small .post-grid:nth-child(3n+1) {
+  clear: none;
+}
+.et-blog .posts-small .post-grid:nth-child(2n+1) {
+  clear: both !important;
+}
+.et-blog .posts-small .post-grid:nth-child(even) {
+  clear: none !important;
+}
+.et-blog .posts-small .posts-small .post-gallery-slider,
+.et-blog .posts-small .wp-picture {
+  width: 80px;
+  height: 80px;
+  display: block;
+  overflow: hidden;
+}
+.et-blog .posts-small .posts-small .post-gallery-slider img,
+.et-blog .posts-small .wp-picture img {
+  max-width: 100%;
+  width: auto;
+}
+.et-blog .posts-small .wp-picture {
+  margin-bottom: 0;
+}
+.et-blog .posts-small .posts-small .author-info,
+.et-blog .posts-small .wp-picture .zoom,
+.et-blog .posts-small .wp-picture .post-categories,
+.et-blog .posts-small .content-article,
+.et-blog .posts-small .format-quote .content-article > p {
+  display: none;
+}
+.et-blog .posts-small .format-quote .content-article {
+  display: table-cell;
+}
+.et-blog .posts-small .format-quote .content-article blockquote p {
+  font-size: 18px;
+  line-height: 26px;
+}
+.et-blog .author-info {
+  color: var(--et_dark-color);
+  font-size: 1rem;
+}
+@media only screen and (max-width: 480px) {
+  .et-blog .post-grid:not(.content-timeline) {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+}
+.et-blog .post-grid {
+  margin-right: 0;
+}
+.et-blog .post-grid:nth-child(even):not(:first-of-type) {
+  padding-right: 0;
+}
+.et-blog .post-grid:first-child {
+  padding-right: 0;
+}
+.et-blog .post-grid:nth-child(odd) {
+  padding-left: 0;
+}
+.et-blog .post-grid:nth-child(even) {
+  padding-right: 0;
+}
+.et-blog .posts-small .post-grid:nth-child(odd) {
+  margin-left: 2%;
+  padding-right: 0;
+}
+.et-blog .posts-small .posts-small .post-gallery-slider,
+.et-blog .posts-small .wp-picture {
+  float: right;
+  margin-left: 20px;
+}
+.et-blog .posts-small .format-quote .content-article blockquote {
+  padding-top: 0;
+  padding-right: 0;
+  border-right: none;
+}
+@media only screen and (max-width: 992px) {
+  .et-blog .post-grid:not(.content-timeline) {
+    float: right;
+  }
+}

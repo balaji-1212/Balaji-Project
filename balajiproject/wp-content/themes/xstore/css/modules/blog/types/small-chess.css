@@ -1,0 +1,147 @@
+/* Small */
+article.content-small,
+article.content-chess {
+  width: 100%;
+  display: inline-block;
+}
+article.content-small > div,
+article.content-chess > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+article.content-small > div .post-data,
+article.content-chess > div .post-data {
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+article.content-small .wp-picture,
+article.content-chess .wp-picture,
+article.content-small .post-gallery-slider,
+article.content-chess .post-gallery-slider,
+article.content-small .featured-audio,
+article.content-chess .featured-audio,
+article.content-small .featured-video,
+article.content-chess .featured-video,
+article.content-small .et_post-slider,
+article.content-chess .et_post-slider {
+  float: left;
+  width: 50%;
+  margin-right: 30px;
+}
+article.content-small .wp-picture img,
+article.content-chess .wp-picture img,
+article.content-small .post-gallery-slider img,
+article.content-chess .post-gallery-slider img,
+article.content-small .featured-audio img,
+article.content-chess .featured-audio img,
+article.content-small .featured-video img,
+article.content-chess .featured-video img,
+article.content-small .et_post-slider img,
+article.content-chess .et_post-slider img {
+  width: 100%;
+}
+article.content-small .wp-picture,
+article.content-chess .wp-picture,
+article.content-small .et_post-slider,
+article.content-chess .et_post-slider {
+  margin-bottom: 0;
+}
+article.content-small .content-article,
+article.content-chess .content-article,
+article.content-small .author-info,
+article.content-chess .author-info {
+  width: 100%;
+}
+article.content-small:not(.has-post-thumbnail) .content-article,
+article.content-chess:not(.has-post-thumbnail) .content-article {
+  width: 100%;
+}
+.content-chess:nth-child(even) > div {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.content-chess:nth-child(even) .wp-picture,
+.content-chess:nth-child(even) .post-gallery-slider,
+.content-chess:nth-child(even) .featured-audio,
+.content-chess:nth-child(even) .featured-video,
+.content-chess:nth-child(even) .et_post-slider {
+  float: right;
+  margin-right: 0;
+  margin-left: 30px;
+}
+@media only screen and (min-width: 993px) {
+  article.content-small .wp-picture,
+  article.content-chess .wp-picture,
+  article.content-small .post-data,
+  article.content-chess .post-data {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+  article.content-small .wp-picture,
+  article.content-chess .wp-picture,
+  article.content-small .featured-audio,
+  article.content-chess .featured-audio {
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  article.content-small > div,
+  article.content-chess > div {
+    display: inline-block;
+  }
+  article.content-small .wp-picture,
+  article.content-chess .wp-picture,
+  article.content-small .post-gallery-slider,
+  article.content-chess .post-gallery-slider,
+  article.content-small .content-article,
+  article.content-chess .content-article,
+  article.content-small .featured-audio,
+  article.content-chess .featured-audio,
+  article.content-small .featured-video,
+  article.content-chess .featured-video,
+  article.content-small .author-info,
+  article.content-chess .author-info,
+  article.content-small .et_post-slider,
+  article.content-chess .et_post-slider {
+    width: 100%;
+    float: none;
+  }
+  article.content-small > div .post-data,
+  article.content-chess > div .post-data,
+  article.content-small.format-video .content-article,
+  article.content-chess.format-video .content-article {
+    width: 100%;
+  }
+  article.content-small .wp-picture,
+  article.content-chess .wp-picture,
+  article.content-small .et_post-slider,
+  article.content-chess .et_post-slider {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  article.content-small,
+  article.content-chess {
+    margin-bottom: 30px;
+  }
+  article.content-small .wp-picture,
+  article.content-chess .wp-picture,
+  article.content-small .post-gallery-slider,
+  article.content-chess .post-gallery-slider,
+  article.content-small .author-info,
+  article.content-chess .author-info {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}

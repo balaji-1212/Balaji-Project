@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="120" height="120" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C1C1C1;}
+	.st1{fill:#E1E1E1;}
+	.st2{enable-background:new    ;}
+	.st3{fill:#888888;}
+</style>
+<g>
+	<g>
+		<rect id="Background_10_" x="72" y="34.8" class="st0" width="26.2" height="3.4"/>
+		<rect id="Background_11_" x="72" y="40.6" class="st0" width="32.4" height="3.4"/>
+		<rect id="Background_7_" x="72" y="51.1" class="st1" width="40.8" height="3.4"/>
+		<rect id="Background_12_" x="72" y="56.9" class="st1" width="40.8" height="3.4"/>
+		<rect id="Background_2_" x="72" y="62.6" class="st1" width="40.8" height="3.4"/>
+		<rect id="Background_1_" x="72" y="68.4" class="st1" width="40.8" height="3.4"/>
+		<rect id="Background_4_" x="72" y="74.2" class="st1" width="40.8" height="3.4"/>
+		<rect id="Background_3_" x="72" y="79.9" class="st1" width="40.8" height="3.4"/>
+		<rect id="Background_9_" x="72" y="85.7" class="st1" width="40.8" height="3.4"/>
+	</g>
+	<rect id="Background" x="25" y="30" class="st1" width="42.2" height="60"/>
+	<g class="st2">
+		<rect id="Background_5_" x="7.2" y="30" class="st1" width="13" height="16.8"/>
+		<rect id="Background_6_" x="7.2" y="51.6" class="st1" width="13" height="16.8"/>
+		<rect id="Background_8_" x="7.2" y="73.2" class="st1" width="13" height="16.8"/>
+	</g>
+</g>
+<path class="st3" d="M51.4,54.7V65H41V54.7H51.4 M51.4,53.3H41c-0.7,0-1.4,0.7-1.4,1.4V65c0,0.7,0.7,1.4,1.4,1.4h10.3
+	c0.7,0,1.4-0.7,1.4-1.4V54.7C52.8,54,52.3,53.3,51.4,53.3z M48,59.8l-2.2,2.9l-1.7-1.9L42,63.6h8.9C50.6,63.6,48,59.8,48,59.8z"/>
+</svg>

@@ -1,0 +1,105 @@
+/* et-message */
+.et-message,
+div.et-message {
+    padding-right: 35px;
+    padding-left: 15px;
+}
+
+.et-message:before {
+    left: auto;
+    right: 15px;
+}
+
+/* Dashboard */
+
+.etheme-page-header p {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.etheme-page-nav ul li {
+    float: right;
+}
+.et-nav-menu:before,
+.et-nav-portfolio:before,
+.et-nav-speed:before,
+.et-nav-general:before,
+.et-nav-support:before,
+.et-nav-documentation:before {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.etheme-purchase span {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+/* columns */
+
+.et-col-7, .et-col-5 {
+    float: right;
+}
+
+.et-col-7:after {
+    right: auto;
+    left: 0;
+}
+
+/* filters */
+.engine-filter svg {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/* demos */
+
+.import-additional-pages .page-preview {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/* tutorials */
+
+.support-includes li:before {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.support-blocks li {
+	float: right;
+}
+
+/* changelog */
+.version-update h4 {
+    float: right;
+}
+
+@media only screen and (max-width: 992px) {
+	.etheme-page-nav ul li a.active:after, 
+	.etheme-page-nav ul li a:hover:after {
+	    right: auto;
+	    left: 0;
+	    border-right-color: transparent;
+	    border-left-color: #fff;
+	}
+}
+
+/* et-button */
+.fright {
+	float: left;
+}
+.et-button + .et-button {
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+.activate-note {
+    right: auto;
+    left: 10px;
+}
+
+/* st-preview */
+.sp-preview {
+	float: right;
+}

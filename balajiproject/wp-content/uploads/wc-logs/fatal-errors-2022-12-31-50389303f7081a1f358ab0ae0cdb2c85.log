@@ -1,0 +1,10 @@
+2022-12-31T07:37:07+00:00 CRITICAL Uncaught Error: Call to undefined function WPO\WC\PDF_Invoices\list_files() in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\class-wcpdf-main.php:909
+Stack trace:
+#0 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\class-wcpdf-main.php(882): WPO\WC\PDF_Invoices\Main->temporary_files_cleanup(1671867427)
+#1 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(308): WPO\WC\PDF_Invoices\Main->schedule_temporary_files_cleanup()
+#2 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#4 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-cron.php(188): do_action_ref_array('wp_scheduled_de...', Array)
+#5 {main}
+  thrown in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\class-wcpdf-main.php on line 909
+

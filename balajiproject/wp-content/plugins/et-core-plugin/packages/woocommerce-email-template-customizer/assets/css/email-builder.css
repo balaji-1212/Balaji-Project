@@ -1,0 +1,1669 @@
+@font-face {
+    font-family: 'email-customizer';
+    src: url("fonts/email-customizer.eot?6illk");
+    src: url("fonts/email-customizer.eot?6illk#iefix") format("embedded-opentype"),url("fonts/email-customizer.ttf?6illk") format("truetype"),url("fonts/email-customizer.woff?6illk") format("woff"),url("fonts/email-customizer.svg?6illk#email-customizer") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block
+}
+
+[class^="viwec-ctrl-icon-"],[class*=" viwec-ctrl-icon-"] {
+    font-family: 'email-customizer' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.viwec-ctrl-icon-spacer:before {
+    content: "\e90f"
+}
+
+.viwec-ctrl-icon-1col:before {
+    content: "\e900"
+}
+
+.viwec-ctrl-icon-2cols:before {
+    content: "\e901"
+}
+
+.viwec-ctrl-icon-3cols:before {
+    content: "\e902"
+}
+
+.viwec-ctrl-icon-4cols:before {
+    content: "\e910"
+}
+
+.viwec-ctrl-icon-image:before {
+    content: "\e903"
+}
+
+.viwec-ctrl-icon-divider:before {
+    content: "\e904"
+}
+
+.viwec-ctrl-icon-button:before {
+    content: "\e905"
+}
+
+.viwec-ctrl-icon-order-detail:before {
+    content: "\e906"
+}
+
+.viwec-ctrl-icon-order-detail1:before {
+    content: "\e907"
+}
+
+.viwec-ctrl-icon-billing-address:before {
+    content: "\e908"
+}
+
+.viwec-ctrl-icon-order-total:before {
+    content: "\e909"
+}
+
+.viwec-ctrl-icon-social:before {
+    content: "\e90a"
+}
+
+.viwec-ctrl-icon-footer:before {
+    content: "\e90b"
+}
+
+.viwec-ctrl-icon-product:before {
+    content: "\e90c"
+}
+
+.viwec-ctrl-icon-shipping-address:before {
+    content: "\e90d"
+}
+
+.viwec-ctrl-icon-text:before {
+    content: "\e90e"
+}
+
+.viwec-ctrl-icon-phone:before {
+    content: "\e942"
+}
+
+.viwec-ctrl-icon-address-book:before {
+    content: "\e944"
+}
+
+.viwec-ctrl-icon-menu:before {
+    content: "\e9bd"
+}
+
+.viwec-ctrl-icon-payment-method:before {
+    content: "\e93f"
+}
+
+.viwec-ctrl-icon-order-subtotal:before {
+    content: "\e99a"
+}
+
+.viwec-ctrl-icon-coupon:before {
+    content: "\e911"
+}
+
+.viwec-ctrl-icon-post:before {
+    content: "\e946"
+}
+
+.viwec-ctrl-icon-abandoned-cart:before {
+    content: "\f108"
+}
+
+.viwec-ctrl-icon-order-note:before {
+    content: "\e912"
+}
+
+.viwec-ctrl-icon-hook:before {
+    content: "\e913"
+}
+
+.viwec-ctrl-icon-transfer:before {
+    content: "\e914"
+}
+
+.viwec-ctrl-icon-header:before {
+    content: "\e915"
+}
+
+[class^="viwec-ctrl-icon-"],[class*=" viwec-ctrl-icon-"] {
+    font-size: 30px;
+    color: inherit;
+}
+
+.viwec-get-pro-version {
+    background-color: #00adb5;
+    color: #fff;
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.viwec-get-pro-version:hover {
+    background-color: #00979e;
+    color: #fff
+}
+
+#wpcontent,#wpfooter {
+    padding-left: 0;
+    margin-left: 0
+}
+
+#screen-meta-links,#wpfooter {
+    display: none
+}
+
+.handle-actions .handle-order-higher,.handle-actions .handle-order-lower {
+    display: none
+}
+
+.postbox-header {
+    border: none !important
+}
+
+#wpbody .wrap {
+    margin-left: 0;
+    padding-top: 10px
+}
+
+#message,.notice.notice-warning,.notice.notice-error,.notice.notice-success {
+    position: fixed !important;
+    margin: 0;
+    right: 0;
+    z-index: 1000;
+    border: none;
+    bottom: 0;
+}
+
+#message p,.notice.notice-warning p,.notice.notice-error p,.notice.notice-success p {
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.viwec-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+#wpbody-content {
+    padding: 0
+}
+
+#wpbody-content #post-body-content {
+    margin-top: 52px
+}
+
+#wpbody-content #poststuff {
+    padding-top: 0
+}
+
+#wpbody-content .wrap {
+    margin: 0
+}
+
+#wpbody-content .wrap .viwec-nav-bar {
+    position: fixed;
+    top: 32px;
+    left: 460px;
+    right: 281px;
+    background-color: #fff;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccd0d4;
+    font-size: 0;
+    z-index: 9
+}
+
+#wpbody-content .wrap .viwec-nav-bar a:active,#wpbody-content .wrap .viwec-nav-bar a:focus {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+#wpbody-content .wrap .viwec-nav-bar .viwec-nav-btn {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    line-height: unset;
+    font-size: 14px;
+    color: black;
+    vertical-align: middle;
+    padding: 0 10px
+}
+
+#wpbody-content .wrap .viwec-nav-bar .viwec-nav-btn:hover {
+    background-color: #dddddd
+}
+
+#wpbody-content .wrap .viwec-nav-bar .viwec-nav-btn .dashicons-controls-play {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    margin-top: 9px
+}
+
+#wpbody-content .wrap .viwec-nav-bar .viwec-nav-btn .dashicons {
+    margin-top: 9px
+}
+
+#wpbody-content .wrap .wp-heading-inline {
+    display: none;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    margin-left: 300px;
+    padding: 5px 20px;
+    margin-right: 280px;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc
+}
+
+#wpbody-content .wrap .page-title-action {
+    display: none;
+    float: right;
+    margin-right: 280px;
+    border: none;
+    line-height: 32px;
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+    color: black;
+    top: 1px;
+    padding: 4px 20px
+}
+
+#wpbody-content #postbox-container-1 {
+    position: fixed;
+    top: 32px;
+    right: 0;
+    margin-right: 0 !important;
+    background-color: #fff;
+    height: 100vh;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,0.15),0 0 0 1px rgba(34,36,38,0.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,0.15),0 0 0 1px rgba(34,36,38,0.15);
+    margin-top: -1px;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+#wpbody-content #postbox-container-1 .postbox .hndle,#wpbody-content #postbox-container-1 .stuffbox .hndle {
+    border: none
+}
+
+#wpbody-content #postbox-container-1 .postbox {
+    border: none;
+    border-top: 1px solid #ccd0d4;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 3px;
+    display: none
+}
+
+#wpbody-content #postbox-container-1 #submitdiv {
+    margin: 0
+}
+
+#wpbody-content #postbox-container-1 #submitdiv,#wpbody-content #postbox-container-1 #viwec-email-type,#wpbody-content #postbox-container-1 #viwec-email-rules,#wpbody-content #postbox-container-1 #viwec-email-testing,#wpbody-content #postbox-container-1 #viwec-email-data,#wpbody-content #postbox-container-1 #viwec-email-template-note,
+#wpbody-content #postbox-container-1 #icl_div{
+    display: block
+}
+
+#wpbody-content #postbox-container-1 #viwec-exim-data,#wpbody-content #postbox-container-1 #viwec-admin-note {
+    width: 100%;
+    border-color: #e1e1e1;
+    margin-bottom: 5px;
+    box-shadow: none;
+}
+
+#wpbody-content #postbox-container-2 .postbox,#wpbody-content #postbox-container-2 .postbox-header {
+    display: none
+}
+
+#wpbody-content #postbox-container-2 #viwec-email-builder {
+    display: block
+}
+
+#wpbody-content form#post,#wpbody-content .wp-heading-inline,#wpbody-content #screen-options-wrap {
+    margin-left: 320px;
+    margin-top: -40px
+}
+
+#titlewrap {
+    position: relative;
+    z-index: 99
+}
+
+#titlewrap input#title {
+    border-radius: 0;
+    border: 1px solid #ddd
+}
+
+#titlewrap .viwec-subject-quick-shortcode {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 5px
+}
+
+#titlewrap .viwec-subject-quick-shortcode ul {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: #fff;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px
+}
+
+#titlewrap .viwec-subject-quick-shortcode li {
+    margin: 0
+}
+
+#titlewrap .viwec-subject-quick-shortcode li:hover {
+    background-color: #ddd;
+    cursor: pointer
+}
+
+#viwec-email-builder.postbox {
+    border: none;
+    background-color: transparent;
+    box-shadow: none !important;
+}
+
+#viwec-email-builder.postbox .handlediv,#viwec-email-builder.postbox .hndle.ui-sortable-handle {
+    display: none !important
+}
+
+#viwec-email-builder.postbox .inside {
+    padding: 0;
+    margin: 0
+}
+
+#viwec-email-editor-container {
+    background-color: #fff
+}
+
+#viwec-control-panel {
+    position: fixed;
+    width: 300px;
+    min-width: 300px;
+    top: 32px;
+    left: 160px;
+    height: 100%;
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    z-index: 99
+}
+
+#viwec-control-panel #viwec-components-list {
+    padding-top: 40px
+}
+
+#viwec-control-panel #viwec-components-list ul li:nth-child(odd) .info-content-popup {
+    left: -106px
+}
+
+#viwec-control-panel #viwec-components-list ul li:nth-child(even) .info-content-popup {
+    right: -6px;
+}
+
+#viwec-control-panel #viwec-element-search {
+    position: fixed;
+    z-index: 9;
+    background-color: #fff;
+    padding: 0.5em calc(0.5em + 4px);
+    width: 270px
+}
+
+#viwec-control-panel #viwec-element-search .dashicons.dashicons-search {
+    position: absolute;
+    top: 12px;
+    right: 12px
+}
+
+#viwec-control-panel #viwec-element-search .viwec-search {
+    width: 100%
+}
+
+#viwec-control-panel #viwec-component-name {
+    padding: 0.8em 0.5em;
+    font-weight: bold
+}
+
+#viwec-control-panel input,#viwec-control-panel select {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    box-shadow: none;
+    color: #555;
+}
+
+#viwec-control-panel .vi-ui.menu {
+    font-size: 0.85rem;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-top: none
+}
+
+#viwec-control-panel .vi-ui.menu .item {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 2px solid #e1e1e1;
+    border-radius: 0;
+}
+
+#viwec-control-panel .vi-ui.menu .active.item {
+    border-color: #a4004f;
+    color: #a4004f;
+}
+
+#viwec-control-panel ul {
+    margin: 0
+}
+
+#viwec-control-panel ul li {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 0
+}
+
+#viwec-control-panel ul li .viwec-pro-version .dashicons-lock {
+    position: absolute;
+    left: 10px
+}
+
+#viwec-control-panel ul li .viwec-pro-version .viwec-control-icon,#viwec-control-panel ul li .viwec-pro-version .dashicons-lock {
+    color: #bbb
+}
+
+#viwec-control-panel ul li .viwec-control-btn {
+    margin: 4px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    padding: 10px 0;
+    text-align: center;
+    color: #888;
+    position: relative;
+}
+
+#viwec-control-panel ul li .viwec-control-btn:hover {
+    -webkit-box-shadow: 0px 0px 3px 2px #ddd;
+    box-shadow: 0px 0px 3px 2px #ddd;
+    cursor: pointer;
+    color: #a4004f;
+    border-color: #a4004f
+}
+
+#viwec-control-panel ul li .viwec-control-btn .viwec-control-icon {
+    height: 30px;
+    padding: 10px
+}
+
+#viwec-control-panel ul li .viwec-control-btn .viwec-ctrl-title {
+    color: #222;
+}
+
+#viwec-control-panel ul li .viwec-control-btn:hover .viwec-ctrl-title {
+    color: inherit;
+}
+
+#viwec-control-panel ul li .viwec-control-btn .viwec-unlock-notice {
+    background-color: #00979e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    line-height: 7;
+    border-radius: 2px
+}
+
+#viwec-control-panel ul li .viwec-control-btn .viwec-unlock-notice a {
+    color: #fff
+}
+
+#viwec-control-panel ul li .viwec-control-btn .viwec-unlock-notice:hover {
+    opacity: 0.7
+}
+
+#viwec-control-panel input[type=radio] {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent
+}
+
+#viwec-control-panel input[type=radio]::before {
+    background-color: transparent;
+    border: 1px solid #a4004f;
+    width: 18px;
+    height: 18px;
+    border-radius: unset;
+    margin: 2px 0 0 -2px;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+#viwec-control-panel .viwec-col-4 {
+    width: 25%
+}
+
+#viwec-control-panel .viwec-col-8 {
+    width: 50%
+}
+
+#viwec-control-panel .viwec-col-16 {
+    width: 100%
+}
+
+#viwec-control-panel .viwec-col-16 .viwec-form-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#viwec-control-panel .viwec-col-16 .viwec-form-group label.viwec-control-label {
+    width: 50%;
+    #fff-space: normal }
+
+#viwec-control-panel .viwec-col-16 .viwec-form-group div.input {
+    width: 50%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+#viwec-control-panel [class^="viwec-col-"],#viwec-control-panel [class*=" viwec-col-"] {
+    vertical-align: top
+}
+
+#viwec-control-panel .viwec-inline-block {
+    display: inline-block;
+    vertical-align: bottom
+}
+
+#viwec-control-panel .viwec-inline-block .form-control {
+    width: 100%;
+    border-radius: 3px;
+}
+
+#viwec-control-panel .viwec-inline-block input {
+    border-radius: 0;
+}
+
+#viwec-control-panel .viwec-inline-block input:focus {
+    box-shadow: none;
+}
+
+#viwec-control-panel .viwec-inline-block input[type=number] {
+    padding-right: 0;
+}
+
+#viwec-control-panel .viwec-control-label {
+    #fff-space: nowrap }
+
+#viwec-control-panel .viwec-quick-shortcode {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #fff;
+    color: #999
+}
+
+#viwec-control-panel .viwec-quick-shortcode-list {
+    position: absolute;
+    right: -1px;
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    z-index: 99;
+    display: none
+}
+
+#viwec-control-panel .viwec-quick-shortcode-list:hover {
+    cursor: pointer
+}
+
+#viwec-control-panel .viwec-quick-shortcode-list li {
+    width: 100%
+}
+
+#viwec-control-panel .viwec-group-name {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+#viwec-control-panel .viwec-form-group {
+    position: relative;
+    margin-right: 3px;
+    margin-bottom: 10px
+}
+
+#viwec-control-panel .viwec-form-group .input {
+    padding-top: 3px;
+    position: relative
+}
+
+#viwec-control-panel .viwec-form-group .input .iris-picker {
+    position: absolute;
+    z-index: 99
+}
+
+#viwec-control-panel .viwec-form-group .input input[type=checkbox] {
+    width: 1rem;
+    float: right;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-right: 0
+}
+
+#viwec-control-panel .viwec-form-group span.select2.select2-container.select2-container--default {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    margin-left: 1px
+}
+
+#viwec-control-panel .viwec-form-group span.select2.select2-container.select2-container--default .select2-selection.select2-selection--single {
+    border: none
+}
+
+#viwec-control-panel .viwec-form-group span.select2.select2-container.select2-container--default ul.select2-selection__rendered {
+    padding: 0;
+    margin-bottom: -3px
+}
+
+#viwec-control-panel .viwec-form-group span.select2.select2-container.select2-container--default ul.select2-selection__rendered li.select2-selection__choice {
+    margin: 3px;
+    width: auto
+}
+
+#viwec-control-panel .viwec-form-group span.select2.select2-container.select2-container--default ul.select2-selection__rendered input.select2-search__field {
+    margin: 0;
+    border: none;
+    padding-left: 3px
+}
+
+#viwec-control-panel [data-section=sample] select.viwec-samples {
+    width: 100%;
+    margin-bottom: 8px;
+    border-color: #e1e1e1
+}
+
+#viwec-control-panel [data-section=sample] ul {
+    margin: 4px
+}
+
+#viwec-control-panel [data-section=sample] ul li {
+    width: 100%
+}
+
+#viwec-control-panel .viwec-ctrl-btn {
+    width: 100%;
+    margin: 0;
+    border-radius: 3px;
+    padding: .72em 1.5em;
+    background: #e1e1e1;
+}
+
+#viwec-control-panel .viwec-control-panel-fixed {
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,0.15),0 0 0 1px rgba(34,36,38,0.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,0.15),0 0 0 1px rgba(34,36,38,0.15);
+    margin-right: 1px;
+    height: 100%;
+    position: relative
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .vi-ui.tabs.menu {
+    margin: 0;
+    border: none;
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .vi-ui.accordion.styled {
+    border-radius: unset;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+    width: auto
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .vi-ui.accordion.styled .title {
+    padding: 0.55em 0.3em;
+    border: none
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .vi-ui.accordion.styled .content {
+    padding: 0.5em
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .vi-ui.accordion.styled .section {
+    border: 1px solid #ddd;
+    margin-bottom: -1px
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .vi-ui.accordion.styled .section .text_editor_header {
+    margin: 0;
+    padding: 0 !important
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .vi-ui.accordion.styled .section .text_editor_header .viwec-form-group {
+    margin: 0 !important
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .section .content.active {
+    padding: 0;
+    display: block
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec-scroll {
+    position: absolute;
+    top: 41px;
+    bottom: 72px;
+    width: 100%
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec-scroll .vi-ui.attached.tab {
+    height: 100%;
+    overflow-y: scroll
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec.dashicons-info {
+    position: absolute;
+    top: 5px;
+    right: 5px
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec.dashicons-info:hover .info-content-popup {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    top: -159px;
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec.dashicons-info.red {
+    color: var(--et_admin_red-color, #c62828)
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec.dashicons-info .info-content-popup {
+    position: absolute;
+    top: -149px;
+    width: 260px;
+    text-align: left;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    color: #444444;
+    font-size: 13px;
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.5;
+    z-index: 9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, .1);
+    transition: all .3s linear;
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec.dashicons-info .info-content-popup:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-top-color: #fff;
+    position: absolute;
+    bottom: -18px;
+    right: 50px;
+}
+
+#viwec-control-panel #viwec-components-list ul li:nth-child(odd) .info-content-popup:after {
+    right: auto;
+    left: 50px;
+}
+
+#viwec-control-panel .viwec-control-panel-fixed .viwec.dashicons-info .info-content-popup br {
+    height: 5px
+}
+
+#viwec-control-panel .viwec-clear {
+    position: absolute;
+    top: 53.5%;
+    right: 4px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #ccc;
+    color: black;
+    opacity: 0.6
+}
+
+#viwec-control-panel .viwec-clear:hover {
+    color: var(--et_admin_red-color, #c62828)
+}
+
+#viwec-control-panel .viwec-sample-group .viwec-samples-style {
+    margin-top: 10px
+}
+
+#viwec-email-editor-wrapper {
+    width: 100%;
+    min-width: 600px;
+    padding: 80px 0
+}
+
+#viwec-email-editor-wrapper * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+#viwec-email-editor-wrapper .viwec-edit-bgcolor-btn {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#viwec-email-editor-wrapper .viwec-edit-bgcolor-btn span {
+    vertical-align: sub;
+    margin: 0;
+    color: #A4004D;
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content {
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    min-height: 52px;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content span,#viwec-email-editor-wrapper #viwec-email-editor-content a {
+    text-decoration: none;
+    color: inherit;
+    vertical-align: top
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content p {
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+    word-break: break-word
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content img {
+    vertical-align: middle;
+    max-width: 100%
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block {
+    position: relative
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-layout-row {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block:hover {
+    outline: 1px solid #a4004f;
+    z-index: 99 !important
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block:hover .viwec-layout-handle-outer .left,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block:hover .viwec-layout-handle-outer .right {
+    display: block
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-layout-inner {
+    position: relative
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-layout-inner:hover .viwec-layout-handle-inner {
+    display: block
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-layout-inner .viwec-layout-handle-inner {
+    position: absolute;
+    top: -22px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #a4004f;
+    color: #fff;
+    font-size: 0;
+    display: none
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-layout-inner .viwec-layout-handle-inner .dashicons {
+    font-size: 18px;
+    padding: 1px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-layout-inner .viwec-layout-handle-inner .dashicons:hover {
+    background-color: #a4004f;
+    cursor: pointer
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-layout-inner .viwec-layout-handle-inner span {
+    vertical-align: middle
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block.moving {
+    outline: none
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block.viwec-block-focus,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-block-focus,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-block .viwec-element-focus {
+    outline: 1px solid #a4004f;
+    z-index: 9999 !important
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-placeholder {
+    background-color: #ddd;
+    height: 22px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .left,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .right {
+    position: absolute;
+    top: -1px;
+    background-color: #a4004f;
+    color: #fff;
+    display: none;
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .left span,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .right span {
+    display: block;
+    width: auto;
+    height: auto
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .left {
+    left: -22px;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .right {
+    right: -24px;
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .dashicons {
+    font-size: 18px;
+    padding: 2px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .dashicons.viwec-delete-row-btn {
+    font-size: 20px;
+    color: #fff
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer .dashicons:hover {
+    background-color: #cc0565;
+    cursor: pointer
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-handle-outer span {
+    vertical-align: middle
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-column.viwec-column-placeholder {
+    position: relative;
+    outline: 1px dashed #a4004f;
+    height: 100%
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-column-sortable {
+    min-height: 22px;
+    max-width: 100%;
+    width: auto !important
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-column-edit {
+    position: absolute;
+    top: -22px;
+    right: 0;
+    background-color: #a4004f;
+    color: #fff;
+    z-index: 99999;
+    display: none
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-column-edit .dashicons-edit {
+    font-size: 18px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-column-edit:hover {
+    background-color: #a4004f
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element-handle {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    display: none;
+    font-size: 0;
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element-handle span:hover {
+    background-color: #a4004f
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element-handle .viwec-delete-element-btn,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element-handle .viwec-duplicate-element-btn {
+    color: #fff;
+    background-color: #a4004f;
+    vertical-align: top
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element-handle .viwec-duplicate-element-btn {
+    font-size: 16px;
+    line-height: 21px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    width: auto !important
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element:hover {
+    outline: 1px dashed #a4004f;
+    min-height: 18px;
+    z-index: 99;
+    cursor: pointer
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element:hover .viwec-element-handle {
+    display: block
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-menu-bar td {
+    width: 600px;
+    max-width: 100%
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-social td:not(:last-child) {
+    padding-right: 10px
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-social > span {
+    margin: 3px;
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-button .viwec-text-button-edit {
+    display: none
+}
+
+#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-column-sortable,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-layout-row,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-element,#viwec-email-editor-wrapper #viwec-email-editor-content .viwec-button {
+    border-width: 0;
+    border-style: solid
+}
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout {
+    text-align: center;
+    margin-top: 20px;
+    position: relative
+}
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout .viwec-ctrl-title {
+    display: none
+}
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout .viwec-quick-add-layout-btn {
+    border-radius: 50%;
+    padding: 5px;
+    line-height: 1.15;
+    background-color: #A4004D;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: inherit;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout .viwec-quick-add-layout-btn:hover {
+    transform: translate(-50%, -3px);
+}
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout [class^="viwec-ctrl-icon-"] {
+    font-size: 45px
+}
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout .viwec-layout-list {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    color: #888;
+    border-radius: 3px;
+    #fff-space: nowrap }
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout .viwec-layout-list .viwec-control-btn {
+    display: inline-block;
+    padding: 10px;
+    opacity: 80%
+}
+
+#viwec-email-editor-wrapper #viwec-quick-add-layout .viwec-layout-list .viwec-control-btn:hover {
+    cursor: pointer;
+    color: #a4004f;
+    border-color: #a4004f;
+}
+
+.viwec-column {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: relative;
+    z-index: 9
+}
+
+.viwec-column:hover .viwec-column-edit {
+    display: block !important
+}
+
+input.form-control,select.form-control,.viwec-col-full.input {
+    width: 100%
+}
+
+.wp-picker-container {
+    width: 100%
+}
+
+.wp-picker-container .button.wp-color-result {
+    width: 100%;
+    margin: 0
+}
+
+.viwec-is-dragging {
+    width: 80px !important;
+    height: 30px !important;
+    background-color: #a4004f !important;
+    color: transparent !important;
+    padding: 0 !important;
+    outline: none !important;
+    border-radius: 5px !important;
+    z-index: 999999 !important;
+    overflow: hidden
+}
+
+.viwec-is-dragging * {
+    display: none !important
+}
+
+#viwec-email-rules select,#viwec-email-rules input[type=text],#viwec-email-type select,#viwec-email-type input[type=text],#viwec-email-testing select,#viwec-email-testing input[type=text] {
+    width: 100%;
+    border-color: #e1e1e1;
+    padding: 3px 5px;
+    box-shadow: none;
+}
+
+#viwec-email-rules label,#viwec-email-type label,#viwec-email-testing label {
+    display: block;
+    margin: 7px 0
+}
+
+#viwec-email-rules .select2-container,#viwec-email-type .select2-container,#viwec-email-testing .select2-container {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    width: 100% !important
+}
+
+#viwec-email-rules .select2-container--default .select2-selection--multiple .select2-selection__rendered li,#viwec-email-type .select2-container--default .select2-selection--multiple .select2-selection__rendered li,#viwec-email-testing .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    min-width: auto
+}
+
+#viwec-email-rules li.select2-search,#viwec-email-type li.select2-search,#viwec-email-testing li.select2-search {
+    margin: 0
+}
+
+#viwec-email-rules .select2-search__field,#viwec-email-type .select2-search__field,#viwec-email-testing .select2-search__field {
+    width: auto !important;
+    margin: 0
+}
+
+#viwec-email-rules a.viwec-get-pro-version,#viwec-email-type a.viwec-get-pro-version {
+    text-decoration: none
+}
+
+#viwec-email-rules .viwec-get-pro-version p,#viwec-email-type .viwec-get-pro-version p {
+    margin: 0;
+    background: #ffbf49;
+    padding: 5px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px
+}
+
+#viwec-email-rules .viwec-setting-row,#viwec-email-type .viwec-setting-row {
+    position: relative
+}
+
+#viwec-email-rules .viwec-group-input input[type=text],#viwec-email-type .viwec-group-input input[type=text] {
+    margin-left: 0;
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0
+}
+
+#viwec-email-rules .viwec-subtotal-symbol,#viwec-email-type .viwec-subtotal-symbol {
+    line-height: 32px;
+    width: 120px;
+    text-align: center;
+    background-color: #ddd;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border: 1px solid #e1e1e1
+}
+
+#viwec-email-rules input[name=viwec_settings_subtotal],#viwec-email-type input[name=viwec_settings_subtotal] {
+    padding-left: 15px
+}
+
+#viwec-email-testing .viwec-btn-group {
+    margin: 10px 0;
+    width: 100%
+}
+
+#viwec-email-testing .viwec-btn-group .button {
+    padding: 8px
+}
+
+#viwec-email-testing .viwec-send-test-email-result {
+    margin-bottom: 0;
+}
+
+#viwec-email-testing .viwec-send-test-email-result:empty {
+    display: none;
+}
+
+#viwec-email-testing .viwec-send-test-email-btn {
+    margin: 0
+}
+
+#viwec-email-data .vi-ui.buttons {
+    width: 100%
+}
+
+#viwec-email-data .vi-ui.buttons .button {
+    padding: 8px;
+    line-height: 1.2
+}
+
+.viwec-fixed {
+    position: fixed;
+    top: 30px !important;
+    -webkit-transition: top 2s linear;
+    transition: top 2s linear
+}
+
+.viwec-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    text-align: center
+}
+
+.viwec-footer a {
+    text-decoration: none
+}
+
+.mce-container .mce-menu-item .mce-ico {
+    padding: 0 !important
+}
+
+.mce-container.mce-menu.mce-menu-has-icons {
+    background-color: #dddddd !important
+}
+
+#tinymce .mce-content-body a {
+    text-decoration: none
+}
+
+.wp-admin ::-webkit-scrollbar {
+    width: 7px
+}
+
+.wp-admin ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin-top: 2px;
+    margin-bottom: 2px
+}
+
+.wp-admin ::-webkit-scrollbar-thumb {
+    background: #cecece;
+    border-radius: 20px
+}
+
+.wp-admin ::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+
+.vi-ui.modal>.content {
+    width: auto
+}
+
+.vi-ui.modal>.actions {
+    height: 30px
+}
+
+.vi-ui.modals .viwec-view-btn-group {
+    float: right;
+    margin-top: -4px
+}
+
+.vi-ui.modals .viwec-view-btn-group .button {
+    padding: 8px 16px
+}
+
+.vi-ui.modals .vi-ui.scrolling.modal {
+    margin: 3rem auto
+}
+
+.viwec-mobile-preview #body_content>table {
+    width: 300px
+}
+
+.viwec-mobile-preview #body_content .viwec-responsive {
+    width: 100% !important
+}
+
+.viwec-mobile-preview #body_content .viwec-responsive-padding {
+    padding: 0 !important
+}
+
+.viwec-mobile-preview #body_content .viwec-mobile-hidden {
+    display: none !important
+}
+
+.viwec-mobile-preview #body_content .viwec-responsive-center {
+    text-align: center !important
+}
+
+.viwec-mobile-preview #body_content .viwec-mobile-50 {
+    width: 50% !important
+}
+
+.viwec-mobile-preview #body_content .viwec-mobile-button-padding {
+    padding: 10px 20px !important
+}
+
+#wpbody {
+    margin-left: 160px
+}
+
+.folded #viwec-control-panel {
+    left: 36px
+}
+
+.folded #wpbody-content form#post {
+    margin-left: 160px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.folded #wpbody-content .wrap .viwec-nav-bar {
+    left: 336px
+}
+
+.viwec-admin-bar-hidden #wpadminbar,.viwec-admin-bar-hidden #adminmenuback,.viwec-admin-bar-hidden #adminmenuwrap {
+    display: none
+}
+
+.viwec-admin-bar-hidden #viwec-control-panel {
+    top: 0;
+    left: 0
+}
+
+.viwec-admin-bar-hidden #viwec-control-panel .viwec-scroll {
+    bottom: 40px
+}
+
+.viwec-admin-bar-hidden #wpbody {
+    margin-left: 0
+}
+
+.viwec-admin-bar-hidden #wpbody-content form#post {
+    margin-left: 320px
+}
+
+.viwec-admin-bar-hidden.folded #wpbody-content form#post {
+    margin-left: 280px
+}
+
+.viwec-admin-bar-hidden #wpbody-content .wrap .viwec-nav-bar {
+    top: 0;
+    left: 300px;
+    z-index: 999
+}
+
+.viwec-admin-bar-hidden #wpbody-content #post-body-content {
+    margin-top: 20px
+}
+
+.viwec-admin-bar-hidden #wpbody-content #postbox-container-1 {
+    top: 0
+}
+
+.viwec-admin-bar-hidden #viwec-main-actions {
+    margin-bottom: 0
+}
+
+#viwec-overlay.active {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    z-index: 999;
+    opacity: 50%
+}
+
+.vi-ui.dimmer {
+    z-index: 9999
+}
+
+#viwec-main-actions {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+#viwec-main-actions button:focus {
+    outline: none
+}
+
+#viwec-main-actions a {
+    text-decoration: none
+}
+
+#viwec-main-actions .viwec-main-actions-inner {
+    background-color: #eeeeee;
+    position: relative;
+}
+
+#viwec-main-actions .viwec-actions-front {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#viwec-main-actions .viwec-actions-front > a {
+    color: #888;
+    width: 35px;
+    text-align: center;
+}
+
+#viwec-main-actions .viwec-actions-front > a:first-child .mt-mes {
+    left: 7px;
+    transform: none;
+}
+
+#viwec-main-actions .viwec-actions-front > a:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+#viwec-main-actions .viwec-actions-front > a:hover {
+    color: #222;
+}
+
+#viwec-main-actions .viwec-actions-front > a .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+#viwec-main-actions .viwec-actions-front > a i.dashicons.dashicons-migrate {
+    transform: rotate(180deg);
+}
+
+#viwec-main-actions #viwec-publishing-action {
+    padding: 5px 9px;
+    text-align: right;
+    margin-left: auto;
+}
+
+#viwec-main-actions #viwec-publishing-action * {
+    min-height: auto
+}
+
+#viwec-main-actions #viwec-publishing-action #publish {
+    line-height: 2;
+    margin: 2px 0 0;
+    border: none;
+    font-size: 12px;
+    background-color: #489c33;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+#viwec-main-actions #viwec-publishing-action #publish:hover {
+    background-color: #339438;
+    cursor: pointer
+}
+
+#viwec-main-actions #viwec-publishing-action #publish:active {
+    opacity: .7;
+}
+
+#viwec-main-actions #viwec-publishing-action #publish {
+    padding: 3px 10px 1px;
+}
+
+.wp-core-ui .button.focus,.wp-core-ui .button:focus,.wp-core-ui .button-secondary:focus {
+    -webkit-box-shadow: 0 0 0 1px #999999;
+    box-shadow: 0 0 0 1px #999999
+}
+
+.viwec-hidden {
+    display: none
+}
+
+.wacv-explain {
+    font-size: 13px !important;
+    font-style: italic !important;
+    color: #999 !important
+}
+
+.wacv-coupon-options {
+    border: 1px solid #e1e1e1;
+    padding: 5px;
+    border-radius: 3px;
+    max-height: 250px;
+    overflow-y: auto
+}
+
+.wacv.dashicons.dashicons-info {
+    position: absolute;
+    top: 5px;
+    right: 5px
+}
+
+.wacv.dashicons.dashicons-info:before {
+    color: var(--et_admin_red-color, #c62828)
+}
+
+.wacv.dashicons.dashicons-info:hover .wacv-recover-button-notice {
+    display: block
+}
+
+.wacv-recover-button-notice {
+    position: absolute;
+    top: -85px;
+    width: 200px;
+    text-align: left;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    display: none;
+    color: #444444;
+    font-size: 14px;
+    font-family: Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.2
+}
+
+.content[data-section=abandoned] ul li:nth-child(odd) .wacv-recover-button-notice {
+    left: -105px
+}
+
+.content[data-section=abandoned] ul li:nth-child(even) .wacv-recover-button-notice {
+    right: -6px
+}
+
+/* fix wpb, elementor */
+.composer-switch,
+#elementor-switch-mode {
+    display: none
+}

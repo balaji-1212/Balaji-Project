@@ -1,0 +1,183 @@
+.et_edit-shortcut {
+    position: absolute;
+    background: #0A9F13;
+    color: #fff !important;
+    line-height: 1;
+    display: inline-flex !important;
+    align-self: flex-start;
+    flex-basis: auto !important;
+    width: auto !important;
+    align-items: center;
+    padding: 4px 7px;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 5;
+    transition: all .3s ease-in-out;
+}
+
+.pos-static div.et_edit-shortcut {
+    top: auto;
+    left: auto;
+}
+
+.et_edit-shortcut .dashicons {
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    margin-right: 3px;
+    color: inherit !important;
+}
+
+.et_edit-shortcut .et-title {
+    font-family: 'Arial', sans-serif !important;
+    text-transform: none !important;
+    color: inherit !important;
+    font-size: 14px !important;
+    line-height: 1 !important;
+}
+
+#header-vertical > .et_edit-shortcut {
+    top: 0;
+}
+
+.et_b_header-mobile-menu .et_edit-shortcut,
+.header-vertical-menu-icon-wrapper .et_edit-shortcut {
+    transform: translateX(15px);
+}
+
+@media only screen and (max-width: 768px) {
+    .et_edit-shortcut .dashicons {
+        margin-right: 0;
+    }
+    .et_edit-shortcut .et-title {
+        display: none;
+    }
+}
+
+.et_edit-shortcut:hover {
+    background: #079010;
+}
+
+.et-element-active {
+    outline: 1px solid #0A9F13;
+    outline-offset: -1px;
+}
+
+.mobile-menu-content .et-element-active {
+    outline: none;
+}
+
+.mobile-menu-content .et_edit-shortcut,
+.product_meta .customize-partial-edit-shortcut {
+    display: none !important;
+}
+.et-socials,
+.woocommerce-product-rating,
+h1.product_title,
+.woocommerce-breadcrumb-wrapper,
+p.price:not(.price-in-nav),
+.woocommerce-product-details__short-description,
+.archive.woocommerce .woocommerce-pagination,
+form.cart,
+.product_meta,
+.single-wishlist,
+.single-product-size-guide,
+.upsells,
+.related,
+.crossells,
+
+.post-type-archive-product .woocommerce-breadcrumb,
+.post-type-archive-product ul.products,
+.post-type-archive-product ul.product-cats,
+.et_archive-toolbar,
+.post-type-archive-product .page-description,
+.woocommerce-products-header__title,
+.woocommerce_archive-html_block1,
+.woocommerce_archive-html_block2,
+.woocommerce_archive-html_block3 {
+    position: relative;
+}
+
+.top-bar .customize-partial-edit-shortcut,
+.header-wrapper .main-header .customize-partial-edit-shortcut,
+.header-logo .customize-partial-edit-shortcut,
+.menu-wrapper .customize-partial-edit-shortcut,
+.secondary-menu-wrapper .customize-partial-edit-shortcut,
+.shopping-container .customize-partial-edit-shortcut,
+.et-wishlist-widget .customize-partial-edit-shortcut,
+.login-link .customize-partial-edit-shortcut,
+.header-search .customize-partial-edit-shortcut,
+.popup_link .customize-partial-edit-shortcut,
+.page-heading .customize-partial-edit-shortcut,
+.cart-checkout-nav .customize-partial-edit-shortcut,
+
+.footer .customize-partial-edit-shortcut,
+.footer-bottom .customize-partial-edit-shortcut,
+
+.product-category .customize-partial-edit-shortcut,
+.content-product .customize-partial-edit-shortcut,
+.filter-wrap .customize-partial-edit-shortcut,
+
+.st-swatch-in-loop .customize-partial-edit-shortcut,
+.st-swatch-preview-single-product .customize-partial-edit-shortcut,
+
+.cart-empty .customize-partial-edit-shortcut,
+
+.product_brand .customize-partial-edit-shortcut,
+.products-page-brands .customize-partial-edit-shortcut,
+
+.product-sale-counter .customize-partial-edit-shortcut,
+
+.sale-wrapper .customize-partial-edit-shortcut,
+.content-product .stock .customize-partial-edit-shortcut,
+.content-product .available-on-backorder .customize-partial-edit-shortcut,
+
+.single .single-product .products-slider .customize-partial-edit-shortcut,
+.single .single-product .woocommerce-tabs .customize-partial-edit-shortcut,
+
+.et-request-quote-popup .customize-partial-edit-shortcut,
+.et-request-quote .customize-partial-edit-shortcut,
+
+.woocommerce-cart .customize-partial-edit-shortcut,
+.woocommerce-checkout .customize-partial-edit-shortcut,
+
+.product-share .customize-partial-edit-shortcut,
+.share-post .customize-partial-edit-shortcut,
+
+.swiper-entry  .customize-partial-edit-shortcut,
+
+.page-404 .customize-partial-edit-shortcut,
+.special-cart-breadcrumbs.woocommerce-cart.et-header-not-overlap .page-heading .customize-partial-edit-shortcut, 
+.special-cart-breadcrumbs.woocommerce-checkout.et-header-not-overlap .page-heading .customize-partial-edit-shortcut,
+
+.sidebar-widget .customize-partial-edit-shortcut,
+.footer-widget .customize-partial-edit-shortcut,
+
+.topbar-widget .customize-partial-edit-shortcut,
+.top-panel-widget .customize-partial-edit-shortcut,
+.mobile-sidebar-widget .customize-partial-edit-shortcut,
+.header-banner-widget .customize-partial-edit-shortcut,
+.copyrights-widget .customize-partial-edit-shortcut,
+.header-wrapper .customize-partial-edit-shortcut,
+.mobile-header-wrapper .customize-partial-edit-shortcut,
+.et_element .customize-partial-edit-shortcut,
+.et_column .customize-partial-edit-shortcut {
+    display: none;
+}
+
+/* loader on refresh [beta] */
+.customize-partial-refreshing {
+    opacity: .5;
+}
+.customize-partial-refreshing:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 7px);
+    top: calc(50% - 7px);
+    background-color: #555;
+    -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+    animation: sk-scaleout 1.0s infinite ease-in-out;
+}

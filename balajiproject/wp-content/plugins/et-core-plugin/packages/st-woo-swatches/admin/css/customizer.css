@@ -1,0 +1,4 @@
+li#customize-control-st_swatch_shop_swatch_active_border_color, li#customize-control-st_swatch_archive_swatch_active_border_color {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding-bottom: 15px;
+}

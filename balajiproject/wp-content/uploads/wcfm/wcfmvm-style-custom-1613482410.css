@@ -1,0 +1,84 @@
+.wcfm-membership-wrapper .wc-progress-steps li.done, .wcfm-membership-wrapper .wc-progress-steps li.active{ 
+	color: #2a3344;
+}
+
+.wcfm-membership-wrapper .wc-progress-steps li.done, .wcfm-membership-wrapper .wc-progress-steps li.active, .wcfm-membership-wrapper .wc-progress-steps li.done::before, .wcfm-membership-wrapper .wc-progress-steps li.active::before{ 
+	border-color: #2a3344;
+}
+
+.wcfm-membership-wrapper .wc-progress-steps li.done::before{ 
+	background: #2a3344;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head .wcfm_membership_title{ 
+	background-color: #2a3344;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head .wcfm_membership_title, #wcfm-main-contentainer .wcfm_membership_review_plan .wcfm_review_plan_title{ 
+	color: #ffffff;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head{ 
+	background-color: #17a2b8;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head .wcfm_membership_price .amount{ 
+	color: #ffffff;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head .wcfm_membership_price .amount{ 
+	border-color: #ffffff;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head .wcfm_membership_price_description{ 
+	color: #111111;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head .wcfm_membership_description, #wcfm-main-contentainer .wcfm_membership_review_plan .wcfm_review_plan_description{ 
+	color: #ffffff;
+}
+
+#wcfm-main-contentainer .wcfm_membership_box_head, #wcfm-main-contentainer .wcfm_membership_box_body, #wcfm-main-contentainer .wcfm_membership_box_foot{ 
+	border-color: #cccccc;
+}
+
+#wcfm-main-contentainer .wcfm_membership_boxes{ 
+	color: #111111;
+}
+
+#wcfm-main-contentainer .wcfm_membership_element:nth-child(odd){ 
+	background-color: #ffffff;
+}
+
+#wcfm-main-contentainer .wcfm_membership_element:nth-child(even), #wcfm-main-contentainer .wcfm_membership_box_wrraper .wcfm_membership_box_head .wcfm_membership_featured_top{ 
+	background-color: #d3eef6;
+}
+
+.wcfm_membership_subscribe_button_wrapper input.wcfm_submit_button, #wcfm_membership_container input.wcfm_submit_button, #wcfm_membership_container a.wcfm_submit_button{ 
+	background-color: #2a3344;
+}
+
+.wcfm_membership_subscribe_button_wrapper input.wcfm_submit_button:hover, #wcfm_membership_container input.wcfm_submit_button:hover, #wcfm_membership_container a.wcfm_submit_button:hover{ 
+	background-color: #17a2b8;
+}
+
+.wcfm_membership_subscribe_button_wrapper input.wcfm_submit_button, #wcfm_membership_container input.wcfm_submit_button, #wcfm_membership_container a.wcfm_submit_button{ 
+	color: #ffffff;
+}
+
+#wcfm-main-contentainer .wcfm_membership_review_plan, #wcfm-main-contentainer .wcfm_membership_thankyou_content_wrapper{ 
+	background-color: #63c2de;
+}
+
+#wcfm-main-contentainer .wcfm_membership_review_plan, #wcfm-main-contentainer .wcfm_membership_thankyou_content_wrapper{ 
+	color: #555;
+}
+
+#wcfm-main-contentainer .wcfm_membership_review_plan .wcfm_review_plan_welcome{ 
+	color: #555;
+}
+
+#wcfm-main-contentainer .wcfm_membership_review_plan .wcfm_review_plan_features, #wcfm-main-contentainer .wcfm_membership_review_plan .wcfm_review_plan_feature, #wcfm-main-contentainer .wcfm_membership_review_plan .wcfm_review_plan_feature_val{ 
+	border-color: #555;
+}
+

@@ -1,0 +1,146 @@
+/*=======================================
+=            ET Offer widget            =
+=======================================*/
+.et-offer {
+  font-size: 10px;
+}
+.et-offer .product {
+  border: 1px solid var(--et_border-color);
+  padding: 2em;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+.et-offer .product-title {
+  font-size: 2.2em;
+}
+.et-offer .products-page-cats {
+  margin-bottom: 0;
+}
+.et-offer .products-page-cats a {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+.et-offer .product-details {
+  display: inline-block;
+  width: 100%;
+}
+.et-offer .product-details .price {
+  float: right;
+  width: auto;
+  font-size: 2.8em;
+}
+.et-offer.type1 .content-product .footer-product,
+.et-offer.type1 .content-product > img,
+.et-offer.type1 .sale-wrapper {
+  display: none;
+}
+.et-offer.type1 .content-product .et-timer .time-block {
+  margin: 0 2px 6px;
+}
+.et-offer.type1 .content-product .star-rating {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.et-offer.type1 .product-details .price del {
+  font-size: 80%;
+}
+.et-offer.type1 .product-details .price ins {
+  font-size: 100%;
+}
+.et-offer.type2 .product-title {
+  font-size: 2.7em;
+}
+.et-offer.type2 .product-mask .product-title {
+  font-size: 2.3em;
+}
+.et-offer.type2 .product-mask .price {
+  font-size: 1.85em;
+}
+.et-offer.type2 .content-product .et-timer,
+.et-offer.type2 .product-details .price {
+  float: none;
+}
+.et-offer.type2 .product-details {
+  padding-bottom: 0;
+}
+.et-offer.type2 .content-product .et-timer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.et-offer.type2 .price {
+  font-size: 2.25em;
+}
+.et-offer.type2 .products-page-cats a {
+  font-size: 1.55em;
+}
+.et-offer.type2 .btn {
+  margin-top: 10px;
+  height: auto;
+}
+.et-offer.no-image .onsale {
+  top: 0;
+}
+.et-offer.no-image .onsale.left {
+  left: 0;
+}
+.et-offer.no-image .onsale.right {
+  right: 0;
+}
+.et-offer .content-product {
+  margin-bottom: 0;
+  position: relative;
+}
+.et-offer .content-product .et-timer {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 8px;
+}
+.et-offer .price {
+  margin-bottom: 0;
+}
+.et-offer .et-timer.type2 .timer-count + span {
+  font-size: 1.27em;
+}
+@media only screen and (max-width: 767px) {
+  .et-offer {
+    font-size: 9px !important;
+  }
+  .et-offer .product-details .price {
+    margin-bottom: 10px;
+    text-align: center;
+    float: none;
+  }
+  .et-offer .product-sale-counter {
+    width: 100%;
+    text-align: center;
+  }
+  .et-offer .product-sale-counter .time-block {
+    float: none;
+  }
+  .et-offer .star-rating {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    right: -10px;
+    top: -4px;
+  }
+  .et-offer.type2 .content-product .et-timer {
+    margin-bottom: 10px;
+  }
+}
+/*=====  End of ET Offer widget  ======*/
+.et-offer.no-image .onsale.left {
+  left: auto;
+  right: 0;
+}
+.et-offer.no-image .onsale.right {
+  right: auto;
+  left: 0;
+}
+@media only screen and (max-width: 767px) {
+  .et-offer .star-rating {
+    right: auto;
+    left: -10px;
+  }
+}

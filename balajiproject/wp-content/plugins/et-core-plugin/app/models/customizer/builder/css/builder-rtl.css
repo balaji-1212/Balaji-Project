@@ -1,0 +1,44 @@
+.et_column, .et_column_inner {
+    float: right;
+}
+
+.et_customizer-element .et_name .dashicons {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+.et_header-settings {
+    float: left;
+}
+
+/* popup settings */
+#input_block_align {
+    margin-left: -3px;
+    margin-right: auto;
+}
+
+#et_popup-slider .wrapper, .et_column-settings .block-setting .wrapper {
+    padding: 0 7px 0 0;
+}
+
+/* multiple headers */
+
+.et_builder-multiple li .et_header-left {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.et_new-multiple-holder:not(.hidden) + .et_call-new-header {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.et_header-add {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.et_builder-multiple .et_condition select + select, .et_builder-multiple .et_condition select + .select2, .et_builder-multiple .et_condition select + .sub-items-section, .et_builder-multiple .et_condition .select2 + .sub-items-section {
+    margin-left: 0;
+    margin-right: 10px;
+}

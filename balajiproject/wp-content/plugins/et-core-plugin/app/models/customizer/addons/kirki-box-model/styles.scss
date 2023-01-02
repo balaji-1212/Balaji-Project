@@ -1,0 +1,137 @@
+$levels-3-distance-x: 13%;
+$levels-3-distance-y: 12%;
+$levels-2-distance-x: 20%;
+$levels-2-distance-y: 18%;
+$levels-3-height: 170px;
+$levels-2-height: 150px;
+$levels-1-height: 100px;
+
+.customize-control-kirki-box-model {
+	.box {
+		position: relative;
+		height: $levels-3-height;
+
+		&.levels-1 {
+			height: $levels-1-height;
+		}
+
+		&.levels-2 {
+			height: $levels-2-height;
+		}
+	}
+
+	.margin,
+	.border,
+	.padding {
+		position: absolute;
+		padding: 5px;
+		border: 1px solid #000;
+		box-sizing: border-box;
+
+		.label {
+			background: rgba(255, 255, 255, .5);
+			margin-top: -5px;
+			display: table;
+			width: auto;
+			margin-left: -5px;
+			padding: 3px;
+			font-size: 10px;
+			line-height: 1;
+		}
+	}
+
+	input,
+	input:focus {
+		background: none;
+		border: none;
+		box-shadow: none;
+		background: rgba(0, 0, 0, .1);
+		resize: horizontal;
+		min-width: 36px;
+
+		&.top,
+		&.right,
+		&.bottom,
+		&.left {
+			position: absolute;
+			width: auto;
+			font-size: 11px;
+			margin: 0;
+			padding: 0 3px;
+			text-align: center;
+		}
+
+		&.top,
+		&.bottom {
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		&.top {
+			top: 0;
+		}
+
+		&.bottom {
+			bottom: 0;
+		}
+
+		&.left,
+		&.right {
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		&.left {
+			left: 0;
+			text-align: left;
+		}
+
+		&.right {
+			right: 0;
+			text-align: right;
+		}
+	}
+
+	.margin {
+		background: #f3cb97;
+		border-style: dashed;
+	}
+
+	.border {
+		background: #f8dc94;
+	}
+
+	.padding {
+		background: #c2ce84;
+	}
+
+	.box {
+		.level-0 {
+			width: 100%;
+			height: 100%;
+		}
+
+		.level-1 {
+			width: 100% - 2 * $levels-3-distance-x;
+			height: 100% - 2 * $levels-3-distance-y;
+			left: $levels-3-distance-x;
+			top: $levels-3-distance-y;
+		}
+
+		.level-2 {
+			width: 100% - 4 * $levels-3-distance-x;
+			height: 100% - 4 * $levels-3-distance-y;
+			left: 2 * $levels-3-distance-x;
+			top: 2 * $levels-3-distance-y;
+		}
+
+		&.levels-2 {
+			.level-1 {
+				width: 100% - 2 * $levels-2-distance-x;
+				height: 100% - 2 * $levels-2-distance-y;
+				left: $levels-2-distance-x;
+				top: $levels-2-distance-y;
+			}
+		}
+	}
+}

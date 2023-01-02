@@ -1,0 +1,56 @@
+.elementor-panel .eight_theme-elementor-icon {
+    color: #fff;
+    background-color: #a4004f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 21px;
+    margin-top: -4px;
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+.eight_theme-elementor-deprecated:after {
+    content: 'Deprecated';
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #eee;
+    font-size: 7px;
+    font-family: Roboto,Arial,Helvetica,Verdana,sans-serif;
+    color: #222;
+    padding: 3px 3px 1px;
+    line-height: 1;
+}
+
+#elementor-panel-page-settings .elementor-control-xstore_advanced_custom_css {
+    display: none;
+}
+
+/* make theme section with highest priority on top */
+#elementor-panel-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+#elementor-panel-category-eight_theme_general,
+#elementor-panel-category-eight_theme_deprecated {
+    order: -999;
+}
+
+.elementor-context-menu-list [class*=etheme-live] [class*=shortcut] {
+    color: #fff;
+    background: #a4004f;
+    padding: 3px 4px 1px;
+    font-size: 8px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    line-height: 1;
+    align-self: center;
+}
+
+.elementor-context-menu-list .etheme-menu-list__item--disabled,
+.etheme-elementor-add-section-area-button-disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}

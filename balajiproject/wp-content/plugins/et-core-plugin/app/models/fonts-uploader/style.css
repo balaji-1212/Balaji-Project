@@ -1,0 +1,158 @@
+.etheme-fonts-section input[type="submit"],
+.etheme-fonts-section input[type="file"] {
+	color: #555;
+	background: #f7f7f7;
+	vertical-align: top;
+	border: 1px solid #e1e1e1;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 4px 10px;
+	line-height: 18px;
+	text-transform: capitalize;
+	font-size: 13px;
+	cursor: pointer;
+}
+.etheme-fonts-section input[type="file"]{
+	margin-bottom: 10px;
+}
+.etheme-fonts-section input[type="submit"].et-button.et-button-green{
+	background: var(--et_admin_green-color, #489C33);
+	border-color: var(--et_admin_green-color, #489C33);
+	position: relative;
+	padding: 9px 20px;
+	min-height: unset;
+	display: inline-block;
+	height: auto;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	text-decoration: none;
+	line-height: normal;
+	font-size: 12px;
+	box-shadow: none;
+	border-radius: 30px;
+}
+
+
+.etheme-fonts-section .add-form:hover,
+.etheme-fonts-section input:hover,
+.etheme-fonts-section .add-form:focus,
+.etheme-fonts-section input:focus,
+.etheme-fonts-section .add-form:hover:focus,
+.etheme-fonts-section input:hover:focus {
+	outline: none;
+}
+.etheme-fonts-section .form-table {
+	display: none;
+}
+.etheme-fonts-section input[type="file"] {
+	display: inline-block;
+	/* font-size: 0; */
+	padding: 10px 0 10px 10px;
+	line-height: 17px;
+}
+html[dir="rtl"] .etheme-fonts-section input[type="file"] {
+	padding-right: 10px;
+	padding-left: 0;
+}
+.et-file-zone label {
+	display: block;
+	font-size: 15px;
+	margin-bottom: 7px;
+}
+.et_fonts-info {
+	color: #000;
+}
+.etheme-fonts-section .et_font-preview {
+	border: 1px dotted #e1e1e1;
+	padding: 10px;
+	line-height: 24px;
+	margin: 5px 0 10px;
+}
+.etheme-fonts-section details,
+.etheme-fonts-section details:hover,
+.etheme-fonts-section details:focus {
+	outline: none;
+}
+.etheme-fonts-section details {
+	color: #000;
+}
+.etheme-fonts-section details ul {
+	padding-top: 10px;
+}
+.etheme-fonts-section li.et_font-removing{
+	opacity: 0.7;
+}
+.etheme-fonts-section li.et_font-removing,
+.etheme-fonts-section li.et_font-removed,
+.etheme-fonts-section li.et_font-removed-fail {
+	display: inline-block;
+	position: relative;
+}
+.etheme-fonts-section li.et_font-removed {
+	opacity: 0;
+}
+.etheme-fonts-section li.et_font-removed-fail .et_font-error {
+	display: block;
+}
+.etheme-fonts-section .et-loader svg .outline {
+	stroke: rgba(0,183,229,0.9);
+}
+.etheme-fonts-section details summary {
+	font-size: 17px;
+}
+.etheme-fonts-section details summary:hover,
+.etheme-fonts-section details summary:focus,
+.etheme-fonts-section details summary:hover:focus {
+	outline: none;
+}
+.etheme-fonts-section .dashicons,
+.et_fonts-notifications .dashicons {
+	vertical-align: -5px;
+}
+.et_font-remover {
+	cursor: pointer;
+}
+.et_font-remover:hover {
+	color: #c62828;
+}
+.etheme-fonts-section details li {
+	font-size: 14px;
+	margin: 5px 0;
+}
+.etheme-fonts-section .et-loader {
+	position: absolute;
+	top: 54%;
+	left: 35%;
+	transform: translateY(-50%);
+}
+.etheme-fonts-section .et-loader svg {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-left: 0;
+}
+.etheme-fonts-section .et_fonts-info .et_font-name {
+	font-size: 14px;
+	margin-right: 5px;
+}
+html[dir="rtl"] .etheme-fonts-section .et_fonts-info .et_font-name {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.et_fonts-notifications {
+	margin-bottom: 0;
+	width: 100%;
+}
+.et_fonts-notifications table {
+	margin: 0 auto 20px;
+	width: 100%;
+}
+.et_fonts-notifications tbody th,
+.et_fonts-notifications tbody td {
+	text-align: start;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 10px 7px;
+}

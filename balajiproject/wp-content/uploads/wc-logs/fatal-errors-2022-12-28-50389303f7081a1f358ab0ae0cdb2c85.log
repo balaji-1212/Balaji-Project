@@ -1,0 +1,40 @@
+2022-12-28T08:20:10+00:00 CRITICAL Uncaught Error: Call to undefined function WPO\WC\PDF_Invoices\list_files() in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\class-wcpdf-main.php:909
+Stack trace:
+#0 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\class-wcpdf-main.php(882): WPO\WC\PDF_Invoices\Main->temporary_files_cleanup(1671610810)
+#1 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(303): WPO\WC\PDF_Invoices\Main->schedule_temporary_files_cleanup()
+#2 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#4 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-cron.php(138): do_action_ref_array('wp_scheduled_de...', Array)
+#5 {main}
+  thrown in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce-pdf-invoices-packing-slips\includes\class-wcpdf-main.php on line 909
+
+2022-12-28T09:01:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\snippet-ops.php(484) : eval()'d code:3
+Stack trace:
+#0 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(303): Related_products('')
+#1 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\themes\xstore\woocommerce\content-single-product.php(143): do_action('woocommerce_aft...')
+#4 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\template.php(772): require('D:\\Backup\\Nithy...')
+#5 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Backup\\Nithy...', false)
+#6 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\themes\xstore\woocommerce\single-product.php(32): wc_get_template_part('content', 'single-product')
+#7 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\template-loader.php(106): include('D:\\Backup\\Nithy...')
+#8 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-blog-header.php(19): require_once('D:\\Backup\\Nithy...')
+#9 D:\Backup\Nithya-Amirtham\nithiyaamitham\index.php(17): require('D:\\Backup\\Nithy...')
+#10 {main}
+  thrown in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\snippet-ops.php(484) : eval()'d code on line 3
+
+2022-12-28T11:12:38+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\snippet-ops.php(484) : eval()'d code:3
+Stack trace:
+#0 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(303): Related_products('')
+#1 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\themes\xstore\woocommerce\content-single-product.php(143): do_action('woocommerce_aft...')
+#4 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\template.php(772): require('D:\\Backup\\Nithy...')
+#5 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('D:\\Backup\\Nithy...', false)
+#6 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\themes\xstore\woocommerce\single-product.php(32): wc_get_template_part('content', 'single-product')
+#7 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-includes\template-loader.php(106): include('D:\\Backup\\Nithy...')
+#8 D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-blog-header.php(19): require_once('D:\\Backup\\Nithy...')
+#9 D:\Backup\Nithya-Amirtham\nithiyaamitham\index.php(17): require('D:\\Backup\\Nithy...')
+#10 {main}
+  thrown in D:\Backup\Nithya-Amirtham\nithiyaamitham\wp-content\plugins\code-snippets\php\snippet-ops.php(484) : eval()'d code on line 3
+

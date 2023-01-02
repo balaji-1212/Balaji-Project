@@ -1,0 +1,38 @@
+#etheme-popup {
+  margin: 0 auto;
+  background-color: var(--et_container-bg-color, transparent);
+  padding: 30px;
+  max-width: 100% !important;
+  position: relative;
+}
+#etheme-popup .checkbox-label {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+}
+#etheme-popup .checkbox-label label {
+  color: #b3b3b3;
+}
+#etheme-popup .checkbox-label input {
+  position: relative;
+}
+#etheme-popup p,
+#etheme-popup h1 {
+  margin-bottom: 0;
+}
+#etheme-popup .vc_sep_color_white h4 {
+  color: #fff;
+}
+#etheme-popup-holder {
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+#etheme-popup .checkbox-label {
+  left: auto;
+  right: 15px;
+}

@@ -1,0 +1,12 @@
+#post-body-content .et_panel-popup .et_popup-step a {
+    background: transparent;
+    color: #0073aa;
+    height: auto;
+    line-height: inherit;
+    padding: 0;
+}
+
+.et_page-import {
+    border-radius: 30px !important;
+    margin-left: 10px;
+}

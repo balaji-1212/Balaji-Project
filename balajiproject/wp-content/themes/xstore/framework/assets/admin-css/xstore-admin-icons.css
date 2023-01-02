@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'xstore-admin-icons';
+  src:
+    url('../fonts/xstore-admin-icons.ttf?f25bpb') format('truetype'),
+    url('../fonts/xstore-admin-icons.woff?f25bpb') format('woff'),
+    url('../fonts/xstore-admin-icons.svg?f25bpb#xstore-admin-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.et-admin-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'xstore-admin-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.et-key:before {
+  content: "\e1";
+}
+.et-general:before {
+  content: "\e2";
+}
+.et-header:before {
+  content: "\e3";
+}
+.et-menu:before {
+  content: "\e4";
+}
+.et-breadcrumbs:before {
+  content: "\e5";
+}
+.et-footer:before {
+  content: "\e6";
+}
+.et-styling:before {
+  content: "\e7";
+}
+.et-typography:before {
+  content: "\e8";
+}
+.et-shop:before {
+  content: "\e9";
+}
+.et-promo:before {
+  content: "\e10";
+}
+.et-blog:before {
+  content: "\e11";
+}
+.et-portfolio:before {
+  content: "\e12";
+}
+.et-social:before {
+  content: "\e13";
+}
+.et-account:before {
+  content: "\e14";
+}
+.et-page:before {
+  content: "\e15";
+}
+.et-css:before {
+  content: "\e16";
+}
+.et-speed:before {
+  content: "\e17";
+}
+.et-import-export:before {
+  content: "\e18";
+}
+.et-up-arrow:before {
+  content: "\e20";
+}
+.et-right-arrow:before {
+  content: "\e21";
+}
+.et-down-arrow:before {
+  content: "\e22";
+}
+.et-left-arrow:before {
+  content: "\e23";
+}
+.et-delete:before,
+.et_close-popup .et-delete:before {
+  content: "\e24";
+}
+.et-zoom:before {
+  content: "\e25";
+}
+.et-documentation:before {
+  content: "\e26";
+}
+.et-support:before {
+  content: "\e27";
+}
+.et-video-tutorials:before {
+  content: "\e28";
+}
+.et-phone:before {
+  content: "\e29";
+}
+.et-tablet:before {
+  content: "\e30";
+}
+.et-laptop:before {
+  content: "\e31";
+}
+.et-desktop:before {
+  content: "\e32";
+}
+.et-email-builder:before {
+  content: "\e33";
+}
+.et-sales-booster:before {
+  content: "\e34";
+}

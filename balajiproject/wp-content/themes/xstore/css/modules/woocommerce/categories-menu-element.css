@@ -1,0 +1,59 @@
+.categories-menu-element li > ul.children {
+  padding-left: 0;
+}
+.categories-menu-element li > ul.children li > a {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  color: var(--et_main-color);
+  font-size: 0.9rem;
+  padding-left: 1.07em;
+}
+.categories-menu-element li > ul.children li ul.children li > a:before {
+  content: '\e904';
+  font-family: 'xstore-icons';
+  position: absolute;
+  font-size: 8px;
+  left: 5px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.categories-menu-element.with-accordion ul.children {
+  display: none;
+}
+.categories-menu-element .cat-item {
+  list-style: none;
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0;
+}
+.categories-menu-element .cat-item a {
+  position: relative;
+  display: block;
+  padding: 0.86em 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  border-top: 0;
+  text-transform: uppercase;
+  line-height: normal;
+}
+.categories-menu-element .cat-item .open-this {
+  cursor: pointer;
+  float: right;
+  height: 36px;
+  position: relative;
+  top: 12px;
+  width: 30px;
+  text-align: right;
+  z-index: 1;
+  display: block;
+  margin: 0;
+  font-size: 0;
+}
+.categories-menu-element .cat-item .open-this:before {
+  font-size: 10px;
+  color: var(--et_main-color);
+  display: inline-block;
+}

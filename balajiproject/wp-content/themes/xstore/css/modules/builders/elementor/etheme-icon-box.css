@@ -1,0 +1,104 @@
+.etheme-icon-box {
+  border-radius: 3px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.etheme-icon-box-icon {
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: var(--icon-space, 15px);
+}
+.etheme-icon-box-icon-type-image,
+.etheme-icon-box-icon-type-icon,
+.etheme-icon-box-icon-type-text {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 2.85rem;
+}
+.etheme-icon-box-icon-type-text {
+  font-size: 5rem;
+}
+.etheme-icon-box-icon-type-lottie.etheme-lottie {
+  max-width: var(--lottie-max-width, 2.85rem);
+}
+.etheme-icon-box-icon img {
+  max-width: 1em;
+}
+.etheme-icon-box-icon-position-left,
+.etheme-icon-box-icon-position-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.etheme-icon-box-icon-position-left .etheme-icon-box-icon,
+.etheme-icon-box-icon-position-right .etheme-icon-box-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-bottom: 0;
+}
+.etheme-icon-box-icon-position-left .etheme-icon-box-content,
+.etheme-icon-box-icon-position-right .etheme-icon-box-content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.etheme-icon-box-icon-position-top.etheme-icon-box-icon-outside .etheme-icon-box-icon {
+  margin-top: var(--icon-offset, -0.5em);
+}
+.etheme-icon-box-icon-position-top.etheme-icon-box-icon-outside .etheme-icon-box-icon.etheme-lottie {
+  margin-top: var(--icon-offset, calc(var(--lottie-max-width,2.85rem) / -2));
+}
+.etheme-icon-box-icon-position-left.etheme-icon-box-icon-outside .etheme-icon-box-icon {
+  margin-left: var(--icon-offset, -0.5em);
+}
+.etheme-icon-box-icon-position-left.etheme-icon-box-icon-outside .etheme-icon-box-icon.etheme-lottie {
+  margin-left: var(--icon-offset, calc(var(--lottie-max-width,2.85rem) / -2));
+}
+.etheme-icon-box-icon-position-right.etheme-icon-box-icon-outside .etheme-icon-box-icon {
+  margin-right: var(--icon-offset, -0.5em);
+}
+.etheme-icon-box-icon-position-right.etheme-icon-box-icon-outside .etheme-icon-box-icon.etheme-lottie {
+  margin-right: var(--icon-offset, calc(var(--lottie-max-width,2.85rem) / -2));
+}
+.etheme-icon-box-icon-position-left .etheme-icon-box-icon {
+  margin-right: var(--icon-space, 15px);
+}
+.etheme-icon-box-icon-position-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.etheme-icon-box-icon-position-right .etheme-icon-box-icon {
+  margin-left: var(--icon-space, 15px);
+}
+.etheme-icon-box-title,
+.etheme-icon-box-subtitle {
+  text-transform: none;
+}
+.etheme-icon-box-title span,
+.etheme-icon-box-subtitle span {
+  display: inline-block;
+}
+.etheme-icon-box-title {
+  font-size: 1.7rem;
+}
+.etheme-icon-box-subtitle {
+  font-size: 0.75rem;
+  color: #fff;
+}
+.etheme-icon-box-subtitle span {
+  background-color: #2962FF;
+  padding: 3px 12px;
+  border-radius: 3px;
+}

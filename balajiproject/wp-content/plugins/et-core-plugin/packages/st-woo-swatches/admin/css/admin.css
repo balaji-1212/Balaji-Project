@@ -1,0 +1,139 @@
+.st-swatch-preview {
+	border: 1px solid #ccc;
+	height: 40px;
+	width : 40px;
+}
+.st-label-swatch {
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+}
+.st-image-swatch {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.st-image-swatch-image {
+	height: 150px;
+	position: relative;
+	width: 150px;
+	border: 1px solid #dddddd;
+	display: inline-block;
+}
+	
+.st-image-swatch-image img {
+	height: 150px;
+	width: 150px;	
+}
+.st-image-swatch-image .st-image-swatch-image-remove:before {
+	color: #ff0000;
+	content: "\f335";
+	font-family: dashicons;
+	font-size: 20px;
+	font-weight: normal;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#st-term-modal-container {
+	display: none;
+}
+.st-term-modal input.error {
+	border-color: #dc3232;
+}
+.st-term-modal-title {
+	font-size: 18px;
+	color: #444444;
+	font-weight: 600;
+}
+.st-term-modal .media-modal-close {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	padding: 0;
+	border: 0;
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	cursor: pointer;
+}
+.st-term-modal {
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    max-width: 90%;
+    z-index: 159990;
+    background-color: #fcfcfc;    
+}
+.st-term-modal-head, .st-term-modal-content, .st-term-modal-footer {
+	padding: 20px;
+}
+.st-term-modal-content {
+	padding-top: 10px;
+}
+.st-term-modal-content {
+	background: #ffffff;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+.st-term-modal-footer {
+	text-align: right;
+}
+.st-term-swatch .wp-picker-container .wp-color-result.button {
+	height: 25px;
+}
+.st-term-swatch .wp-color-result-text {
+	line-height: 23px;
+}
+.st-term-swatch .wp-picker-container {
+	width: 265px;
+}
+
+
+.st-term-modal-footer .st-term-insert {
+	width: 80px;
+}
+.button-dot-loader {
+	position: relative;
+	top: -1px;
+}
+.button-dot-loader .dot {
+  width: 7px;
+  height: 7px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: dot-bounce 1.4s ease-in-out 0s infinite both;
+          animation: dot-bounce 1.4s ease-in-out 0s infinite both; 
+}
+.button-dot-loader .dot-1 {
+  -webkit-animation-delay: -0.32s;
+          animation-delay: -0.32s; 
+}
+.button-dot-loader .dot-2 {
+  -webkit-animation-delay: -0.16s;
+          animation-delay: -0.16s; 
+}
+
+@-webkit-keyframes dot-bounce {
+0%, 80%, 100% {
+  -webkit-transform: scale(0);
+          transform: scale(0); }
+40% {
+  -webkit-transform: scale(1);
+          transform: scale(1); } 
+}
+
+@keyframes dot-bounce {
+0%, 80%, 100% {
+  -webkit-transform: scale(0);
+          transform: scale(0); }
+40% {
+  -webkit-transform: scale(1);
+          transform: scale(1); } 
+}
+.st-term-modal-footer button .dashicons {
+	line-height: 30px;
+}

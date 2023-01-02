@@ -1,0 +1,51 @@
+.elementor-add-et-button,
+.elementor-etheme-live-paste {
+    margin-left: 5px;
+    background-color: #222;
+}
+.elementor-etheme-live-paste {
+    margin-left: 9px;
+}
+
+.elementor-etheme-live-paste i {
+    transform: scale(1.2);
+}
+
+.elementor-etheme-live-paste:hover i, 
+.elementor-add-et-button:hover i {
+    animation: etheme-elementor-editor-icon-animation .4s forwards;
+}
+
+@-webkit-keyframes etheme-elementor-editor-icon-animation {
+    49% {
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%)
+    }
+
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(100%);
+        transform: translate(100%)
+    }
+
+    51% {
+        opacity: 1
+    }
+}
+
+@keyframes etheme-elementor-editor-icon-animation {
+    49% {
+        -webkit-transform: translate(-100%);
+        transform: translate(-100%)
+    }
+
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(100%);
+        transform: translate(100%)
+    }
+
+    51% {
+        opacity: 1
+    }
+}

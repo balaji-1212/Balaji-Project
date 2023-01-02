@@ -1,0 +1,128 @@
+#header-vertical {
+  z-index: 10010;
+  font-size: var(--content-zoom);
+  border-right: 1px solid rgba(136, 136, 136, 0.35);
+  width: var(--header-vertical-size, 90px);
+  padding: 30px 0;
+}
+.header-vertical-menu-icon-wrapper.et-content_toggle .et-toggle {
+  overflow: hidden;
+}
+.header-vertical-menu-icon-wrapper.et-content-shown .et-toggle .et_b-icon:first-child,
+.header-vertical-menu-icon-wrapper.et-content_toggle:not(.et-content-shown) .et-toggle .et_b-icon:last-child {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+  visibility: hidden;
+}
+.header-vertical-menu-icon-wrapper.et-content_toggle .et_b-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 0;
+}
+.header-vertical-section > .et_element {
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  text-align: inherit;
+}
+#header-vertical .et_b_header-menu li > .nav-sublist-dropdown:not(.nav-sublist),
+#header-vertical .et_b_header-menu li > .nav-sublist > ul,
+#header-vertical .et-mini-content {
+  top: 0;
+  left: 100%;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100vh;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  text-align: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+#header-vertical .et_b_header-menu:not(.header-secondary-menu) li:hover > .nav-sublist-dropdown:not(.nav-sublist),
+#header-vertical .et_b_header-menu:not(.header-secondary-menu) .item-design-dropdown li:hover > .nav-sublist > ul,
+#header-vertical .widget_nav_menu .menu > li .sub-menu,
+.site-header .etheme_widget_menu li:hover > .nav-sublist-dropdown:not(.nav-sublist),
+#header-vertical .etheme_widget_menu .item-design-dropdown li:hover > .nav-sublist > ul {
+  -webkit-animation-name: et-ltr, fadeIn;
+          animation-name: et-ltr, fadeIn;
+}
+#header-vertical .et_b_header-menu li {
+  position: static;
+  -webkit-box-pack: inherit;
+      -ms-flex-pack: inherit;
+          justify-content: inherit;
+  width: 100%;
+  text-align: inherit;
+  line-height: 1;
+}
+#header-vertical .et_b_header-menu li a {
+  display: inline-block;
+  position: relative;
+  color: currentColor;
+  padding: 0;
+  font-size: 100%;
+  text-transform: inherit;
+}
+#header-vertical .et_b_header-menu li a:hover {
+  opacity: 0.5;
+}
+#header-vertical .et_b_header-menu li.menu-item-has-children > a:after {
+  content: '\e904';
+  font-family: 'xstore-icons';
+  font-size: 50%;
+  vertical-align: middle;
+  margin-left: 7px;
+  line-height: 1;
+  display: inline-block;
+  position: static;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+#header-vertical .et_b_header-menu .nav-sublist-dropdown,
+#header-vertical .et-mini-content {
+  color: currentColor;
+  text-transform: inherit;
+}
+#header-vertical .et-content-shown:before {
+  display: none;
+}
+#header-vertical .et-mini-content {
+  border-left: 1px solid rgba(136, 136, 136, 0.35);
+  border-right: 1px solid rgba(136, 136, 136, 0.35);
+}
+#header-vertical .et-mini-content.active {
+  -webkit-animation-name: et-ltr;
+          animation-name: et-ltr;
+}
+#header-vertical .et_b_header-menu .nav-sublist-dropdown:not(.nav-sublist),
+#header-vertical .et_b_header-menu .item-design-dropdown .nav-sublist-dropdown ul > li ul {
+  border-color: rgba(136, 136, 136, 0.35);
+  border-top: none;
+  border-bottom: none;
+}
+@media (min-width: 993px) {
+  .template-content {
+    margin-left: var(--header-vertical-size, 90px);
+  }
+  #header.sticky-on:not([data-type="sticky"]) > [class*=header-wrapper],
+  #header > [class*=header-wrapper] .sticky-on > div {
+    width: calc(100% - var(--header-vertical-size, 90px));
+  }
+  .et_b_dt_header-overlap #header.sticky-on:not([data-type="sticky"]) > [class*=header-wrapper],
+  .et_b_dt_header-overlap #header > [class*=header-wrapper] .sticky-on > div {
+    left: var(--header-vertical-size, 90px);
+  }
+}

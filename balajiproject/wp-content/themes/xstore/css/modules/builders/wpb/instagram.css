@@ -1,0 +1,19 @@
+.content .wpb_column .null-instagram-feed .instagram-pics.instagram-columns-6 li a .insta-info span,
+.content .wpb_column .null-instagram-feed .instagram-pics.instagram-columns-5 li a .insta-info span {
+  font-size: 1em;
+  line-height: 2em;
+}
+@media only screen and (max-width: 480px) {
+  .wpb_widgetised_column .widget-container.null-instagram-feed .instagram-size-small li,
+  .wpb_widgetised_column .widget-container.null-instagram-feed .instagram-size-thumbnail li {
+    width: 33.33%;
+  }
+  .wpb_widgetised_column .widget-container.null-instagram-feed .instagram-size-large li {
+    width: 50%;
+    padding: 0 0.3571em;
+  }
+  .wpb_widgetised_column .widget-container.null-instagram-feed .instagram-no-space li {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

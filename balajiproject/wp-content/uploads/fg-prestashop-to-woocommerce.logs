@@ -1,0 +1,116 @@
+=== START test_download 2022-02-24 05:51:12 ===
+HTTP connection successful
+=== END test_download 2022-02-24 05:51:15 ===
+
+=== START test_database 2022-02-24 07:17:44 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:17:44 ===
+
+=== START test_database 2022-02-24 07:18:02 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:18:03 ===
+
+=== START test_database 2022-02-24 07:22:34 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:22:34 ===
+
+=== START test_database 2022-02-24 07:22:42 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:22:43 ===
+
+=== START test_database 2022-02-24 07:26:15 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:26:15 ===
+
+=== START test_database 2022-02-24 07:27:45 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:27:45 ===
+
+=== START test_database 2022-02-24 07:31:35 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:31:35 ===
+
+=== START test_database 2022-02-24 07:33:56 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:33:56 ===
+
+=== START test_database 2022-02-24 07:34:21 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:34:21 ===
+
+=== START test_database 2022-02-24 07:36:36 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:36:36 ===
+
+=== START test_download 2022-02-24 07:43:37 ===
+HTTP connection successful
+=== END test_download 2022-02-24 07:43:40 ===
+
+=== START test_database 2022-02-24 07:44:08 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:44:08 ===
+
+=== START test_database 2022-02-24 07:47:12 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: NO)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 07:47:12 ===
+
+=== START test_database 2022-02-24 09:02:12 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 09:02:12 ===
+
+=== START test_database 2022-02-24 09:04:39 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 09:04:39 ===
+
+=== START test_database 2022-02-24 09:05:40 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 09:05:40 ===
+
+=== START test_database 2022-02-24 09:06:52 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 09:06:52 ===
+
+=== START test_database 2022-02-24 09:06:56 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: NO)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 09:06:56 ===
+
+=== START test_database 2022-02-24 09:12:08 ===
+[ERROR] Couldn't connect to the PrestaShop database. Please check your parameters. And be sure the WordPress server can access the PrestaShop database.<br />
+SQLSTATE[HY000] [1045] Access denied for user 'dhodafzc_pres235'@'localhost' (using password: YES)<br />
+Please read the <a href="https://wordpress.org/plugins/fg-prestashop-to-woocommerce/faq/" target="_blank">FAQ for the solution</a>.
+=== END test_database 2022-02-24 09:12:08 ===
+

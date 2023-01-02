@@ -1,0 +1,47 @@
+/*!
+ * # Semantic UI 2.4.0 - Tab
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+.vi-ui.tab {
+    display: none
+}
+
+.vi-ui.tab.active,.vi-ui.tab.open {
+    display: block
+}
+
+.vi-ui.tab.loading {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    min-height: 250px
+}
+
+.vi-ui.tab.loading * {
+    position: relative!important;
+    left: -10000px!important
+}
+
+.vi-ui.tab.loading.segment:after,.vi-ui.tab.loading:after {
+    position: absolute;
+    content: '';
+    top: 100px;
+    left: 50%;
+    margin: -1.25em 0 0 -1.25em;
+    width: 35px;
+    height: 35px;
+    -webkit-animation: button-spin .75s linear;
+    animation: button-spin .75s linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    border: 2px solid #e1e1e1;
+    border-left-color: #888;
+    display: inline-block;
+    box-sizing: border-box;
+}

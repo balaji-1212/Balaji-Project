@@ -1,0 +1,14 @@
+.et_blog-ajax .post {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.et_blog-ajax .loaded {
+  opacity: 1;
+}
+.et_blog-ajax .loading {
+  opacity: 0.3;
+}
+.et_load-posts {
+  border-top: 1px solid var(--et_border-color);
+  padding: 24px 0;
+}

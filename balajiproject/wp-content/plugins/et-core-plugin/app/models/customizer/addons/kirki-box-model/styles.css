@@ -1,0 +1,97 @@
+.customize-control-kirki-box-model .box {
+  position: relative;
+  height: 170px; }
+  .customize-control-kirki-box-model .box.levels-1 {
+    height: 100px; }
+  .customize-control-kirki-box-model .box.levels-2 {
+    height: 150px; }
+.customize-control-kirki-box-model .margin,
+.customize-control-kirki-box-model .border,
+.customize-control-kirki-box-model .padding {
+  position: absolute;
+  padding: 5px;
+  border: 1px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  .customize-control-kirki-box-model .margin .label,
+  .customize-control-kirki-box-model .border .label,
+  .customize-control-kirki-box-model .padding .label {
+    background: rgba(255, 255, 255, .5);
+    margin-top: -5px;
+    display: table;
+    width: auto;
+    margin-left: -5px;
+    padding: 3px;
+    font-size: 10px;
+    line-height: 1; }
+.customize-control-kirki-box-model input,
+.customize-control-kirki-box-model input:focus {
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: rgba(0, 0, 0, .1);
+  resize: horizontal;
+  min-width: 36px; }
+  .customize-control-kirki-box-model input.top, .customize-control-kirki-box-model input.right, .customize-control-kirki-box-model input.bottom, .customize-control-kirki-box-model input.left,
+  .customize-control-kirki-box-model input:focus.top,
+  .customize-control-kirki-box-model input:focus.right,
+  .customize-control-kirki-box-model input:focus.bottom,
+  .customize-control-kirki-box-model input:focus.left {
+    position: absolute;
+    width: auto;
+    font-size: 11px;
+    margin: 0;
+    padding: 0 3px;
+    text-align: center; }
+  .customize-control-kirki-box-model input.top, .customize-control-kirki-box-model input.bottom,
+  .customize-control-kirki-box-model input:focus.top,
+  .customize-control-kirki-box-model input:focus.bottom {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  .customize-control-kirki-box-model input.top,
+  .customize-control-kirki-box-model input:focus.top {
+    top: 0; }
+  .customize-control-kirki-box-model input.bottom,
+  .customize-control-kirki-box-model input:focus.bottom {
+    bottom: 0; }
+  .customize-control-kirki-box-model input.left, .customize-control-kirki-box-model input.right,
+  .customize-control-kirki-box-model input:focus.left,
+  .customize-control-kirki-box-model input:focus.right {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+  .customize-control-kirki-box-model input.left,
+  .customize-control-kirki-box-model input:focus.left {
+    left: 0;
+    text-align: left; }
+  .customize-control-kirki-box-model input.right,
+  .customize-control-kirki-box-model input:focus.right {
+    right: 0;
+    text-align: right; }
+.customize-control-kirki-box-model .margin {
+  background: #f3cb97;
+  border-style: dashed; }
+.customize-control-kirki-box-model .border {
+  background: #f8dc94; }
+.customize-control-kirki-box-model .padding {
+  background: #c2ce84; }
+.customize-control-kirki-box-model .box .level-0 {
+  width: 100%;
+  height: 100%; }
+.customize-control-kirki-box-model .box .level-1 {
+  width: 74%;
+  height: 76%;
+  left: 13%;
+  top: 12%; }
+.customize-control-kirki-box-model .box .level-2 {
+  width: 48%;
+  height: 52%;
+  left: 26%;
+  top: 24%; }
+.customize-control-kirki-box-model .box.levels-2 .level-1 {
+  width: 60%;
+  height: 64%;
+  left: 20%;
+  top: 18%; }
